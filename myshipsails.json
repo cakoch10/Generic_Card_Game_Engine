@@ -1,0 +1,53 @@
+{
+    "players": 4,
+    "win_conditions": [
+      "WC: (Contains({t}, [<<*|S>>; <<*|S>>; <<*|S>>; <<*|S>>; <<*|S>>; <<*|S>>; <<*|S>>]) || Contains({t}, [<<*|C>>; <<*|C>>; <<*|C>>; <<*|C>>; <<*|C>>; <<*|C>>; <<*|C>>]) || Contains({t}, [<<*|H>>; <<*|H>>; <<*|H>>; <<*|H>>; <<*|H>>; <<*|H>>; <<*|H>>]) || Contains({t}, [<<*|D>>; <<*|D>>; <<*|D>>; <<*|D>>; <<*|D>>; <<*|D>>; <<*|D>>]))"
+    ],
+    "card_points": [
+    ],
+    "rules": [
+        "R: ((CardsPlayed() = 0) && (CardsDrawn() = 0)) -> (Draw({discard}))",
+        "R: ((CardsPlayed() = 0) && (CardsDrawn() = 1)) -> (Play ([<<*|*>>], {discard}))",
+        "R: ((CardsPlayed() = 1) && (CardsDrawn() = 1)) -> End()"
+    ],
+    "intro_message": "Hello, Welcome to My Ship Sails!\n The goal is to get 7 cards of the same suit. When it's your turn you must draw a card and then discard what you don't want.",
+    "help_message": "At the start of your turn draw a card. Then you can play a card.\n You can type play [card] or draw to draw a card..",
+    "locations":
+    ["discard","p1","p2","p3","p4"], 
+      "deal": [{
+        "location": "discard",
+        "number_of_cards" : 24
+      },{
+        "location" : "p1",
+        "number_of_cards" : 7
+      },{
+        "location" : "p2",
+        "number_of_cards" : 7
+      },{
+        "location" : "p3",
+        "number_of_cards" : 7
+      },{
+        "location" : "p4",
+        "number_of_cards" : 7
+      }],
+    "show": [{
+      "location": "discard",
+      "visible": false
+    }, {
+      "location": "p1",
+      "visible": false
+    }, {
+      "location": "p2",
+      "visible": false
+    }, {
+      "location": "p3",
+      "visible": false
+    }, {
+      "location": "p4",
+      "visible": false
+    }],
+    "default_play_location": "discard",
+    "default_draw_location": "discard",
+    "default_take_location": "discard"
+  }
+  

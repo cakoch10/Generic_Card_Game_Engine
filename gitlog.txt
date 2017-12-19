@@ -1,0 +1,4990 @@
+commit 4e6b369de13617f2ea7fd26d2523a9f3e6a32b81
+Merge: a6d13e9 2b2b16e
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:59:59 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit a6d13e97de1ed8e79bc94cf8f8d5d2a1d4a00bce
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:59:57 2017 -0500
+
+    SIGHGHGHGHSIGH
+
+ tests.ml | 6 ++++++
+ 1 file changed, 6 insertions(+)
+
+commit 2b2b16e9565a7e8a9f25d9f90df86c178f6d5ae9
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 15:58:45 2017 -0500
+
+    Fixed state printer
+
+ main.ml  | 5 +++--
+ state.ml | 2 --
+ 2 files changed, 3 insertions(+), 4 deletions(-)
+
+commit 8d384f5eb705aeeadae928b9851d58a6c99b6766
+Merge: fbbff15 7ed00b5
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 15:52:39 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit fbbff15133eea7021dad5a9251e91374d18660d8
+Merge: 46611e6 359d2d6
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 15:52:21 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 7ed00b54bb2b26bfc0e0e7e64cd21d7a1fc307de
+Merge: 7262fde 359d2d6
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:52:17 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 46611e66fcd7074919d67134dfc6211b19fa63af
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 15:52:16 2017 -0500
+
+    fixed blackjack2
+
+ blackjack2.json | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 7262fdef27055cc6fa568124465b718c784cda46
+Merge: 44592c7 c2be078
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:52:06 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 359d2d6c092f50fd1920dccc3f675aac22e96c45
+Merge: d60f241 c2be078
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 15:52:04 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 44592c766e8fa36a5b1aed38707073e825a831ee
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:52:03 2017 -0500
+
+    gitlog and test
+
+ gitlog.txt | 74 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ test.json  |  2 +-
+ 2 files changed, 75 insertions(+), 1 deletion(-)
+
+commit d60f241dd232385d774dd63f9bb8c65654caac8b
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 15:51:57 2017 -0500
+
+    fixed win crashing
+
+ state.ml | 7 +++----
+ 1 file changed, 3 insertions(+), 4 deletions(-)
+
+commit c2be078bf65d54324520ede0dbbfa897fecbcdb7
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 15:50:26 2017 -0500
+
+    highscore
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit befbeb1526e8cf4cbb98bed557f36920559ed2cf
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 15:48:15 2017 -0500
+
+    added blackjack
+
+ state.ml | 14 --------------
+ 1 file changed, 14 deletions(-)
+
+commit 632a001845559884d5c97e36ba38d7e0487e5385
+Merge: 656ef91 f89d7d7
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 15:47:06 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 656ef91a312c85a568814656296f048a7c069b09
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 15:47:04 2017 -0500
+
+    5 card draw
+
+ 5carddraw.json | 161 ++++++++++++++++++++++++++++++++++++++-------------------
+ blackjack.json |   3 +-
+ state.ml       |   2 +-
+ 3 files changed, 111 insertions(+), 55 deletions(-)
+
+commit f89d7d7fb25ad1b292d7abb1d089ee330d5198af
+Merge: c02c730 44bcddf
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 15:46:41 2017 -0500
+
+    merge
+
+commit c02c73044661d72043936f924e7a12a338849f03
+Merge: 7978591 04e16a8
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 15:45:10 2017 -0500
+
+    merge
+
+commit 44bcddf9be2b4ca1902a7098c49a73fe436c2167
+Merge: 7d33d3e 04e16a8
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 15:44:29 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 04e16a8849d21c772bf3ca7852064772519d17f2
+Author: Wesley Tan <wt237@cornell.edu>
+Date:   Thu Dec 7 15:44:25 2017 -0500
+
+    raymone is an idiot
+
+ .DS_Store | Bin 6148 -> 0 bytes
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 7978591184586e558ab645c6d6b38c72d5135734
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 15:43:39 2017 -0500
+
+    state
+
+ state.ml | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit 7d33d3e381bad9502231157b74c90bb7beca8cf4
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 15:40:05 2017 -0500
+
+    idk
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d97fec08072ff92c368a3136630ec0426928ef50
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 15:39:45 2017 -0500
+
+    fixed
+
+ state.ml | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit 9e24b9220b010b42a92a98e946529e89a960a538
+Merge: ff4241b a4b7ce7
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:31:41 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit ff4241be0dc59db5908bf4460b62e76b6c365ec7
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:31:33 2017 -0500
+
+    gitlog added
+
+ .DS_Store  |  Bin 0 -> 6148 bytes
+ gitlog.txt | 4744 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 4744 insertions(+)
+
+commit a4b7ce7bfb38c2a9d4d1210e0431a3cdac77d3cf
+Merge: a075323 c535014
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 15:24:51 2017 -0500
+
+    fixes
+
+commit 4839439ab9aaa2cad0572fb723f43485dc7ca3b0
+Merge: 4ff3ce3 c535014
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 15:23:38 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit c53501431469a323de342e642e33366b80a377c9
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:19:23 2017 -0500
+
+    blackjack2
+
+ blackjack2.json | 111 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 111 insertions(+)
+
+commit 4ff3ce346d4a49ec4363f1e290cc268176b50ebc
+Merge: 61653a3 50840a0
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 15:13:13 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 61653a3304b6b20e28bf0dfa90c06bf975ba3d2c
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 15:13:09 2017 -0500
+
+    readme
+
+ README.txt | 7 +++++++
+ state.ml   | 6 +++---
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+
+commit 50840a014a4780d8d7875d8dd5826baca1519f7d
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:11:35 2017 -0500
+
+    SPECS
+
+ state.ml | 12 +++++-------
+ 1 file changed, 5 insertions(+), 7 deletions(-)
+
+commit 58094badc439d1a2117b9108342cecc3457bc305
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 15:04:56 2017 -0500
+
+    lots of specs
+
+ state.ml | 37 ++++++++++++++++++++++++++++++-------
+ 1 file changed, 30 insertions(+), 7 deletions(-)
+
+commit a0753231734574e7c0a759a968925e820d4eb0aa
+Merge: a884755 f20092e
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:59:58 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit f20092e5782dd723423b6ebdd47332a32d0d1955
+Merge: d90dbb8 acd8ab9
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 14:59:12 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit d90dbb85d8ad6676909fdafcb5648c65dcc75d39
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 14:59:09 2017 -0500
+
+    specs in command and state
+
+ command.ml |  4 +++-
+ state.ml   | 23 ++++++++++++++++++-----
+ 2 files changed, 21 insertions(+), 6 deletions(-)
+
+commit acd8ab954f1133e45da84c3fce5102840f950684
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 14:58:20 2017 -0500
+
+    updated score
+
+ state.ml | 10 ----------
+ 1 file changed, 10 deletions(-)
+
+commit b5aa9012824f0947e0f0088e8f32f151ed741e7c
+Merge: 7049ec2 2c3386c
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 14:56:47 2017 -0500
+
+    updated score
+
+commit a88475523bf24af65e954f0dc6a3adc852e4c631
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:55:52 2017 -0500
+
+    specs
+
+ state.ml | 54 +++++++++++++++++++++++++++---------------------------
+ 1 file changed, 27 insertions(+), 27 deletions(-)
+
+commit 2c3386cc7dc864c46069e5b8aa4dd69ce94a3dbf
+Merge: c81f90b 2c54a18
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:48:25 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit c81f90bbdd1ff103524f1b2eb2d13324277ff08b
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:48:23 2017 -0500
+
+    finished eval specs
+
+ state.ml | 27 ++++++++++++++++++---------
+ 1 file changed, 18 insertions(+), 9 deletions(-)
+
+commit 2c54a182e6a7e93e8a5f8cfcd020b3097da53fba
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 14:43:10 2017 -0500
+
+    test 28 fixed
+
+ tests.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7049ec28928a3cab535f5877fd7e727f92134198
+Merge: 266cc8d 10da8e8
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 14:40:27 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 266cc8dd6e2ac00b5cfbab247b864febab3545d5
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 14:40:23 2017 -0500
+
+    fixed update score
+
+ 5carddraw.json   | 17 +++++++++--------
+ myshipsails.json |  6 +++---
+ state.ml         | 19 +++++++++++++------
+ 3 files changed, 25 insertions(+), 17 deletions(-)
+
+commit 1dcc8aa78236dfe776c7ca1281602675dfad72d8
+Merge: 46c362a 10da8e8
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 14:40:01 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 46c362a0323c64851ce23fa675efa75a8c2cee01
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 14:39:59 2017 -0500
+
+    readme
+
+ README.txt | 19 ++++++++++++++++++-
+ state.ml   |  6 +++---
+ 2 files changed, 21 insertions(+), 4 deletions(-)
+
+commit 10da8e8ee128dfdee2bfb945a4952426c2df53b3
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 14:38:35 2017 -0500
+
+    init_state specs
+
+ state.ml | 21 +++++++++++++++++++++
+ 1 file changed, 21 insertions(+)
+
+commit 85e59e9f632fd259175dcb1c67290f8441846f54
+Merge: 0866d43 8eec08e
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:25:01 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 8eec08e9bd79e3bc13ee6ad1496722559700cd59
+Merge: 719962b 87de4e7
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 14:23:01 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 719962b5a72d7c731ac3d5c8e274d165c9cb9971
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 14:22:59 2017 -0500
+
+    tests and main
+
+ main.ml  |  70 ----------------------------------------
+ tests.ml | 111 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 2 files changed, 111 insertions(+), 70 deletions(-)
+
+commit 0866d43eddc4436c9ba91729a48caa603104056e
+Merge: 0f2d717 87de4e7
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:22:27 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 87de4e76ec3021903ac907e5c41c83c5ef54ef3e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 14:22:11 2017 -0500
+
+    status
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0f2d7177b69da63857306c3422255bc65fb99570
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:21:25 2017 -0500
+
+    reverted
+
+ state.ml | 14 +++-----------
+ 1 file changed, 3 insertions(+), 11 deletions(-)
+
+commit 9e6a9da6907c6e0fe794f4f7a396bcd84696b3a3
+Merge: 4825b7c 85190a5
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 14:21:02 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 4825b7c599b30573640483698f2729af998589ac
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 14:21:01 2017 -0500
+
+    fix
+
+ state.ml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 85190a50de74eebfb600d8c82af97acff568ac35
+Merge: 30ed650 64f142d
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:17:54 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 30ed650a5953ba70333b5a3788ec430d067742fd
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 14:17:48 2017 -0500
+
+    specs and win_checker fix
+
+ state.ml | 48 ++++++++++++++++++++++++++++++++++++++++--------
+ 1 file changed, 40 insertions(+), 8 deletions(-)
+
+commit d6b8778ee382b4d8d488ab04290cd75bffd33f77
+Merge: 8e359ad 64f142d
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 14:13:04 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 8e359ad9096ad16a1e625c926c8222de48052a59
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 14:13:02 2017 -0500
+
+    added string specs
+
+ state.ml | 19 +++++++++++++++++++
+ 1 file changed, 19 insertions(+)
+
+commit 64f142d3c7041963b091e1ef81332df841dbc542
+Merge: 7f49f92 2f2ba63
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 14:06:24 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 7f49f926286c2eb52c5fb37f2fbdb3c7129d02e8
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 14:06:19 2017 -0500
+
+    added score
+
+ state.ml | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit 2f2ba633a7d1017f29ac62fb8690c504f6f9c01b
+Merge: 391ddc4 e763d47
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 14:05:36 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 391ddc4e3dfa0ccfc46edb58709b9df1efc1d951
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 14:05:33 2017 -0500
+
+    readme and tests
+
+ README.txt | 24 ++++++++++++++++++++++++
+ test.json  |  4 +++-
+ tests.ml   |  2 +-
+ 3 files changed, 28 insertions(+), 2 deletions(-)
+
+commit e763d47c04902ec5d96cfb966b12417f62e346c9
+Merge: 5b072ff 76cdf7f
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 13:58:10 2017 -0500
+
+    fixes
+
+commit 5b072ffccf369a195ae3165df1b2c85425ed05c5
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 13:57:47 2017 -0500
+
+    specs
+
+ state.ml | 51 ++++++++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 46 insertions(+), 5 deletions(-)
+
+commit 76cdf7fce1f457c85aa7f5c2bafbad7bee5b483f
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 13:55:53 2017 -0500
+
+    blackjack fix
+
+ blackjack.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ea9b0eafd7b9e7c24c3196642d65e6b188c56d31
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 13:54:31 2017 -0500
+
+    blackjack fix
+
+ blackjack.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3bff4f8151d38219d5666448be95f987139dab15
+Merge: 9046946 d41e571
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 13:48:58 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 9046946f7388b3fcc133309faff22c9bfb8ae75a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 13:48:56 2017 -0500
+
+    state specs
+
+ state.ml | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit d41e5716c194d9cde0df21c196b5e8e53ee00f01
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 13:48:14 2017 -0500
+
+    fixed some syntax
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit d91bd981d813cc867264c5a07df9d6b1abb2707b
+Merge: 1746221 1e8de0a
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 13:46:18 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 1746221c4f716c8fcc1b86a784722ef97c716f58
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 13:46:14 2017 -0500
+
+    5 card draw
+
+ 5carddraw.json | 74 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ rummy.json     | 58 +++++++++++++++++++++++++++++++++++++++++++++
+ state.ml       |  4 ++--
+ 3 files changed, 134 insertions(+), 2 deletions(-)
+
+commit bc774c5dd1000a14d679086e42521717bab93635
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 13:44:37 2017 -0500
+
+    test.json
+
+ test.json | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit ccd3c96f63f98cbd970876094ca2bab6e82a45da
+Merge: fe3c73a 1e8de0a
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 13:44:25 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit fe3c73aef88c86e866e6f9cbacbdde7edbdf311c
+Merge: 605ffab d69b57a
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Thu Dec 7 13:44:20 2017 -0500
+
+    message
+
+commit 82938f06f54ca6367ab822b17e01730c50485a29
+Merge: 7f658af 1e8de0a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 13:38:54 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 7f658af0e27b0a745afb18cb1b16aa46166a28ea
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 13:38:52 2017 -0500
+
+    blackjack fix
+
+ blackjack.json | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit a3c66f530334fdaaac83d6e17982b123c0cc651d
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 13:31:32 2017 -0500
+
+    removed prints
+
+ state.ml | 30 ------------------------------
+ 1 file changed, 30 deletions(-)
+
+commit 1e8de0ac8d90efe81136f43777d686b9a48bf68a
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 13:25:59 2017 -0500
+
+    specs
+
+ state.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 0c1a29d572db3c41d53f77eb8304ed4d93c12ed0
+Merge: e09f282 5bf1273
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 13:25:08 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 5bf1273562f62d4be99aba25a1d6a10aa183a56a
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 13:24:39 2017 -0500
+
+    eval_player desugaring
+
+ state.ml | 41 ++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 36 insertions(+), 5 deletions(-)
+
+commit e09f2827bb22943e6ea087cdef7b83f284edee9e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 13:21:55 2017 -0500
+
+    unwrapped main for testing
+
+ main.ml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 605ffab004a47a2e30cd2c8f96e15c4549d953ff
+Author: Raymone Radi <Raymone@192.168.2.107>
+Date:   Thu Dec 7 13:13:22 2017 -0500
+
+    tests
+
+ test.json | 26 +++++++++++++++-----------
+ tests.ml  |  4 ++--
+ 2 files changed, 17 insertions(+), 13 deletions(-)
+
+commit d69b57a05d782acc2ac28ccadf9ca5f40a26aa2e
+Merge: b08f12a 07d4077
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 13:09:34 2017 -0500
+
+    fixes
+
+commit b08f12a4d9730a12bc7553358e9dec5433630a88
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 13:08:04 2017 -0500
+
+    specs and bj
+
+ blackjack.json | 30 +++++++++++++++---------------
+ state.ml       |  4 ++++
+ 2 files changed, 19 insertions(+), 15 deletions(-)
+
+commit 07d4077fd16e2fb5fd3e974506d2a693ff6a9d8e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 13:06:21 2017 -0500
+
+    fixed mli
+
+ state.mli | 11 ++++++++++-
+ 1 file changed, 10 insertions(+), 1 deletion(-)
+
+commit 46168ae3a541c74f2fdc5acde4db22219e271b76
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 12:54:01 2017 -0500
+
+    myshipsails game
+
+ _build/_digests                                    |   34 -
+ _build/_log                                        |   46 -
+ _build/ast.cmi                                     |  Bin 2133 -> 0 bytes
+ _build/ast.cmo                                     |  Bin 173 -> 0 bytes
+ _build/ast.ml                                      |   52 -
+ _build/ast.ml.depends                              |    1 -
+ _build/command.cmi                                 |  Bin 1001 -> 0 bytes
+ _build/command.cmo                                 |  Bin 3810 -> 0 bytes
+ _build/command.ml                                  |  100 -
+ _build/command.ml.depends                          |    1 -
+ _build/command.mli                                 |   28 -
+ _build/command.mli.depends                         |    1 -
+ _build/lexer.cmi                                   |  Bin 543 -> 0 bytes
+ _build/lexer.cmo                                   |  Bin 34861 -> 0 bytes
+ _build/lexer.ml                                    | 2365 ---------
+ _build/lexer.ml.depends                            |    1 -
+ _build/lexer.mll                                   |  100 -
+ _build/main.byte                                   |  Bin 691419 -> 0 bytes
+ _build/main.cmi                                    |  Bin 2098 -> 0 bytes
+ _build/main.cmo                                    |  Bin 8495 -> 0 bytes
+ _build/main.ml                                     |  157 -
+ _build/main.ml.depends                             |    1 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#00.log |  523 --
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#01.log |   99 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#02.log |  111 -
+ _build/oUnit-suite.cache                           |  Bin 2192 -> 0 bytes
+ _build/ocamlc.where                                |    1 -
+ _build/parser.cmi                                  |  Bin 1725 -> 0 bytes
+ _build/parser.cmo                                  |  Bin 93286 -> 0 bytes
+ _build/parser.ml                                   | 5391 --------------------
+ _build/parser.ml.depends                           |    1 -
+ _build/parser.mli                                  |   66 -
+ _build/parser.mli.depends                          |    1 -
+ _build/parser.mly                                  |  189 -
+ _build/parser.mly.depends                          |    2 -
+ _build/state.cmi                                   |  Bin 3883 -> 0 bytes
+ _build/state.cmo                                   |  Bin 37085 -> 0 bytes
+ _build/state.ml                                    | 1002 ----
+ _build/state.ml.depends                            |    1 -
+ _build/state.mli                                   |  125 -
+ _build/state.mli.depends                           |    1 -
+ _build/tests.byte                                  |  Bin 826070 -> 0 bytes
+ _build/tests.cmi                                   |  Bin 1505 -> 0 bytes
+ _build/tests.cmo                                   |  Bin 18505 -> 0 bytes
+ _build/tests.ml                                    |  126 -
+ _build/tests.ml.depends                            |    1 -
+ main.byte                                          |    1 -
+ myshipsails.json                                   |   53 +
+ tests.byte                                         |    1 -
+ 49 files changed, 53 insertions(+), 10529 deletions(-)
+
+commit 53c9511da544419364b0a25f789b4d2a49bdc986
+Merge: f8295bb 9df2f61
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 12:21:15 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit f8295bb5892eb4527b2daa3880884572fa5a58b3
+Merge: 78cfa3d 450413a
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 12:20:44 2017 -0500
+
+    files
+
+commit 9df2f61993019c6e451f4ba73360259442b182b7
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 11:50:37 2017 -0500
+
+    fixed some bugs and added some specs to state
+
+ crazy8.json |  4 ++--
+ main.ml     |  2 +-
+ parser.mly  |  2 +-
+ state.ml    |  5 ++++-
+ state.mli   | 40 ++++++++++------------------------------
+ 5 files changed, 18 insertions(+), 35 deletions(-)
+
+commit 78cfa3d82cd7475731bf6473e81b5e8c822abbe0
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 03:12:47 2017 -0500
+
+    added json
+
+ _build/_digests                                    |   30 +
+ _build/_log                                        |   46 +
+ _build/ast.cmi                                     |  Bin 0 -> 2097 bytes
+ _build/ast.cmo                                     |  Bin 0 -> 173 bytes
+ _build/ast.ml                                      |   51 +
+ _build/ast.ml.depends                              |    1 +
+ _build/command.cmi                                 |  Bin 0 -> 1001 bytes
+ _build/command.cmo                                 |  Bin 0 -> 3810 bytes
+ _build/command.ml                                  |  100 +
+ _build/command.ml.depends                          |    1 +
+ _build/command.mli                                 |   28 +
+ _build/command.mli.depends                         |    1 +
+ _build/lexer.cmi                                   |  Bin 0 -> 543 bytes
+ _build/lexer.cmo                                   |  Bin 0 -> 33512 bytes
+ _build/lexer.ml                                    | 2277 +++++++++
+ _build/lexer.ml.depends                            |    1 +
+ _build/lexer.mll                                   |   99 +
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#00.log |  527 ++
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#01.log |  135 +
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#02.log |   75 +
+ _build/oUnit-suite.cache                           |  Bin 0 -> 2192 bytes
+ _build/ocamlc.where                                |    1 +
+ _build/parser.cmi                                  |  Bin 0 -> 1705 bytes
+ _build/parser.cmo                                  |  Bin 0 -> 89314 bytes
+ _build/parser.ml                                   | 5180 ++++++++++++++++++++
+ _build/parser.ml.depends                           |    1 +
+ _build/parser.mli                                  |   65 +
+ _build/parser.mli.depends                          |    1 +
+ _build/parser.mly                                  |  188 +
+ _build/parser.mly.depends                          |    2 +
+ _build/state.cmi                                   |  Bin 0 -> 3883 bytes
+ _build/state.cmo                                   |  Bin 0 -> 36945 bytes
+ _build/state.ml                                    | 1000 ++++
+ _build/state.ml.depends                            |    1 +
+ _build/state.mli                                   |  125 +
+ _build/state.mli.depends                           |    1 +
+ _build/tests.byte                                  |  Bin 0 -> 820737 bytes
+ _build/tests.cmi                                   |  Bin 0 -> 1505 bytes
+ _build/tests.cmo                                   |  Bin 0 -> 18505 bytes
+ _build/tests.ml                                    |  126 +
+ _build/tests.ml.depends                            |    1 +
+ blackjack.json                                     |    4 +-
+ tests.byte                                         |    1 +
+ 43 files changed, 10067 insertions(+), 2 deletions(-)
+
+commit 450413adc05d0bdfa7511435c5a686078aa03e7d
+Merge: d09546d 74dbddc
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 03:12:08 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit d09546dadfb80cd0b0705ca117411e4eeccc1c76
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 03:12:00 2017 -0500
+
+    turns implemented, blackjack fixed
+
+ ast.ml         | 1 +
+ blackjack.json | 2 +-
+ lexer.mll      | 1 +
+ parser.mly     | 3 ++-
+ state.ml       | 6 ++++--
+ 5 files changed, 9 insertions(+), 4 deletions(-)
+
+commit 74dbddcf8f381a9e17e00337e55b16b4f0898c14
+Merge: 0b6e30a 4b56e36
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:59:37 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 0b6e30a7d87a9b53120fe2639ede9ec1c5a99e15
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:59:35 2017 -0500
+
+    refined repl
+
+ main.ml | 20 ++++++++++----------
+ 1 file changed, 10 insertions(+), 10 deletions(-)
+
+commit 4b56e3665a6ee6c47f0f83ba71ea7faa98f8ef07
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 02:58:19 2017 -0500
+
+    syntax fixes
+
+ state.ml | 8 +++++---
+ 1 file changed, 5 insertions(+), 3 deletions(-)
+
+commit 69988653b5fe36bb857e140b729c26f37455fbfe
+Merge: 0a7bf20 85eef81
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 02:53:34 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 0a7bf20563567e51bcdec32024a5d5a14351cb8d
+Merge: da4160e 344325a
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 02:53:28 2017 -0500
+
+    highscore
+
+commit 85eef8181f40627e9745676581d7b3a50c51fd3c
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:51:52 2017 -0500
+
+    fix
+
+ lexer.mll | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 5a18175cc161610b80f904c135939d018ccd4b5a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:50:34 2017 -0500
+
+    removed dup highscore
+
+ parser.mly | 7 -------
+ 1 file changed, 7 deletions(-)
+
+commit a8ed17fbb33fb6bee8271c0bd180f3e30975d0f6
+Merge: f02aa66 344325a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:50:03 2017 -0500
+
+    merge
+
+commit da4160e4e98b5de5aba082f43cec5062370131d7
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 02:49:34 2017 -0500
+
+    highscore
+
+ blackjack.json | 11 ++++++---
+ state.ml       | 74 +++++++++++++++++++++++++++++++++++-----------------------
+ 2 files changed, 53 insertions(+), 32 deletions(-)
+
+commit f02aa664cde4242ddb67ccd0d24bb7ea357e1a5a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:49:14 2017 -0500
+
+    highscore
+
+ ast.ml     | 1 +
+ lexer.mll  | 1 +
+ parser.mly | 6 ++++--
+ 3 files changed, 6 insertions(+), 2 deletions(-)
+
+commit 344325a3815e79e167e33cff7b8d20d3346f8835
+Merge: 56bff80 a709b91
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 02:46:40 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 56bff8039f784d644b27b68ed6839a1a2e02a522
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 02:46:37 2017 -0500
+
+    Added Highscore function to lexer, parser & ast + specs in state
+
+ ast.ml     |  1 +
+ lexer.mll  |  1 +
+ parser.mly |  4 ++-
+ state.ml   | 92 ++++++++++++++++++++++++++++++++++++++++++--------------------
+ 4 files changed, 68 insertions(+), 30 deletions(-)
+
+commit a709b9140add3cefaaf154cac7ce5d5a65841954
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:39:46 2017 -0500
+
+    removed unnecessary files
+
+ Sample Json Schema |  9 ------
+ ast.ml             | 26 -----------------
+ ex.json            |  4 +--
+ jsonparse.ml       | 83 ------------------------------------------------------
+ jsonparse.mli      | 21 --------------
+ 5 files changed, 2 insertions(+), 141 deletions(-)
+
+commit bc9244aa90dc2802ac5d08d7eada9b3d561ab3ff
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:29:05 2017 -0500
+
+    renamed error in valid_move_exists
+
+ state.ml | 7 ++++---
+ 1 file changed, 4 insertions(+), 3 deletions(-)
+
+commit d92c34dadd2258dcd94498774e03bb9393739414
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 02:22:19 2017 -0500
+
+    fixed End constructor warning
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c72c1147de209bd6d723146e29601fe59a3efea1
+Merge: 772d0f1 7a96585
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 02:10:39 2017 -0500
+
+    merges
+
+commit 772d0f17a1f664191477a78a7b9b66cba44bc88a
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 02:09:41 2017 -0500
+
+    end bool done
+
+ crazy8.json | 2 +-
+ state.ml    | 8 +++++++-
+ 2 files changed, 8 insertions(+), 2 deletions(-)
+
+commit 7a965853252ca868f44ed231972b45122f06228b
+Merge: a1b7458 3facb45
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 02:02:49 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit a1b7458055ed10471d660eb881a8f707014962f1
+Merge: ebaf60c ddcd86c
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 02:02:43 2017 -0500
+
+    added shuffle
+
+commit 3facb456e366d08c1b5b4cfb96ac7329c92f0063
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 01:53:54 2017 -0500
+
+    crazy8 be broke
+
+ crazy8.json | 4 ++--
+ state.ml    | 2 +-
+ 2 files changed, 3 insertions(+), 3 deletions(-)
+
+commit ebaf60ce4e7fdd0658f82d8ce37e7af3735e2db5
+Merge: 0eb3c7c 84a58c8
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 01:45:59 2017 -0500
+
+    shuffle
+
+commit ddcd86c4a0e66b17d673eb54d8fdd213bc72bb56
+Merge: 5f112d0 84a58c8
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 01:24:52 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 5f112d001c126a87846370767e16487e972cc384
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 01:24:48 2017 -0500
+
+    fixed end turn for variable players
+
+ state.ml  | 12 ++++++------
+ state.mli | 19 -------------------
+ test.json |  6 ------
+ 3 files changed, 6 insertions(+), 31 deletions(-)
+
+commit 0eb3c7c41c9f9dfb785f290cf1a394c4b6426374
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 00:50:34 2017 -0500
+
+    shuffle
+
+ state.ml | 27 ++++++++++++++++++++-------
+ 1 file changed, 20 insertions(+), 7 deletions(-)
+
+commit 84a58c84db84be76cb335ad77f43be8d783d6533
+Merge: 95e453b 260ccc7
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 00:34:59 2017 -0500
+
+    merge fixes
+
+commit 95e453bcb70e6f9209509905dc23a3a7d2b1150c
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 00:34:30 2017 -0500
+
+    valid_move_exists
+
+ crazy8.json |  3 +--
+ state.ml    | 15 +++++++++++----
+ 2 files changed, 12 insertions(+), 6 deletions(-)
+
+commit 260ccc7f5df00c4ed0a40502c8c1af4ad9098eb0
+Merge: 38d85e9 4d72279
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 00:31:55 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 38d85e9e10c6dd66fb8a4f2f058484fb15b5bc9f
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 00:30:53 2017 -0500
+
+    added shuffle and renamed endturn ast
+
+ ast.ml      | 2 +-
+ command.ml  | 2 ++
+ command.mli | 1 +
+ lexer.mll   | 2 +-
+ parser.mly  | 4 ++--
+ state.ml    | 5 ++++-
+ 6 files changed, 11 insertions(+), 5 deletions(-)
+
+commit 4d7227911b3a5f20327340638e00f7f733486047
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 00:19:03 2017 -0500
+
+    removed unnecessary wasted no good code from raaaaaymone
+
+ state.ml | 13 -------------
+ 1 file changed, 13 deletions(-)
+
+commit e9f929cc5d5ea81ffb2b81e82ca3fbed54cca380
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Dec 7 00:17:39 2017 -0500
+
+    removed unnecessary wasted no good code from raaaaaymone
+
+ blackjack.json | 36 +++++++++++++++++++-----------------
+ crazy8.json    |  8 ++++----
+ state.ml       | 49 -------------------------------------------------
+ 3 files changed, 23 insertions(+), 70 deletions(-)
+
+commit 52cbfa896adec6a8d0029a754f8c0a1bd5118fb0
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 00:17:27 2017 -0500
+
+    cleanup
+
+ _build/_digests            |   30 -
+ _build/_log                |   46 -
+ _build/ast.cmi             |  Bin 2061 -> 0 bytes
+ _build/ast.cmo             |  Bin 173 -> 0 bytes
+ _build/ast.ml              |   76 -
+ _build/ast.ml.depends      |    1 -
+ _build/command.cmi         |  Bin 939 -> 0 bytes
+ _build/command.cmo         |  Bin 3719 -> 0 bytes
+ _build/command.ml          |   98 -
+ _build/command.ml.depends  |    1 -
+ _build/command.mli         |   27 -
+ _build/command.mli.depends |    1 -
+ _build/lexer.cmi           |  Bin 543 -> 0 bytes
+ _build/lexer.cmo           |  Bin 31842 -> 0 bytes
+ _build/lexer.ml            | 2170 -------------------
+ _build/lexer.ml.depends    |    1 -
+ _build/lexer.mll           |   98 -
+ _build/main.byte           |  Bin 682930 -> 0 bytes
+ _build/main.cmi            |  Bin 2098 -> 0 bytes
+ _build/main.cmo            |  Bin 8233 -> 0 bytes
+ _build/main.ml             |  157 --
+ _build/main.ml.depends     |    1 -
+ _build/ocamlc.where        |    1 -
+ _build/parser.cmi          |  Bin 1685 -> 0 bytes
+ _build/parser.cmo          |  Bin 87372 -> 0 bytes
+ _build/parser.ml           | 5071 --------------------------------------------
+ _build/parser.ml.depends   |    1 -
+ _build/parser.mli          |   64 -
+ _build/parser.mli.depends  |    1 -
+ _build/parser.mly          |  186 --
+ _build/parser.mly.depends  |    2 -
+ _build/state.cmi           |  Bin 3883 -> 0 bytes
+ _build/state.cmo           |  Bin 37993 -> 0 bytes
+ _build/state.ml            |  975 ---------
+ _build/state.ml.depends    |    1 -
+ _build/state.mli           |  149 --
+ _build/state.mli.depends   |    1 -
+ main.byte                  |    1 -
+ 38 files changed, 9160 deletions(-)
+
+commit c3be140d9898161dde93d142342e88cf294e6dee
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 00:17:16 2017 -0500
+
+    cleanup
+
+ _build/_digests            |   30 +
+ _build/_log                |   46 +
+ _build/ast.cmi             |  Bin 0 -> 2061 bytes
+ _build/ast.cmo             |  Bin 0 -> 173 bytes
+ _build/ast.ml              |   76 +
+ _build/ast.ml.depends      |    1 +
+ _build/command.cmi         |  Bin 0 -> 939 bytes
+ _build/command.cmo         |  Bin 0 -> 3719 bytes
+ _build/command.ml          |   98 +
+ _build/command.ml.depends  |    1 +
+ _build/command.mli         |   27 +
+ _build/command.mli.depends |    1 +
+ _build/lexer.cmi           |  Bin 0 -> 543 bytes
+ _build/lexer.cmo           |  Bin 0 -> 31842 bytes
+ _build/lexer.ml            | 2170 +++++++++++++++++++
+ _build/lexer.ml.depends    |    1 +
+ _build/lexer.mll           |   98 +
+ _build/main.byte           |  Bin 0 -> 682930 bytes
+ _build/main.cmi            |  Bin 0 -> 2098 bytes
+ _build/main.cmo            |  Bin 0 -> 8233 bytes
+ _build/main.ml             |  157 ++
+ _build/main.ml.depends     |    1 +
+ _build/ocamlc.where        |    1 +
+ _build/parser.cmi          |  Bin 0 -> 1685 bytes
+ _build/parser.cmo          |  Bin 0 -> 87372 bytes
+ _build/parser.ml           | 5071 ++++++++++++++++++++++++++++++++++++++++++++
+ _build/parser.ml.depends   |    1 +
+ _build/parser.mli          |   64 +
+ _build/parser.mli.depends  |    1 +
+ _build/parser.mly          |  186 ++
+ _build/parser.mly.depends  |    2 +
+ _build/state.cmi           |  Bin 0 -> 3883 bytes
+ _build/state.cmo           |  Bin 0 -> 37993 bytes
+ _build/state.ml            |  975 +++++++++
+ _build/state.ml.depends    |    1 +
+ _build/state.mli           |  149 ++
+ _build/state.mli.depends   |    1 +
+ main.byte                  |    1 +
+ state.ml                   |    8 -
+ state.mli                  |    7 +-
+ 40 files changed, 9161 insertions(+), 14 deletions(-)
+
+commit e0a4b5bd94522b183dd7f332a6e36abc6cb0ce54
+Merge: af3855f b2ba003
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 00:04:08 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit af3855f2fda0fbc321a91b168850e6d776638a92
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Dec 7 00:04:05 2017 -0500
+
+    SO MUCH BABY
+
+ crazy8.json | 5 +++--
+ ex.json     | 5 +++--
+ state.ml    | 9 +++++++--
+ 3 files changed, 13 insertions(+), 6 deletions(-)
+
+commit b2ba003e0aa334f20a398996e49af12474698dcc
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Dec 7 00:01:32 2017 -0500
+
+    shuffle
+
+ ast.ml     | 1 +
+ lexer.mll  | 1 +
+ parser.mly | 3 ++-
+ state.ml   | 3 ++-
+ 4 files changed, 6 insertions(+), 2 deletions(-)
+
+commit 040706658842a49901f8e1909b7a2a46bf1372c1
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 23:28:31 2017 -0500
+
+    fixed gui message
+
+ main.ml  | 14 ++++++++------
+ state.ml | 16 +++++++++-------
+ 2 files changed, 17 insertions(+), 13 deletions(-)
+
+commit 7f51b32c9eec6ff5725b56c3f2b105eab45a2fe2
+Merge: 524051e 865b8cf
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 23:10:46 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 524051e766e820732b2650906e4ea478c47dd843
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 23:10:38 2017 -0500
+
+    added syntactically correct cp
+
+ blackjack.json | 24 ++++++++++++------------
+ crazy8.json    |  3 ++-
+ state.ml       |  4 ++--
+ 3 files changed, 16 insertions(+), 15 deletions(-)
+
+commit 865b8cf9e21049cceba52bf5428aeafd2b66efea
+Merge: 3c83264 e429aaa
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 23:03:06 2017 -0500
+
+    added cards taken
+
+commit 3c832642a41a5e7863cd418bdd65a9c5b0d2bcdb
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 23:02:31 2017 -0500
+
+    added cards taken
+
+ state.ml | 18 +++++++++---------
+ 1 file changed, 9 insertions(+), 9 deletions(-)
+
+commit e429aaaa2f90acb68b93bfd4fb87e634f225742a
+Merge: b4d4795 14d6630
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 23:01:36 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit b4d4795c7ac7a58aa12f1893e99dd1e269f95c30
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 23:01:34 2017 -0500
+
+    idk
+
+ state.ml | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit 14d6630c13a98b1873d52e99d0971b7d4e4c6a31
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 22:56:21 2017 -0500
+
+    Fixed crazy8
+
+ crazy8.json | 19 +++++++++++++++++++
+ state.ml    |  4 ----
+ 2 files changed, 19 insertions(+), 4 deletions(-)
+
+commit 5f1145e955e4fad5356c04b76936bc8d59a53188
+Merge: 9141f5b f5af401
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 22:52:48 2017 -0500
+
+    merge'
+
+commit 9141f5b42934c2414ea277a49bf667120187b26e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 22:52:02 2017 -0500
+
+    fixed json
+
+ ast.ml     |  2 ++
+ lexer.mll  |  2 ++
+ parser.mly |  4 +++-
+ state.ml   | 39 ++++++++++++++++++++++-----------------
+ 4 files changed, 29 insertions(+), 18 deletions(-)
+
+commit f5af40104ae60456fa82311d4ffb1bf20db350b5
+Merge: c37da72 dd7b886
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 22:25:41 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit c37da721860b60246d7de026d5d00ad04ba06dc4
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 22:25:38 2017 -0500
+
+    did win_update
+
+ state.ml | 15 ++++++++++++++-
+ 1 file changed, 14 insertions(+), 1 deletion(-)
+
+commit dd7b886c3343a10e0ff1fca78a61cbf8a9c5a7d2
+Merge: 39a361e 0c59092
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 22:18:08 2017 -0500
+
+    fixed some empty locs stuff
+
+commit 39a361efde294c5359d2843597368cb28cf6ba63
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 22:17:41 2017 -0500
+
+    fixed some empty locs stuff
+
+ crazy8.json |  2 +-
+ state.ml    | 11 +++++++++--
+ 2 files changed, 10 insertions(+), 3 deletions(-)
+
+commit 0c59092c1f5cb7b090005366e32a812104cc0cae
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 22:13:38 2017 -0500
+
+    fixed indentation in json
+
+ blackjack.json | 125 ++++++++++++++++++++++++-------------------------
+ crazy8.json    | 145 ++++++++++++++++++++++++++++-----------------------------
+ emptyjson.json |  94 ++++++++++++++++++-------------------
+ ex.json        | 106 +++++++++++++++++++++--------------------
+ test.json      |  94 ++++++++++++++++++-------------------
+ 5 files changed, 275 insertions(+), 289 deletions(-)
+
+commit 65e927df8245131b7d98e2a11190bb34f6438666
+Merge: aa48e31 2fe8758
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 22:10:08 2017 -0500
+
+    merge
+
+commit aa48e315d90553db9292cacf41bdfbec5d44a5bb
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 22:09:31 2017 -0500
+
+    the merge of hell
+
+ blackjack.json | 19 +++++++++++++++++++
+ crazy8.json    | 22 +++++++++++++++++++++-
+ emptyjson.json | 18 +++++++++++++++++-
+ ex.json        | 19 +++++++++++++++++++
+ main.ml        |  2 +-
+ state.ml       | 55 +++++++++++++++++++++++++++++++++++++++++++++----------
+ test.json      | 29 ++++++++++++++++++++++++-----
+ 7 files changed, 146 insertions(+), 18 deletions(-)
+
+commit 2fe87584442a0d4c50e792a260b3df1d7cf5cc3f
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 21:35:04 2017 -0500
+
+    eval_play fixed
+
+ _build/_digests                                    |   34 -
+ _build/_log                                        |   49 -
+ _build/ast.cmi                                     |  Bin 1925 -> 0 bytes
+ _build/ast.cmo                                     |  Bin 173 -> 0 bytes
+ _build/ast.ml                                      |   73 -
+ _build/ast.ml.depends                              |    1 -
+ _build/command.cmi                                 |  Bin 939 -> 0 bytes
+ _build/command.cmo                                 |  Bin 3719 -> 0 bytes
+ _build/command.ml                                  |   98 -
+ _build/command.ml.depends                          |    1 -
+ _build/command.mli                                 |   27 -
+ _build/command.mli.depends                         |    1 -
+ _build/lexer.cmi                                   |  Bin 543 -> 0 bytes
+ _build/lexer.cmo                                   |  Bin 26502 -> 0 bytes
+ _build/lexer.ml                                    | 1825 --------
+ _build/lexer.ml.depends                            |    1 -
+ _build/lexer.mll                                   |   95 -
+ _build/main.byte                                   |  Bin 664051 -> 0 bytes
+ _build/main.cmi                                    |  Bin 2098 -> 0 bytes
+ _build/main.cmo                                    |  Bin 8060 -> 0 bytes
+ _build/main.ml                                     |  155 -
+ _build/main.ml.depends                             |    1 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#00.log |  328 --
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#01.log |   63 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#02.log |   57 -
+ _build/oUnit-suite.cache                           |  Bin 932 -> 0 bytes
+ _build/ocamlc.where                                |    1 -
+ _build/parser.cmi                                  |  Bin 1612 -> 0 bytes
+ _build/parser.cmo                                  |  Bin 77649 -> 0 bytes
+ _build/parser.ml                                   | 4548 --------------------
+ _build/parser.ml.depends                           |    1 -
+ _build/parser.mli                                  |   61 -
+ _build/parser.mli.depends                          |    1 -
+ _build/parser.mly                                  |  183 -
+ _build/parser.mly.depends                          |    2 -
+ _build/state.cmi                                   |  Bin 3883 -> 0 bytes
+ _build/state.cmo                                   |  Bin 33081 -> 0 bytes
+ _build/state.ml                                    |  904 ----
+ _build/state.ml.depends                            |    1 -
+ _build/state.mli                                   |  149 -
+ _build/state.mli.depends                           |    1 -
+ _build/tests.byte                                  |  Bin 799023 -> 0 bytes
+ _build/tests.cmi                                   |  Bin 1505 -> 0 bytes
+ _build/tests.cmo                                   |  Bin 18505 -> 0 bytes
+ _build/tests.ml                                    |  126 -
+ _build/tests.ml.depends                            |    1 -
+ main.byte                                          |    1 -
+ tests.byte                                         |    1 -
+ 48 files changed, 8790 deletions(-)
+
+commit 749675b5fda266a207046550c9635f42d4954453
+Merge: 4adf44c 5ac3d48
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 21:34:43 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 4adf44cbc3c5c40fcacb8d15713692d662e0fe27
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 21:34:33 2017 -0500
+
+    eval_play fixed
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 5ac3d484e600c995c58573020c2b9fad038fa72d
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 21:31:12 2017 -0500
+
+    wait actually fixed
+
+ crazy8.json | 28 ----------------------------
+ 1 file changed, 28 deletions(-)
+
+commit 5263a6f585f7b99c5b3acf53f3dd4ea30deec646
+Merge: 065fd35 456bc88
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 21:30:54 2017 -0500
+
+    fixing
+
+commit 065fd351afa7a28747f3f62f1887d77f21f7abeb
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 21:30:13 2017 -0500
+
+    rip
+
+ _build/_digests                                    |   34 +
+ _build/_log                                        |   49 +
+ _build/ast.cmi                                     |  Bin 0 -> 1925 bytes
+ _build/ast.cmo                                     |  Bin 0 -> 173 bytes
+ _build/ast.ml                                      |   73 +
+ _build/ast.ml.depends                              |    1 +
+ _build/command.cmi                                 |  Bin 0 -> 939 bytes
+ _build/command.cmo                                 |  Bin 0 -> 3719 bytes
+ _build/command.ml                                  |   98 +
+ _build/command.ml.depends                          |    1 +
+ _build/command.mli                                 |   27 +
+ _build/command.mli.depends                         |    1 +
+ _build/lexer.cmi                                   |  Bin 0 -> 543 bytes
+ _build/lexer.cmo                                   |  Bin 0 -> 26502 bytes
+ _build/lexer.ml                                    | 1825 ++++++++
+ _build/lexer.ml.depends                            |    1 +
+ _build/lexer.mll                                   |   95 +
+ _build/main.byte                                   |  Bin 0 -> 664051 bytes
+ _build/main.cmi                                    |  Bin 0 -> 2098 bytes
+ _build/main.cmo                                    |  Bin 0 -> 8060 bytes
+ _build/main.ml                                     |  155 +
+ _build/main.ml.depends                             |    1 +
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#00.log |  328 ++
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#01.log |   63 +
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#02.log |   57 +
+ _build/oUnit-suite.cache                           |  Bin 0 -> 932 bytes
+ _build/ocamlc.where                                |    1 +
+ _build/parser.cmi                                  |  Bin 0 -> 1612 bytes
+ _build/parser.cmo                                  |  Bin 0 -> 77649 bytes
+ _build/parser.ml                                   | 4548 ++++++++++++++++++++
+ _build/parser.ml.depends                           |    1 +
+ _build/parser.mli                                  |   61 +
+ _build/parser.mli.depends                          |    1 +
+ _build/parser.mly                                  |  183 +
+ _build/parser.mly.depends                          |    2 +
+ _build/state.cmi                                   |  Bin 0 -> 3883 bytes
+ _build/state.cmo                                   |  Bin 0 -> 33081 bytes
+ _build/state.ml                                    |  904 ++++
+ _build/state.ml.depends                            |    1 +
+ _build/state.mli                                   |  149 +
+ _build/state.mli.depends                           |    1 +
+ _build/tests.byte                                  |  Bin 0 -> 799023 bytes
+ _build/tests.cmi                                   |  Bin 0 -> 1505 bytes
+ _build/tests.cmo                                   |  Bin 0 -> 18505 bytes
+ _build/tests.ml                                    |  126 +
+ _build/tests.ml.depends                            |    1 +
+ main.byte                                          |    1 +
+ tests.byte                                         |    1 +
+ 48 files changed, 8790 insertions(+)
+
+commit 456bc881a2f4b6182fa243988a597c689cb46197
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 21:29:15 2017 -0500
+
+    eval_play fixed
+
+ _build/_digests                                    |   34 -
+ _build/_log                                        |   49 -
+ _build/ast.cmi                                     |  Bin 1925 -> 0 bytes
+ _build/ast.cmo                                     |  Bin 173 -> 0 bytes
+ _build/ast.ml                                      |   73 -
+ _build/ast.ml.depends                              |    1 -
+ _build/command.cmi                                 |  Bin 939 -> 0 bytes
+ _build/command.cmo                                 |  Bin 3719 -> 0 bytes
+ _build/command.ml                                  |   98 -
+ _build/command.ml.depends                          |    1 -
+ _build/command.mli                                 |   27 -
+ _build/command.mli.depends                         |    1 -
+ _build/lexer.cmi                                   |  Bin 543 -> 0 bytes
+ _build/lexer.cmo                                   |  Bin 26502 -> 0 bytes
+ _build/lexer.ml                                    | 1825 --------
+ _build/lexer.ml.depends                            |    1 -
+ _build/lexer.mll                                   |   95 -
+ _build/main.byte                                   |  Bin 664051 -> 0 bytes
+ _build/main.cmi                                    |  Bin 2098 -> 0 bytes
+ _build/main.cmo                                    |  Bin 8060 -> 0 bytes
+ _build/main.ml                                     |  155 -
+ _build/main.ml.depends                             |    1 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#00.log |  328 --
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#01.log |   63 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#02.log |   57 -
+ _build/oUnit-suite.cache                           |  Bin 932 -> 0 bytes
+ _build/ocamlc.where                                |    1 -
+ _build/parser.cmi                                  |  Bin 1612 -> 0 bytes
+ _build/parser.cmo                                  |  Bin 77649 -> 0 bytes
+ _build/parser.ml                                   | 4548 --------------------
+ _build/parser.ml.depends                           |    1 -
+ _build/parser.mli                                  |   61 -
+ _build/parser.mli.depends                          |    1 -
+ _build/parser.mly                                  |  183 -
+ _build/parser.mly.depends                          |    2 -
+ _build/state.cmi                                   |  Bin 3883 -> 0 bytes
+ _build/state.cmo                                   |  Bin 33081 -> 0 bytes
+ _build/state.ml                                    |  904 ----
+ _build/state.ml.depends                            |    1 -
+ _build/state.mli                                   |  149 -
+ _build/state.mli.depends                           |    1 -
+ _build/tests.byte                                  |  Bin 799023 -> 0 bytes
+ _build/tests.cmi                                   |  Bin 1505 -> 0 bytes
+ _build/tests.cmo                                   |  Bin 18505 -> 0 bytes
+ _build/tests.ml                                    |  126 -
+ _build/tests.ml.depends                            |    1 -
+ main.byte                                          |    1 -
+ tests.byte                                         |    1 -
+ 48 files changed, 8790 deletions(-)
+
+commit 53396bea4c4dff56b880263ac03f2852640614f6
+Merge: 7d6339d 01d0a0b
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 21:28:55 2017 -0500
+
+    eval_play fixed
+
+commit 53e3b790e51fc0652a264a5dbc5da78c5af7b222
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 21:28:51 2017 -0500
+
+    idk
+
+ crazy8.json | 48 ++++++++++++++++++++++++------------------------
+ state.ml    |  9 +++------
+ 2 files changed, 27 insertions(+), 30 deletions(-)
+
+commit 01d0a0b12f8d2410fd56168ecebef3749f00339c
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 21:20:44 2017 -0500
+
+    fixed crazy8 rules
+
+ crazy8.json | 36 ++++++++++++++++++------------------
+ main.ml     |  7 -------
+ 2 files changed, 18 insertions(+), 25 deletions(-)
+
+commit 7d6339ddc5b2b5418ee3e1c85244f42dd8e57cc5
+Merge: ad55bf8 15703fe
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 21:08:55 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit ad55bf85dd2403224fecebb345f8801cb75fc754
+Merge: e39284d 26e74d0
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 21:08:36 2017 -0500
+
+    fixed make play
+
+commit ed94f87dea6be96abf53d68860c4d5df2f4afa52
+Merge: 2188b80 15703fe
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 20:35:22 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 2188b80b55190f10662a76c5e355240cf99d8065
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 20:35:20 2017 -0500
+
+    merge
+
+ state.ml | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 15703feb9a7be9552a7dcc56e37035d4cf1293b6
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Wed Dec 6 20:35:02 2017 -0500
+
+    tests.ml rip
+
+ tests.ml | 13 +++++++++++++
+ 1 file changed, 13 insertions(+)
+
+commit 14bd3a8238b1f3099639f462c91dc254fd49c82e
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Wed Dec 6 20:11:32 2017 -0500
+
+    lots of tests and state
+
+ state.ml  |  4 ++--
+ test.json |  2 +-
+ tests.ml  | 67 ++++++++++++++++++++++++++++++++++++++++++++++++++++-----------
+ 3 files changed, 59 insertions(+), 14 deletions(-)
+
+commit e39284df09d2620738bd435fa9114759787c14d0
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 20:05:16 2017 -0500
+
+    a
+
+ _build/_digests                                    |   30 -
+ _build/_log                                        |   46 -
+ _build/ast.cmi                                     |  Bin 1925 -> 0 bytes
+ _build/ast.cmo                                     |  Bin 173 -> 0 bytes
+ _build/ast.ml                                      |   73 -
+ _build/ast.ml.depends                              |    1 -
+ _build/command.cmi                                 |  Bin 939 -> 0 bytes
+ _build/command.cmo                                 |  Bin 3719 -> 0 bytes
+ _build/command.ml                                  |   98 -
+ _build/command.ml.depends                          |    1 -
+ _build/command.mli                                 |   27 -
+ _build/command.mli.depends                         |    1 -
+ _build/lexer.cmi                                   |  Bin 543 -> 0 bytes
+ _build/lexer.cmo                                   |  Bin 26502 -> 0 bytes
+ _build/lexer.ml                                    | 1825 --------
+ _build/lexer.ml.depends                            |    1 -
+ _build/lexer.mll                                   |   95 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#00.log |  128 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#01.log |   18 -
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#02.log |   15 -
+ _build/oUnit-suite.cache                           |  Bin 581 -> 0 bytes
+ _build/ocamlc.where                                |    1 -
+ _build/parser.cmi                                  |  Bin 1612 -> 0 bytes
+ _build/parser.cmo                                  |  Bin 77649 -> 0 bytes
+ _build/parser.ml                                   | 4548 --------------------
+ _build/parser.ml.depends                           |    1 -
+ _build/parser.mli                                  |   61 -
+ _build/parser.mli.depends                          |    1 -
+ _build/parser.mly                                  |  183 -
+ _build/parser.mly.depends                          |    2 -
+ _build/state.cmi                                   |  Bin 3686 -> 0 bytes
+ _build/state.cmo                                   |  Bin 32340 -> 0 bytes
+ _build/state.ml                                    |  858 ----
+ _build/state.ml.depends                            |    1 -
+ _build/state.mli                                   |  147 -
+ _build/state.mli.depends                           |    1 -
+ _build/tests.byte                                  |  Bin 788279 -> 0 bytes
+ _build/tests.cmi                                   |  Bin 1362 -> 0 bytes
+ _build/tests.cmo                                   |  Bin 4402 -> 0 bytes
+ _build/tests.ml                                    |   38 -
+ _build/tests.ml.depends                            |    1 -
+ crazy8.json                                        |   46 +-
+ state.ml                                           |   29 +-
+ tests.byte                                         |    1 -
+ 44 files changed, 32 insertions(+), 8246 deletions(-)
+
+commit 26e74d03e04e4da40e94c7fdc5113ad8883985ab
+Merge: 437b6c1 f9ea6b5
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 18:20:27 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 437b6c13b89cbb38cfabf133a636fbb957966b2a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 18:20:16 2017 -0500
+
+    deleted prime functions
+
+ state.ml | 12 ------------
+ 1 file changed, 12 deletions(-)
+
+commit f9ea6b5193ba749b102dac7b73b387a68400291b
+Merge: 9a935be 366ddcf
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Wed Dec 6 18:19:11 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 9a935be6835044f8d2bb69c889dee79c00ee7cce
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Wed Dec 6 18:19:09 2017 -0500
+
+    tests
+
+ tests.ml | 40 +++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 35 insertions(+), 5 deletions(-)
+
+commit 366ddcf2538c6f9483203c17c148c58564255bfc
+Merge: 9e953c2 2163f26
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 18:17:58 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 9e953c20b8d3e0e802d1bf2b81e6349688476c4f
+Merge: d984db6 3760c0e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 18:17:53 2017 -0500
+
+    fixed end turn
+
+commit 0f131bc08d8a2cd9638b6b9ac152372c87d24e1e
+Merge: d66e80b 2163f26
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 18:08:43 2017 -0500
+
+    a
+
+commit 2163f2677c98e6f390e819e6a3006212de8a132f
+Merge: 15febb4 3760c0e
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 18:07:02 2017 -0500
+
+    merge fix
+
+commit d66e80b0b4ad3dbe45e02e3380daa814e24a19c9
+Merge: 0411cd2 3760c0e
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 18:05:31 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 0411cd29c553f1f8ac85738058c5ef18d974a630
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 18:05:26 2017 -0500
+
+    worked on is_val
+
+ _build/_digests                                    |   30 +
+ _build/_log                                        |   46 +
+ _build/ast.cmi                                     |  Bin 0 -> 1925 bytes
+ _build/ast.cmo                                     |  Bin 0 -> 173 bytes
+ _build/ast.ml                                      |   73 +
+ _build/ast.ml.depends                              |    1 +
+ _build/command.cmi                                 |  Bin 0 -> 939 bytes
+ _build/command.cmo                                 |  Bin 0 -> 3719 bytes
+ _build/command.ml                                  |   98 +
+ _build/command.ml.depends                          |    1 +
+ _build/command.mli                                 |   27 +
+ _build/command.mli.depends                         |    1 +
+ _build/lexer.cmi                                   |  Bin 0 -> 543 bytes
+ _build/lexer.cmo                                   |  Bin 0 -> 26502 bytes
+ _build/lexer.ml                                    | 1825 ++++++++
+ _build/lexer.ml.depends                            |    1 +
+ _build/lexer.mll                                   |   95 +
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#00.log |  116 +
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#01.log |   15 +
+ ...it-suite-dhcp-gs-11.redrover.cornell.edu#02.log |   18 +
+ _build/oUnit-suite.cache                           |  Bin 0 -> 299 bytes
+ _build/ocamlc.where                                |    1 +
+ _build/parser.cmi                                  |  Bin 0 -> 1612 bytes
+ _build/parser.cmo                                  |  Bin 0 -> 77649 bytes
+ _build/parser.ml                                   | 4548 ++++++++++++++++++++
+ _build/parser.ml.depends                           |    1 +
+ _build/parser.mli                                  |   61 +
+ _build/parser.mli.depends                          |    1 +
+ _build/parser.mly                                  |  183 +
+ _build/parser.mly.depends                          |    2 +
+ _build/state.cmi                                   |  Bin 0 -> 3686 bytes
+ _build/state.cmo                                   |  Bin 0 -> 31034 bytes
+ _build/state.ml                                    |  844 ++++
+ _build/state.ml.depends                            |    1 +
+ _build/state.mli                                   |  147 +
+ _build/state.mli.depends                           |    1 +
+ _build/tests.byte                                  |  Bin 0 -> 786946 bytes
+ _build/tests.cmi                                   |  Bin 0 -> 1321 bytes
+ _build/tests.cmo                                   |  Bin 0 -> 4048 bytes
+ _build/tests.ml                                    |   36 +
+ _build/tests.ml.depends                            |    1 +
+ state.ml                                           |    4 +-
+ tests.byte                                         |    1 +
+ 43 files changed, 8177 insertions(+), 2 deletions(-)
+
+commit 15febb4265487ef3f51e6010ded3dc0ddb2989c4
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 18:05:15 2017 -0500
+
+    attempts to fix eval_cmd
+
+ crazy8.json |  1 +
+ state.ml    | 66 +++++++++++++++++++++++++++++++++++++++++++++++--------------
+ state.mli   |  2 ++
+ tests.ml    |  4 ++--
+ 4 files changed, 56 insertions(+), 17 deletions(-)
+
+commit d984db63d19046f257f8663f7af9495415e3d1b3
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Dec 6 17:39:34 2017 -0500
+
+    merge
+
+ state.ml | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 3760c0edc44d538930bc1a9e2a357b5e1182f1d7
+Merge: d24d515 b560816
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Wed Dec 6 17:32:43 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit d24d51557c4da4e089041e673ee1d3a30cec9626
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Wed Dec 6 17:32:41 2017 -0500
+
+    draw helper. take helper. play helper. new test file.
+
+ state.ml  | 16 +++++++++++++++-
+ test.json | 30 ++++++++++++++++++++++++++++++
+ tests.ml  | 22 ++++++++++++----------
+ 3 files changed, 57 insertions(+), 11 deletions(-)
+
+commit b56081620ac7ce570dc54f761e6beef5e25d11d8
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 17:07:31 2017 -0500
+
+    fixed random
+
+ state.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit bbcc062a274edbfb707dfd6a648f14f25b2134ca
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 17:00:58 2017 -0500
+
+    minor type checking
+
+ state.ml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 0407b64d0fd313ac9e75ef190c38c85d8dc63484
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 16:55:16 2017 -0500
+
+    fixed exec
+
+ state.ml | 78 +++++++++++++++++++++++++++++++++++++++++++++++-----------------
+ 1 file changed, 58 insertions(+), 20 deletions(-)
+
+commit 78f8db554026d9f3ef51ce3469a7901beb7176e3
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 15:52:02 2017 -0500
+
+    fixed play
+
+ state.ml | 44 +++++++++++++++++++++++++++++++++++---------
+ 1 file changed, 35 insertions(+), 9 deletions(-)
+
+commit 9ac1af12e931a5e7da2d50ea30e64ccb4bde1418
+Merge: bc48124 6af7002
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 14:46:52 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit bc48124d79ab97f58e3d26e6650916c17bf4cb00
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Dec 6 14:00:33 2017 -0500
+
+    fixed some of ray's code
+
+ state.ml | 10 ++++++----
+ 1 file changed, 6 insertions(+), 4 deletions(-)
+
+commit 6af700205c8ba55f5994f1c1b34f7bd2553c98f5
+Merge: 9dda9aa 03c1dbb
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 13:34:45 2017 -0500
+
+    fixed merges
+
+commit 9dda9aaef9eb541ea4809966ece18d69bac17ca4
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Dec 6 13:33:21 2017 -0500
+
+    made tests not stupid
+
+ tests.ml | 16 ++++++++--------
+ 1 file changed, 8 insertions(+), 8 deletions(-)
+
+commit 03c1dbb4ad15b41e7c674ede804272d751a1a396
+Merge: bf7d9e5 0dcf78b
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 20:58:09 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit bf7d9e5da3ea88a78d30785dac5a0fbfa36c81df
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 20:58:02 2017 -0500
+
+    tests
+
+ tests.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0dcf78ba9f75ada4129ac1f0389bafc14c8520bc
+Merge: 25b91b3 7b981ff
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 20:35:33 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 25b91b31ca1ac1004fab98a2735eab32f3d8e0ef
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 20:35:27 2017 -0500
+
+    some small bug fix
+
+ state.ml | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit 7b981ff79d4228b71041a10e697479c4a3322ac8
+Merge: f68346f 01a04de
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 20:34:32 2017 -0500
+
+    sigh
+
+commit f68346f4a5c9c9e04e5be552a4bf2c8ef16a9e17
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 20:33:54 2017 -0500
+
+    updating draw, take, and play
+
+ state.ml | 33 ++++++++++++++++++++++-----------
+ 1 file changed, 22 insertions(+), 11 deletions(-)
+
+commit 01a04de1479667679eed447af90c58d7b7b9b79a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 20:17:49 2017 -0500
+
+    deleted rounds
+
+ main.ml   |  1 -
+ state.ml  | 13 +++----------
+ state.mli |  2 --
+ 3 files changed, 3 insertions(+), 13 deletions(-)
+
+commit bbdab2ab4eb8add293072bb3e3a83f3db36fb31c
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Dec 5 19:21:58 2017 -0500
+
+    all match issues are gone, and card_points now have (state -> int) in values rather than ints
+
+ state.ml | 17 ++++++++++++-----
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+
+commit 8ba3a5dc792fafa7f9d60268fe0a205c3c586898
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Dec 5 19:15:32 2017 -0500
+
+    fixed crazy8 json
+
+ crazy8.json | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 38d7ba9526d0280e8ca1332d719a12a6640018f2
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Dec 5 19:01:42 2017 -0500
+
+    fixing matches
+
+ state.ml | 17 ++++++++++++-----
+ 1 file changed, 12 insertions(+), 5 deletions(-)
+
+commit 3a2acee2a04fdf80cc5690c221c9204efa85c218
+Merge: f96a305 05ee1f7
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 18:55:49 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit f96a305eedbf30aebf9fab9f50048f54ed2d43d5
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 18:55:45 2017 -0500
+
+    crazy8 merge error
+
+ crazy8.json | 20 --------------------
+ 1 file changed, 20 deletions(-)
+
+commit 05ee1f738df1e41469c2a5078cfab617eb4b0b06
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 18:54:42 2017 -0500
+
+    fixed ex json
+
+ ex.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 475866e373cf80d80c75ec2a9f1e17e2473104ac
+Merge: 2774fa4 8031a9d
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 18:51:27 2017 -0500
+
+    changes
+
+commit 2774fa42b96717bbceedb34033823d16b2cca88d
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 18:50:18 2017 -0500
+
+    fixing sm
+
+ state.ml | 13 ++++++++++---
+ tests.ml |  4 ++++
+ 2 files changed, 14 insertions(+), 3 deletions(-)
+
+commit 8031a9db5c34dfc4de98be5c3d4fd7eb8dadecf3
+Merge: fdf140e 9f4ef52
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 18:48:29 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit fdf140e668c484d537e14fbf89c875fe1a577cf0
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 18:48:24 2017 -0500
+
+    fixed hands
+
+ state.ml  | 19 ++++++++++---------
+ state.mli |  6 ++++++
+ 2 files changed, 16 insertions(+), 9 deletions(-)
+
+commit 9f4ef52fa14a128c2cf2a37b5fcc1c1dbbc4dd3e
+Merge: 5ec2776 df151fa
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Tue Dec 5 18:01:52 2017 -0500
+
+    fixed cards played
+
+commit 5ec277659ad94d809b34d48b159d68d21dee5456
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Tue Dec 5 18:00:54 2017 -0500
+
+    fixed some bugs
+
+ _build/_digests                                    |   30 -
+ _build/_log                                        |   90 -
+ _build/ast.cmi                                     |  Bin 1925 -> 0 bytes
+ _build/ast.cmo                                     |  Bin 173 -> 0 bytes
+ _build/ast.ml                                      |   73 -
+ _build/ast.ml.depends                              |    1 -
+ _build/command.cmi                                 |  Bin 740 -> 0 bytes
+ _build/command.cmo                                 |  Bin 3719 -> 0 bytes
+ _build/command.ml                                  |   98 -
+ _build/command.ml.depends                          |    1 -
+ _build/command.mli                                 |   24 -
+ _build/command.mli.depends                         |    1 -
+ _build/lexer.cmi                                   |  Bin 543 -> 0 bytes
+ _build/lexer.cmo                                   |  Bin 26502 -> 0 bytes
+ _build/lexer.ml                                    | 1825 --------
+ _build/lexer.ml.depends                            |    1 -
+ _build/lexer.mll                                   |   95 -
+ ...-suite-dhcp-gs-2967.redrover.cornell.edu#00.log |   30 -
+ ...te-dhcp-rhodes-2802.redrover.cornell.edu#00.log |   30 -
+ _build/ocamlc.where                                |    1 -
+ _build/parser.cmi                                  |  Bin 1612 -> 0 bytes
+ _build/parser.cmo                                  |  Bin 77649 -> 0 bytes
+ _build/parser.ml                                   | 4548 --------------------
+ _build/parser.ml.depends                           |    1 -
+ _build/parser.mli                                  |   61 -
+ _build/parser.mli.depends                          |    1 -
+ _build/parser.mly                                  |  183 -
+ _build/parser.mly.depends                          |    2 -
+ _build/state.cmi                                   |  Bin 2557 -> 0 bytes
+ _build/state.cmo                                   |  Bin 27456 -> 0 bytes
+ _build/state.ml                                    |  743 ----
+ _build/state.ml.depends                            |    1 -
+ _build/state.mli                                   |  132 -
+ _build/state.mli.depends                           |    1 -
+ _build/tests.byte                                  |  Bin 782009 -> 0 bytes
+ _build/tests.cmi                                   |  Bin 1242 -> 0 bytes
+ _build/tests.cmo                                   |  Bin 1268 -> 0 bytes
+ _build/tests.ml                                    |   11 -
+ _build/tests.ml.depends                            |    1 -
+ tests.byte                                         |    1 -
+ 40 files changed, 7986 deletions(-)
+
+commit ee39825426d2f74f08dd4b144530638d45085323
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Tue Dec 5 18:00:24 2017 -0500
+
+    debugging in state
+
+ _build/_digests                                    |   30 +
+ _build/_log                                        |   90 +
+ _build/ast.cmi                                     |  Bin 0 -> 1925 bytes
+ _build/ast.cmo                                     |  Bin 0 -> 173 bytes
+ _build/ast.ml                                      |   73 +
+ _build/ast.ml.depends                              |    1 +
+ _build/command.cmi                                 |  Bin 0 -> 740 bytes
+ _build/command.cmo                                 |  Bin 0 -> 3719 bytes
+ _build/command.ml                                  |   98 +
+ _build/command.ml.depends                          |    1 +
+ _build/command.mli                                 |   24 +
+ _build/command.mli.depends                         |    1 +
+ _build/lexer.cmi                                   |  Bin 0 -> 543 bytes
+ _build/lexer.cmo                                   |  Bin 0 -> 26502 bytes
+ _build/lexer.ml                                    | 1825 ++++++++
+ _build/lexer.ml.depends                            |    1 +
+ _build/lexer.mll                                   |   95 +
+ ...-suite-dhcp-gs-2967.redrover.cornell.edu#00.log |   30 +
+ ...te-dhcp-rhodes-2802.redrover.cornell.edu#00.log |   30 +
+ _build/ocamlc.where                                |    1 +
+ _build/parser.cmi                                  |  Bin 0 -> 1612 bytes
+ _build/parser.cmo                                  |  Bin 0 -> 77649 bytes
+ _build/parser.ml                                   | 4548 ++++++++++++++++++++
+ _build/parser.ml.depends                           |    1 +
+ _build/parser.mli                                  |   61 +
+ _build/parser.mli.depends                          |    1 +
+ _build/parser.mly                                  |  183 +
+ _build/parser.mly.depends                          |    2 +
+ _build/state.cmi                                   |  Bin 0 -> 2557 bytes
+ _build/state.cmo                                   |  Bin 0 -> 27456 bytes
+ _build/state.ml                                    |  743 ++++
+ _build/state.ml.depends                            |    1 +
+ _build/state.mli                                   |  132 +
+ _build/state.mli.depends                           |    1 +
+ _build/tests.byte                                  |  Bin 0 -> 782009 bytes
+ _build/tests.cmi                                   |  Bin 0 -> 1242 bytes
+ _build/tests.cmo                                   |  Bin 0 -> 1268 bytes
+ _build/tests.ml                                    |   11 +
+ _build/tests.ml.depends                            |    1 +
+ crazy8.json                                        |   38 +-
+ emptyjson.json                                     |    1 +
+ parser.mly                                         |    2 +-
+ state.ml                                           |    5 +-
+ tests.byte                                         |    1 +
+ 44 files changed, 8010 insertions(+), 22 deletions(-)
+
+commit df151fa6aef8405bf192673d080fdcd98e20b9f4
+Merge: 03a7e3b b95b54f
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Dec 5 17:55:17 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 03a7e3b68d9a77b2164712990cf83f12235e76d5
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Dec 5 17:53:47 2017 -0500
+
+    fixing the jsons
+
+ crazy8.json | 38 +++++++++++++++++++-------------------
+ ex.json     |  4 ++--
+ state.mli   |  6 ++++++
+ 3 files changed, 27 insertions(+), 21 deletions(-)
+
+commit 0b8e24096e631033e0461585e53d7842be76e567
+Merge: 66821d6 b95b54f
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 17:51:50 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit b95b54f0a5beb08669f1778c61ef42c62d5ebcd2
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 17:51:41 2017 -0500
+
+    more tests and lowercase for put_card_in_loc
+
+ state.ml |  3 +++
+ tests.ml | 15 +++++++++++----
+ 2 files changed, 14 insertions(+), 4 deletions(-)
+
+commit 66821d6918c8dc9a8613a95f79d2a129fa1f1916
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 17:51:38 2017 -0500
+
+    some fixes
+
+ state.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit a539b2708cf42f40ea5dfa38a5c537e599d10a15
+Merge: e8e0c21 afa44e0
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 17:26:32 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit e8e0c21a75a53c8e3951bab44738b70417c633aa
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 17:26:29 2017 -0500
+
+    fixed command parsing for play
+
+ command.ml  | 8 ++++----
+ command.mli | 4 +++-
+ state.mli   | 7 +++++--
+ 3 files changed, 12 insertions(+), 7 deletions(-)
+
+commit afa44e00ed708dd7c2a9c55a1d28e16feb5df3ce
+Merge: d17428a ae6bbf1
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 17:06:30 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit d17428a37c5259700c652f05931a8f21de8fd6fe
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 17:06:19 2017 -0500
+
+    tests
+
+ tests.ml | 14 ++++++++++++++
+ 1 file changed, 14 insertions(+)
+
+commit ae6bbf1ad7ae7df3872805d9f25de98a07abbfb6
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Dec 5 17:04:59 2017 -0500
+
+    FIXED EVAL_WINS DADDIO
+
+ state.ml  | 2 +-
+ state.mli | 2 ++
+ 2 files changed, 3 insertions(+), 1 deletion(-)
+
+commit 6516c443fb3f396e1c6bb6f9983a0371a998204c
+Merge: 1ef0454 b21fea5
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 16:46:11 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 1ef045455af95ac447aaed83ca6277c2d2a28621
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 16:46:01 2017 -0500
+
+    removed try from play_game
+
+ .ocamlinit  |  3 +++
+ command.mli |  3 ++-
+ ex.json     |  7 +++----
+ main.ml     | 12 ++++++++++--
+ 4 files changed, 18 insertions(+), 7 deletions(-)
+
+commit b21fea538576233eb7530f775f56c8bc19b4664d
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 16:37:14 2017 -0500
+
+    more specific errors
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 0ccac9e9067dba7c1e5034d1929c591ddc1e9dd2
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Tue Dec 5 16:36:42 2017 -0500
+
+    specific errors
+
+ state.ml | 12 ++++++------
+ 1 file changed, 6 insertions(+), 6 deletions(-)
+
+commit f617587a76e492bced7be31fe0ed0ea61f026928
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Tue Dec 5 15:42:53 2017 -0500
+
+    fixed reverse error
+
+ blackjack.json | 13 ++++++++++++-
+ emptyjson.json | 33 +++++++++++++++++++++++++++++++++
+ ex.json        |  4 ++++
+ state.ml       |  4 ++--
+ 4 files changed, 51 insertions(+), 3 deletions(-)
+
+commit 247ef28273ec9dd8c3ca05085f211962146edffd
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 03:19:52 2017 -0500
+
+    first working repl
+
+ main.ml   | 16 +++++++++++-----
+ state.ml  | 50 ++++++++++++++++++++++++++++++--------------------
+ state.mli |  3 +++
+ 3 files changed, 44 insertions(+), 25 deletions(-)
+
+commit 9ea7aa4aeaeddfb7ddb47b5ab2d7f2da24a57bf2
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 02:46:35 2017 -0500
+
+    repl
+
+ command.ml  |  2 ++
+ command.mli |  1 +
+ main.ml     | 99 ++++++++++++++++++++++++++++++++++++-------------------------
+ state.ml    | 35 ++++++++++++++++++++--
+ state.mli   |  8 +++++
+ 5 files changed, 102 insertions(+), 43 deletions(-)
+
+commit 47fe617f5247cba556278e9ad89a122e316c72e0
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 01:37:36 2017 -0500
+
+    fixed negation
+
+ parser.mly | 13 ++++++-------
+ 1 file changed, 6 insertions(+), 7 deletions(-)
+
+commit a9669c7d7c2b5c56b82f550a22f4d86839a1928e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Dec 5 01:20:16 2017 -0500
+
+    fixed crazy8 json and added endturn to parser
+
+ .ocamlinit  |  4 +++-
+ ast.ml      |  1 +
+ crazy8.json | 40 ++++++++++++++++++++--------------------
+ lexer.mll   |  1 +
+ parser.mly  | 12 ++++++++----
+ state.ml    |  4 ++--
+ 6 files changed, 35 insertions(+), 27 deletions(-)
+
+commit b0a9621e44469b2d4a47e77317041eb908a2117b
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 23:42:15 2017 -0500
+
+    added some json stuff
+
+ blackjack.json | 13 ++++++-------
+ ex.json        |  4 ----
+ 2 files changed, 6 insertions(+), 11 deletions(-)
+
+commit 5a43c4dcf0e3129effbe2a1136e67f2edf8f6a41
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 23:21:42 2017 -0500
+
+    fixed card list error
+
+ state.ml | 6 +++++-
+ 1 file changed, 5 insertions(+), 1 deletion(-)
+
+commit 36c3a86b03c914f3604932d52a0f38aba8fbba6e
+Merge: 82b9b68 c6c9041
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 23:07:53 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 82b9b68b814e1b2619c93bd335646ccc64fe18ac
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 23:07:48 2017 -0500
+
+    added ==
+
+ crazy8.json | 38 +++++++++++++++++++-------------------
+ state.ml    | 19 ++++++++++++++++---
+ 2 files changed, 35 insertions(+), 22 deletions(-)
+
+commit c6c9041b82e5356e7ef6d029722366f17df550a7
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 22:14:07 2017 -0500
+
+    put_card_in_loc FIXED?
+
+ state.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit b724d2cccb1fd278c3360f9cfb82cec502972aab
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 21:37:13 2017 -0500
+
+    example json
+
+ crazy8.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4edddfc92d634c14c56d5db987751c9643de638f
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 21:32:31 2017 -0500
+
+    fixed crazy 8s json
+
+ blackjack.json | 36 ++++++++++++++++++++++++++++++++++++
+ crazy8.json    | 34 +++++++++++++++++-----------------
+ 2 files changed, 53 insertions(+), 17 deletions(-)
+
+commit 90398761efbdc3159d813891903450c029bf5684
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 21:20:27 2017 -0500
+
+    fixed Parser error
+
+ state.ml  | 1 -
+ state.mli | 4 +++-
+ 2 files changed, 3 insertions(+), 2 deletions(-)
+
+commit 638cad72c145b1d161881a850987a10a82ace798
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 21:10:37 2017 -0500
+
+    fixed
+
+ state.ml | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+commit 0a8586c654d6210a9aa09f4a2e6b588c5716385a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 21:01:43 2017 -0500
+
+    merge
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit ee06938a466a8bb9ec9402cdf814cb01407d6022
+Merge: f1ee276 23c3ee3
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 20:58:07 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 23c3ee3bdc265bd76ef3c3aadd77c9ce73a95743
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 20:45:34 2017 -0500
+
+    execute checks validity now
+
+ state.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit f9b18b48469c0a4177d3ba998824c4f389c6dbec
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 20:41:53 2017 -0500
+
+    is_valid done
+
+ state.ml | 16 ++++++++++++----
+ 1 file changed, 12 insertions(+), 4 deletions(-)
+
+commit 1ad32ba9d3ca1357fcce489bad5598ce36986682
+Merge: b7772a5 9b43568
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 20:26:32 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit b7772a5d4732518a620cd986dbde9b108a2526b7
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 20:26:24 2017 -0500
+
+    moved eval
+
+ state.ml | 57 ++++++++++++++++++++++++++++++---------------------------
+ 1 file changed, 30 insertions(+), 27 deletions(-)
+
+commit f1ee2762b911d50d01d12382b9e5d856a4c2c333
+Merge: 399cbda 9b43568
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 20:24:07 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 399cbdaae66a5a499e2496bc4d7770315f6ff801
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 20:24:06 2017 -0500
+
+    make fixes
+
+ .ocamlinit | 7 +++----
+ _tags      | 2 +-
+ lexer.mll  | 4 ----
+ state.ml   | 2 --
+ tests.ml   | 2 +-
+ 5 files changed, 5 insertions(+), 12 deletions(-)
+
+commit 9b43568549948d008214afb9e1e90e15c6d1b46d
+Merge: 6b155c7 bcacb17
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 20:06:51 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 6b155c7728c7530153bd05da1433f57320dd1808
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 20:06:45 2017 -0500
+
+    tiny thing with play in execute
+
+ state.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit bcacb1762b0c3650593d97f1061360e860e18ece
+Merge: 5409728 63345dc
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 20:05:50 2017 -0500
+
+    merge
+
+commit 5409728a17a882664c2574938c048f650875208b
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 20:05:12 2017 -0500
+
+    fixed type inference in execute
+
+ lexer.mll | 2 +-
+ state.ml  | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 63345dc30416399c570079cbda8344493d1eb0e9
+Merge: b73f33d 93c2fa9
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 20:04:57 2017 -0500
+
+    merge issues
+
+commit b73f33d90aab04d00cf4452cf9efed349e3fdcbb
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 20:04:38 2017 -0500
+
+    removed lexer/parser and wrote eval_cmds
+
+ ast.ml     |  1 -
+ lexer.mll  |  1 -
+ parser.mly |  1 -
+ state.ml   | 19 +++++++++++--------
+ 4 files changed, 11 insertions(+), 11 deletions(-)
+
+commit 93c2fa9bf8da6ae2d8e9fea72cdd58f12f188a5f
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 19:59:23 2017 -0500
+
+    fixed neg
+
+ ast.ml     | 2 +-
+ parser.mly | 2 +-
+ 2 files changed, 2 insertions(+), 2 deletions(-)
+
+commit 75b72c89b8bc79cdd4deea5eee6ca8228857e68b
+Merge: 526f984 f4ff70b
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 19:56:55 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 526f984667499a0319cb1a40d8cb867b96549a5d
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 19:56:53 2017 -0500
+
+    fixed main
+
+ .ocamlinit | 2 +-
+ command.ml | 2 +-
+ main.ml    | 7 ++-----
+ state.mli  | 2 ++
+ 4 files changed, 6 insertions(+), 7 deletions(-)
+
+commit f4ff70bae32781d1528599a076dcd757517b065d
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 19:56:43 2017 -0500
+
+    removed extra add
+
+ ast.ml | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 1370e39ab4b118637e8b4baab26aafe96013ebf7
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 19:54:20 2017 -0500
+
+    changed mult from * to **
+
+ lexer.mll | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c3c199794a8f71c552d219edf34c00fc6d361a87
+Merge: 5203acf eac8d88
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 19:52:53 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 5203acf650bf48b889a7dafa47b89a524a133082
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 19:52:47 2017 -0500
+
+    implemented mult
+
+ ast.ml     | 1 +
+ lexer.mll  | 1 +
+ parser.mly | 3 ++-
+ 3 files changed, 4 insertions(+), 1 deletion(-)
+
+commit eac8d884455bc74eaae061613a74039577e769a1
+Merge: 587f162 030d2b6
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 19:49:29 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 587f162f4644fe005548ce534346cb8a90e7e356
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 19:49:24 2017 -0500
+
+    fixed some crazy eight rules
+
+ crazy8.json | 36 ++++++++++++++++++------------------
+ 1 file changed, 18 insertions(+), 18 deletions(-)
+
+commit 030d2b6784c13affa7eb9bf96d223ff81d03996f
+Merge: 598182c 594b7b9
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 19:46:20 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 598182c234b63aa46f7ddc76f41079d682a42cf1
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 19:46:17 2017 -0500
+
+    eval_cmd
+
+ ast.ml     |  2 ++
+ lexer.mll  |  1 +
+ parser.mly |  1 +
+ state.ml   | 22 ++++++++++++++++++++++
+ 4 files changed, 26 insertions(+)
+
+commit 594b7b984d9ff1be1e84613ca352def1e984ede9
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 19:40:14 2017 -0500
+
+    small typo in parser
+
+ parser.mly | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f55be79137aefd040799b724cd7dcc298ecb9852
+Merge: 54c51c6 c9d4a16
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 19:39:53 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 54c51c6b6eba19091d4bd1a02e61b7f7659b66d8
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 19:39:51 2017 -0500
+
+    added (+) and (-)
+
+ ast.ml     | 2 ++
+ parser.mly | 2 ++
+ 2 files changed, 4 insertions(+)
+
+commit c9d4a16a6d7381205a9e5bdffad4bb6bfe204f6a
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 19:33:23 2017 -0500
+
+    fixed some eval functions
+
+ state.ml | 20 +++++++++++---------
+ 1 file changed, 11 insertions(+), 9 deletions(-)
+
+commit e77146be44f132d031deac03a91dac873eda0d5c
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 19:18:59 2017 -0500
+
+    added crazy8s json
+
+ _build/_digests                                    |   34 -
+ _build/_log                                        |   28 -
+ _build/ast.cmi                                     |  Bin 1753 -> 0 bytes
+ _build/ast.cmo                                     |  Bin 173 -> 0 bytes
+ _build/ast.ml                                      |   68 -
+ _build/ast.ml.depends                              |    1 -
+ _build/command.cmi                                 |  Bin 722 -> 0 bytes
+ _build/command.cmo                                 |  Bin 3467 -> 0 bytes
+ _build/command.ml                                  |   96 -
+ _build/command.ml.depends                          |    1 -
+ _build/command.mli                                 |   23 -
+ _build/command.mli.depends                         |    1 -
+ _build/jsonparse.cmi                               |  Bin 194 -> 0 bytes
+ _build/jsonparse.cmo                               |  Bin 179 -> 0 bytes
+ _build/jsonparse.ml                                |   83 -
+ _build/jsonparse.ml.depends                        |    1 -
+ _build/jsonparse.mli                               |   21 -
+ _build/jsonparse.mli.depends                       |    1 -
+ _build/lexer.cmi                                   |  Bin 571 -> 0 bytes
+ _build/lexer.cmo                                   |  Bin 23520 -> 0 bytes
+ _build/lexer.ml                                    | 1630 ---------
+ _build/lexer.ml.depends                            |    1 -
+ _build/lexer.mll                                   |   93 -
+ _build/main.ml                                     |   64 -
+ _build/main.ml.depends                             |    1 -
+ ...-suite-dhcp-gs-1788.redrover.cornell.edu#00.log |   30 -
+ _build/ocamlc.where                                |    1 -
+ _build/parser.cmi                                  |  Bin 1599 -> 0 bytes
+ _build/parser.ml                                   | 3604 --------------------
+ _build/parser.mli                                  |   59 -
+ _build/parser.mli.depends                          |    1 -
+ _build/parser.mly                                  |  175 -
+ _build/parser.mly.depends                          |    2 -
+ _build/state.cmi                                   |  Bin 2161 -> 0 bytes
+ _build/state.ml                                    |  502 ---
+ _build/state.ml.depends                            |    1 -
+ _build/state.mli                                   |  114 -
+ _build/state.mli.depends                           |    1 -
+ _build/tests.byte                                  |  Bin 414530 -> 0 bytes
+ _build/tests.cmi                                   |  Bin 1101 -> 0 bytes
+ _build/tests.cmo                                   |  Bin 1127 -> 0 bytes
+ _build/tests.ml                                    |   11 -
+ _build/tests.ml.depends                            |    1 -
+ tests.byte                                         |    1 -
+ 44 files changed, 6650 deletions(-)
+
+commit 4a5dc725df99a6188fe68a6b3fd4041ca6f8c2b8
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 19:18:24 2017 -0500
+
+    added crazy8s json
+
+ _build/_digests                                    |   34 +
+ _build/_log                                        |   28 +
+ _build/ast.cmi                                     |  Bin 0 -> 1753 bytes
+ _build/ast.cmo                                     |  Bin 0 -> 173 bytes
+ _build/ast.ml                                      |   68 +
+ _build/ast.ml.depends                              |    1 +
+ _build/command.cmi                                 |  Bin 0 -> 722 bytes
+ _build/command.cmo                                 |  Bin 0 -> 3467 bytes
+ _build/command.ml                                  |   96 +
+ _build/command.ml.depends                          |    1 +
+ _build/command.mli                                 |   23 +
+ _build/command.mli.depends                         |    1 +
+ _build/jsonparse.cmi                               |  Bin 0 -> 194 bytes
+ _build/jsonparse.cmo                               |  Bin 0 -> 179 bytes
+ _build/jsonparse.ml                                |   83 +
+ _build/jsonparse.ml.depends                        |    1 +
+ _build/jsonparse.mli                               |   21 +
+ _build/jsonparse.mli.depends                       |    1 +
+ _build/lexer.cmi                                   |  Bin 0 -> 571 bytes
+ _build/lexer.cmo                                   |  Bin 0 -> 23520 bytes
+ _build/lexer.ml                                    | 1630 +++++++++
+ _build/lexer.ml.depends                            |    1 +
+ _build/lexer.mll                                   |   93 +
+ _build/main.ml                                     |   64 +
+ _build/main.ml.depends                             |    1 +
+ ...-suite-dhcp-gs-1788.redrover.cornell.edu#00.log |   30 +
+ _build/ocamlc.where                                |    1 +
+ _build/parser.cmi                                  |  Bin 0 -> 1599 bytes
+ _build/parser.ml                                   | 3604 ++++++++++++++++++++
+ _build/parser.mli                                  |   59 +
+ _build/parser.mli.depends                          |    1 +
+ _build/parser.mly                                  |  175 +
+ _build/parser.mly.depends                          |    2 +
+ _build/state.cmi                                   |  Bin 0 -> 2161 bytes
+ _build/state.ml                                    |  502 +++
+ _build/state.ml.depends                            |    1 +
+ _build/state.mli                                   |  114 +
+ _build/state.mli.depends                           |    1 +
+ _build/tests.byte                                  |  Bin 0 -> 414530 bytes
+ _build/tests.cmi                                   |  Bin 0 -> 1101 bytes
+ _build/tests.cmo                                   |  Bin 0 -> 1127 bytes
+ _build/tests.ml                                    |   11 +
+ _build/tests.ml.depends                            |    1 +
+ crazy8.json                                        |   52 +
+ tests.byte                                         |    1 +
+ 45 files changed, 6702 insertions(+)
+
+commit f2e07d89fad6966e8c4945f38b1c7564c15acde0
+Merge: 8634a52 4f73390
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 18:57:31 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 8634a526f1e15c0486d566c14df4c5083dd9f6be
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 18:57:24 2017 -0500
+
+    win checker done
+
+ state.ml | 20 +++++++++++---------
+ 1 file changed, 11 insertions(+), 9 deletions(-)
+
+commit 4f73390555b266da425d0c2f829f976a30ccf746
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 18:57:18 2017 -0500
+
+    wes stop it
+
+ main.ml | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 33eef46902d613be9274a854367bf927cd977abb
+Merge: 45a316b 3162a23
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 18:50:37 2017 -0500
+
+    merge
+
+commit 45a316b7a6d9fa2b804477626e77131245d1e45c
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 18:50:13 2017 -0500
+
+    repl fixed
+
+ main.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 3162a23febd7412f0cd661fea9fca0ca84e39d92
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 17:44:45 2017 -0500
+
+    removed useless files
+
+ failwith | 0
+ member   | 0
+ to_int   | 0
+ 3 files changed, 0 insertions(+), 0 deletions(-)
+
+commit c6bcdc280a8b69afade98c89637af62d05deda7f
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 17:36:47 2017 -0500
+
+    added json checker
+
+ failwith |  0
+ main.ml  | 74 +++++++++++++++++++++++++++++++++++++++++++++++++++++++---------
+ member   |  0
+ to_int   |  0
+ 4 files changed, 64 insertions(+), 10 deletions(-)
+
+commit 4811e67d661ea84d98308bbf01b48d2015eacaac
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 16:36:57 2017 -0500
+
+    main.ml merge
+
+ main.ml | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 6a33dff73ddd6dd631bb12746821220e66d9ff08
+Merge: fc470a7 fdafa1f
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 16:36:35 2017 -0500
+
+    main merge
+
+commit fc470a7913d914b94ec1551597d010c614d357d7
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Mon Dec 4 16:36:02 2017 -0500
+
+    changes to main and state: worked on unicode in state and working on json checker in main
+
+ main.ml  | 16 +++++++++++++++-
+ state.ml | 14 +++++++++++---
+ 2 files changed, 26 insertions(+), 4 deletions(-)
+
+commit fdafa1f205d33b69f12d085358163d887f0138dd
+Merge: 5a3a973 f50a863
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 16:21:30 2017 -0500
+
+    WHO THE FUCK PUSHED
+
+commit 5a3a973c582cb5464cd04b4dcb305a091a933502
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Dec 4 16:20:36 2017 -0500
+
+    RIP JSON PARSE YOU WERE A GOOD BOY DADDY WILL ALWAYS LOVE YOU
+
+ ast.ml        |   2 +-
+ command.ml    |   2 -
+ jsonparse.ml  | 183 +---------------------------
+ jsonparse.mli |   4 +-
+ state.ml      | 374 ++++++++++++++++++++++++++++++++++++++--------------------
+ state.mli     |  27 +++--
+ 6 files changed, 263 insertions(+), 329 deletions(-)
+
+commit f50a8630c9ce6be0acd3b8123a4f58a0738a6ac1
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 15:55:27 2017 -0500
+
+    added and and or to lexer
+
+ jsonparse.ml | 41 ++++++++++-------------------------------
+ parser.mly   |  2 ++
+ state.ml     |  8 ++++++--
+ state.mli    |  2 +-
+ 4 files changed, 19 insertions(+), 34 deletions(-)
+
+commit 6a6e3a3925e941b39d7a7325060914d96e794b75
+Merge: d91e597 fdd843d
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 15:24:52 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit d91e59767bda218cdc0fb491c92e5a13464e55c0
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Dec 4 15:24:40 2017 -0500
+
+    more repl
+
+ command.ml  |  4 ++--
+ command.mli |  2 +-
+ main.ml     |  7 ++++---
+ state.ml    | 23 ++++++++++++++++++++---
+ 4 files changed, 27 insertions(+), 9 deletions(-)
+
+commit fdd843dfbeb86d9deca9b01f263f643e0e38d631
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 02:50:36 2017 -0500
+
+    got to weird type mismatch
+
+ jsonparse.ml  | 11 ++++-------
+ jsonparse.mli | 14 ++++++++++----
+ state.ml      |  9 ++++-----
+ 3 files changed, 18 insertions(+), 16 deletions(-)
+
+commit d12c464af195b57cbc997313a74334d9e6308788
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 02:19:41 2017 -0500
+
+    fixed score
+
+ _build/_digests              |   29 -
+ _build/_log                  |   50 -
+ _build/ast.cmi               |  Bin 1781 -> 0 bytes
+ _build/ast.cmo               |  Bin 201 -> 0 bytes
+ _build/ast.ml                |   68 -
+ _build/ast.ml.depends        |    1 -
+ _build/command.cmi           |  Bin 721 -> 0 bytes
+ _build/command.cmo           |  Bin 3521 -> 0 bytes
+ _build/command.ml            |   98 --
+ _build/command.ml.depends    |    1 -
+ _build/command.mli           |   23 -
+ _build/command.mli.depends   |    1 -
+ _build/jsonparse.cmi         |  Bin 789 -> 0 bytes
+ _build/jsonparse.ml          |  286 ----
+ _build/jsonparse.ml.depends  |    1 -
+ _build/jsonparse.mli         |   15 -
+ _build/jsonparse.mli.depends |    1 -
+ _build/lexer.cmi             |  Bin 571 -> 0 bytes
+ _build/lexer.cmo             |  Bin 23520 -> 0 bytes
+ _build/lexer.ml              | 1630 -------------------
+ _build/lexer.ml.depends      |    1 -
+ _build/lexer.mll             |   93 --
+ _build/ocamlc.where          |    1 -
+ _build/parser.cmi            |  Bin 1599 -> 0 bytes
+ _build/parser.ml             | 3604 ------------------------------------------
+ _build/parser.mli            |   59 -
+ _build/parser.mli.depends    |    1 -
+ _build/parser.mly            |  175 --
+ _build/parser.mly.depends    |    2 -
+ _build/state.cmi             |  Bin 2161 -> 0 bytes
+ _build/state.mli             |  114 --
+ _build/state.mli.depends     |    1 -
+ _build/tests.cmi             |  Bin 1246 -> 0 bytes
+ _build/tests.cmo             |  Bin 1272 -> 0 bytes
+ _build/tests.ml              |   11 -
+ _build/tests.ml.depends      |    1 -
+ 36 files changed, 6267 deletions(-)
+
+commit 7a59d857180b27a76eaee3b68ff5501e0d5802f3
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 02:19:26 2017 -0500
+
+    fixed score
+
+ _build/_digests              |   29 +
+ _build/_log                  |   50 +
+ _build/ast.cmi               |  Bin 0 -> 1781 bytes
+ _build/ast.cmo               |  Bin 0 -> 201 bytes
+ _build/ast.ml                |   68 +
+ _build/ast.ml.depends        |    1 +
+ _build/command.cmi           |  Bin 0 -> 721 bytes
+ _build/command.cmo           |  Bin 0 -> 3521 bytes
+ _build/command.ml            |   98 ++
+ _build/command.ml.depends    |    1 +
+ _build/command.mli           |   23 +
+ _build/command.mli.depends   |    1 +
+ _build/jsonparse.cmi         |  Bin 0 -> 789 bytes
+ _build/jsonparse.ml          |  286 ++++
+ _build/jsonparse.ml.depends  |    1 +
+ _build/jsonparse.mli         |   15 +
+ _build/jsonparse.mli.depends |    1 +
+ _build/lexer.cmi             |  Bin 0 -> 571 bytes
+ _build/lexer.cmo             |  Bin 0 -> 23520 bytes
+ _build/lexer.ml              | 1630 +++++++++++++++++++
+ _build/lexer.ml.depends      |    1 +
+ _build/lexer.mll             |   93 ++
+ _build/ocamlc.where          |    1 +
+ _build/parser.cmi            |  Bin 0 -> 1599 bytes
+ _build/parser.ml             | 3604 ++++++++++++++++++++++++++++++++++++++++++
+ _build/parser.mli            |   59 +
+ _build/parser.mli.depends    |    1 +
+ _build/parser.mly            |  175 ++
+ _build/parser.mly.depends    |    2 +
+ _build/state.cmi             |  Bin 0 -> 2161 bytes
+ _build/state.mli             |  114 ++
+ _build/state.mli.depends     |    1 +
+ _build/tests.cmi             |  Bin 0 -> 1246 bytes
+ _build/tests.cmo             |  Bin 0 -> 1272 bytes
+ _build/tests.ml              |   11 +
+ _build/tests.ml.depends      |    1 +
+ jsonparse.ml                 |   39 +-
+ state.ml                     |   16 +-
+ state.mli                    |    2 +
+ 39 files changed, 6305 insertions(+), 19 deletions(-)
+
+commit 49419eef86882d3589c7ee857647ca46b6cdedcc
+Merge: 9fc745a e67d430
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Mon Dec 4 00:40:32 2017 -0500
+
+    removed roughly 50 lines of redundant code
+
+commit 9fc745a5c73cd0e6c14353da353c07693b219261
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 23:47:00 2017 -0500
+
+    pushed
+
+ jsonparse.ml | 14 +++-----------
+ state.ml     |  2 +-
+ 2 files changed, 4 insertions(+), 12 deletions(-)
+
+commit e67d430756fcc970c627aab4e650d958ea065a67
+Merge: 0e6c723 16a7bf8
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 23:46:18 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 0e6c723cdfdb9d488ed750f2ec1fa094bd60a663
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 23:46:11 2017 -0500
+
+    fixes
+
+ jsonparse.ml | 34 ++++++++++++++++++----------------
+ 1 file changed, 18 insertions(+), 16 deletions(-)
+
+commit 16a7bf867079f5e44b858cf32aeeadab7c42516f
+Merge: 03c499b a8add66
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 23:23:17 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit a8add6637100c6b77ba2d80b26f32b078c98723e
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 23:23:12 2017 -0500
+
+    fixed head
+
+ state.ml | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit 03c499bab277b28237c133628ec2b4b689fd9db9
+Merge: 845d4f5 96bbade
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 23:23:11 2017 -0500
+
+    set up match for wes
+
+commit ab4315fbddcf015b1d293138f4e74314abe57360
+Merge: 619724b 96bbade
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 23:22:37 2017 -0500
+
+    fixed head
+
+commit 845d4f541bda1ed75bf2680265081d8908ab23f8
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 23:22:34 2017 -0500
+
+    set up match for wes
+
+ main.ml | 14 ++++++++++++--
+ 1 file changed, 12 insertions(+), 2 deletions(-)
+
+commit 619724b8fd4cdc29d2f7fd7122665b58fa1bd726
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 23:22:08 2017 -0500
+
+    fixed head
+
+ jsonparse.ml | 3 +--
+ state.ml     | 1 -
+ 2 files changed, 1 insertion(+), 3 deletions(-)
+
+commit 96bbade8b4b660ad6cb3853eaad2d3b6893a2d7f
+Merge: 96a4ff4 710160d
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 23:21:51 2017 -0500
+
+    merge
+
+commit 96a4ff4eb92d8e7b8424448f41075eb29cba5301
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 23:21:20 2017 -0500
+
+    added lexing for doubleeq and doubleneq
+
+ ast.ml     |  2 ++
+ lexer.mll  |  2 ++
+ main.ml    |  9 ++-------
+ parser.mly |  8 +++++---
+ state.ml   | 13 ++++---------
+ state.mli  |  9 +++++++++
+ 6 files changed, 24 insertions(+), 19 deletions(-)
+
+commit 710160d1d609c4b4a839cf39aca7bcda3adf5144
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 23:04:25 2017 -0500
+
+    fixed head
+
+ state.ml | 9 ---------
+ 1 file changed, 9 deletions(-)
+
+commit a41789221d24837d2081c180a75f6041442a9186
+Merge: ec278fb 8bf9c7c
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 23:03:34 2017 -0500
+
+    fixed comments
+
+commit ec278fb2eccf0dcc1ed8de01f29a59f232cae11e
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 23:02:43 2017 -0500
+
+    fixed comments
+
+ jsonparse.ml | 1 +
+ state.ml     | 6 +-----
+ 2 files changed, 2 insertions(+), 5 deletions(-)
+
+commit 8bf9c7cddca47a5e8eebbe70e37990b3f033b6f4
+Merge: f6b125d 1f7f722
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 22:37:50 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit f6b125d0bd01528a2d7481f065830c3d36e5f0dc
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 22:37:44 2017 -0500
+
+    added error messages
+
+ state.ml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 1f7f722ee85ce9fc8225a1f93d6c755bbf2cf7ae
+Merge: 0d64450 7d9d10a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 22:31:51 2017 -0500
+
+    merge
+
+commit 0d6445008efcf550815b39d4289a18134c861e02
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 22:31:07 2017 -0500
+
+    comments for string functions
+
+ state.ml | 46 +++++++++++++++++++++++++++++++++++++++++-----
+ 1 file changed, 41 insertions(+), 5 deletions(-)
+
+commit 7d9d10a32cdc02ccb27769e33835c32cad50837e
+Merge: 9235fa8 c2aca22
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 22:11:45 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 9235fa8a9e6de61d01edeeab3d4ac49abade380f
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 22:11:37 2017 -0500
+
+    fixed lots of things
+
+ ast.ml   |  1 -
+ state.ml | 37 ++++++++++++++++++++-----------------
+ 2 files changed, 20 insertions(+), 18 deletions(-)
+
+commit c2aca22f926b0dfa10a5df89a80083625c972801
+Merge: c8e6555 d476260
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 22:10:16 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit c8e6555f42f3ea328991fac4f11fd2b5dd5d6456
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 22:10:11 2017 -0500
+
+    finished contains
+
+ state.ml | 66 ++++++++++++++++++++++++++++++++++++++++------------------------
+ 1 file changed, 41 insertions(+), 25 deletions(-)
+
+commit d4762603d458e57983c354da4fc9b2895f0349b2
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 21:48:25 2017 -0500
+
+    RAY IS BEING A BABY
+
+ jsonparse.ml | 9 +--------
+ state.ml     | 6 ------
+ 2 files changed, 1 insertion(+), 14 deletions(-)
+
+commit 16937f52b58030235ad6ec50a0d30525d5755653
+Merge: 3d18d05 5f3e2fb
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 21:24:43 2017 -0500
+
+    STOP DELETING
+
+commit 3d18d053e555b93ecd3fd04da1f40ad928044796
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 21:24:09 2017 -0500
+
+    idk
+
+ state.ml | 6 ------
+ 1 file changed, 6 deletions(-)
+
+commit 5f3e2fb850a7c4535ca9406bfc9e2a1147deba51
+Merge: cb1db12 81ae2a9
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 21:01:16 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit cb1db126f57842f6ca6915943311178fec109587
+Author: Raymone Radi <Raymone@dhcp-gs-261.eduroam.cornell.edu>
+Date:   Sun Dec 3 21:01:11 2017 -0500
+
+    put_card_in_loc logic
+
+ state.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 6631cf06568dd7ab9fd15c15fee3593e9a8d8969
+Merge: d2940ec 81ae2a9
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 20:42:26 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit d2940ec4a81c8c8f9046dc7d40d01264fe202ded
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 20:42:25 2017 -0500
+
+    card list
+
+ Makefile   |  4 ++++
+ ast.ml     |  3 +--
+ lexer.mll  |  1 +
+ parser.mly | 10 ++++++++--
+ state.mli  |  4 ++++
+ 5 files changed, 18 insertions(+), 4 deletions(-)
+
+commit 81ae2a9ae9f8111f1525c25a80103f2fed4701a1
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 20:41:43 2017 -0500
+
+    wildcard support
+
+ state.ml | 14 --------------
+ 1 file changed, 14 deletions(-)
+
+commit 874da1e2145ef8655da2e2531163b078563af57c
+Merge: b1ca847 6640aea
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 20:41:05 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit b1ca847b5176894a14aa7804bfa4340445102376
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 20:40:59 2017 -0500
+
+    wildcard support
+
+ state.ml | 36 +++++++++++++++++++++++++++++++-----
+ 1 file changed, 31 insertions(+), 5 deletions(-)
+
+commit 6640aead60805876e8abda5cfa6a2b2db22996e0
+Merge: 8b58da4 87fba1c
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 20:28:01 2017 -0500
+
+    merge error
+
+commit 8b58da409baaa9b098f8fd2a4442354943d9e89d
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 20:27:32 2017 -0500
+
+    card_helper (wildcard)
+
+ jsonparse.ml | 8 ++++++++
+ 1 file changed, 8 insertions(+)
+
+commit 87fba1cfc603eefaa1e75b168643f2b328200567
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 19:51:15 2017 -0500
+
+    fixed win helper
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 937d676d8a27693a4289b86f8a90bfef9b9c7891
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 19:41:24 2017 -0500
+
+    fixed winners
+
+ state.ml | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 333cd2c6cdd3b7640529ab27cd2cb19f90e4c7c5
+Merge: 95565eb 76a0ee5
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 14:27:12 2017 -0500
+
+    merge
+
+commit 95565eb1f64199fb58c78925d758b4666d59cff7
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 14:26:32 2017 -0500
+
+    some helper func
+
+ state.ml | 152 ++++++++++++++++++++++++++++++++++++++++++++-------------------
+ 1 file changed, 106 insertions(+), 46 deletions(-)
+
+commit 9e3fbc0e9c8e2aafd66cca04b8f80034ca70c7b3
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 14:01:14 2017 -0500
+
+    made parameters card list now
+
+ jsonparse.ml |  7 ++++---
+ state.ml     | 16 ++++++++++++----
+ 2 files changed, 16 insertions(+), 7 deletions(-)
+
+commit 76a0ee5139fd153faa7178362b56dc883196ea06
+Merge: 3a4548f 865c194
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 13:26:04 2017 -0500
+
+    merge fix
+
+commit 3a4548f8bc20a637ac4512a3e8b94bc23ce34f29
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Dec 3 13:25:17 2017 -0500
+
+    fixed type checking
+
+ ast.ml       | 17 -----------------
+ jsonparse.ml | 16 +++++++++-------
+ state.ml     | 16 ++++++++--------
+ state.mli    |  8 ++++++++
+ 4 files changed, 25 insertions(+), 32 deletions(-)
+
+commit 865c1947a199fd07ed77b8a0572cfaf7ed1183dc
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 01:18:59 2017 -0500
+
+    merge
+
+ ex.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 639b98080afdd66ffb2d866c3c3430b156903dbc
+Merge: ca6ebe0 183806c
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 01:17:28 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit ca6ebe05c7f25a22064bf22e544385d524a0c6b6
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Dec 3 01:17:24 2017 -0500
+
+    repl
+
+ ex.json  | 6 +++---
+ main.ml  | 5 +++--
+ state.ml | 2 +-
+ 3 files changed, 7 insertions(+), 6 deletions(-)
+
+commit 183806cd6967b31be4450df162f2effc223abd64
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 00:14:13 2017 -0500
+
+    fixed exjson
+
+ ex.json | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit f2c5fd9b684af9ce12eb761bd0e5b833654d3b86
+Merge: 8bad9e3 c5017f7
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 00:13:27 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 8bad9e3b579d88128fae0be0895455a3e18b0568
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sun Dec 3 00:13:23 2017 -0500
+
+    finished init state
+
+ ex.json  |  1 +
+ state.ml | 27 ++++++++++++++++++++++++---
+ 2 files changed, 25 insertions(+), 3 deletions(-)
+
+commit c5017f793e3bbe1e6a0f0f578e7c78b2d29ab593
+Merge: 7468dd4 3a7957a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 23:13:07 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 7468dd4bd8b82b5101d62afe8e638a729bcc1ddc
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 23:13:05 2017 -0500
+
+    added to string function for cards
+
+ state.ml | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 1bb124309865ef39f5210cb62098a37e32158f82
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 23:07:02 2017 -0500
+
+    fixed repl bug
+
+ main.ml | 10 +++++-----
+ 1 file changed, 5 insertions(+), 5 deletions(-)
+
+commit 3a7957a74048a48515b41ed158d59c9155676e14
+Merge: 575972a 415202c
+Author: Raymone Radi <Raymone@dhcp-hol-474.eduroam.cornell.edu>
+Date:   Sat Dec 2 23:03:15 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 575972a12e8c78dcee7d71d3ccd1433b7e98231f
+Author: Raymone Radi <Raymone@dhcp-hol-474.eduroam.cornell.edu>
+Date:   Sat Dec 2 23:03:09 2017 -0500
+
+    end helper
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 415202c5ce27ca83a41539eef8ff50b8de99336e
+Merge: 183b366 f953672
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 23:01:02 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 183b366a65dd0ca19cd49ca179e0d4501b02bbc9
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 23:01:00 2017 -0500
+
+    merge
+
+ jsonparse.ml | 5 -----
+ 1 file changed, 5 deletions(-)
+
+commit f953672c54f80372023016cc2cc6cadf23ca5bd1
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 23:00:47 2017 -0500
+
+    2nd push
+
+ jsonparse.ml | 5 -----
+ 1 file changed, 5 deletions(-)
+
+commit b2165b3f9cf82e2b2ed2c31273e0f8f70c9317fa
+Merge: 35d42b3 9a76058
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 22:59:02 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 9a76058e1e6bc4c2c23f115274818654b0f5f57c
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 22:58:45 2017 -0500
+
+    shuffle
+
+ ex.json | 7 -------
+ 1 file changed, 7 deletions(-)
+
+commit 2b98ecb267be76be0bbf41b599e057dc943f33ab
+Merge: 1d2f0a9 6694554
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 22:57:56 2017 -0500
+
+    shuffle
+
+commit 35d42b3e28148e05ec978139fd6b7c0ad665ca78
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 22:56:00 2017 -0500
+
+    more repl
+
+ main.ml | 5 +++++
+ 1 file changed, 5 insertions(+)
+
+commit 1d2f0a95d1019ff89c7dcd82db30a89ad8e8a90d
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 22:55:58 2017 -0500
+
+    shuffle
+
+ state.ml | 60 +++++++++++++++++++++++++++++++++++++++++++++++++-----------
+ 1 file changed, 49 insertions(+), 11 deletions(-)
+
+commit 6694554468f20c194f076d4d8705410b29c45926
+Merge: b2dc2b8 d12327d
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 22:55:34 2017 -0500
+
+    fixing merges
+
+commit b2dc2b83cd4523cf932098067eb2725c821e50bc
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 22:53:30 2017 -0500
+
+    take, draw, and end done
+
+ state.ml | 68 +++++++++++++++++++++++++++++++++++++++++++++++-----------------
+ 1 file changed, 50 insertions(+), 18 deletions(-)
+
+commit d12327de585a15c5bc1818b57dc8951379bba3ff
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 21:47:20 2017 -0500
+
+    fixed some bugs in jsonparse
+
+ jsonparse.ml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit ef21317c4bdd055ec6bf05e8dab38830b9cfb1ae
+Merge: e09c426 1c90fa5
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 21:38:56 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit e09c426f3af2befc29e263c104d6b26277e8972a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 21:38:47 2017 -0500
+
+    fixed command syntax errors
+
+ command.mli |  7 ++++---
+ main.ml     | 11 +++++++++++
+ parser.mly  |  2 +-
+ 3 files changed, 16 insertions(+), 4 deletions(-)
+
+commit 1c90fa5557cd2f9c43bc9c5d2189a579af3cfccc
+Merge: 24d6b09 7d25655
+Author: Raymone Radi <Raymone@dhcp-hol-474.eduroam.cornell.edu>
+Date:   Sat Dec 2 21:32:22 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 24d6b09b49d6dcd9759cdac60ca35f63a0fb001b
+Author: Raymone Radi <Raymone@dhcp-hol-474.eduroam.cornell.edu>
+Date:   Sat Dec 2 21:32:15 2017 -0500
+
+    hand in execute
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 7d25655522237eec12fcf4accde2b2646c13602e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 21:29:18 2017 -0500
+
+    fixed some bugs
+
+ ast.ml       |  1 +
+ jsonparse.ml | 14 ++++++--------
+ 2 files changed, 7 insertions(+), 8 deletions(-)
+
+commit 84dabe7ffcc205b50d4f8ee0b0fa603f3ee2061f
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 21:16:54 2017 -0500
+
+    updated json
+
+ ex.json | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit 8db89a125c791a847aa845969eab34fb7def170e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 21:05:26 2017 -0500
+
+    renamed static dat
+
+ state.ml | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit c26ef28c525b87f0bbb206d6844620d5db34c1b4
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 21:03:40 2017 -0500
+
+    some more specs
+
+ state.ml | 41 ++++++++++++++++++-----------------------
+ 1 file changed, 18 insertions(+), 23 deletions(-)
+
+commit f146d7492ef493ed9caae5a9afbee64074903ef9
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 20:40:19 2017 -0500
+
+    updated cards played
+
+ command.ml | 2 ++
+ ex.json    | 3 +--
+ state.ml   | 9 ++++-----
+ 3 files changed, 7 insertions(+), 7 deletions(-)
+
+commit 4f1f8ad3888521302a685fd82d25a88de3c11afe
+Merge: ffc6fb2 ade2ae9
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 20:08:14 2017 -0500
+
+    merged
+
+commit ffc6fb2827a9d4f8d14e04f869c8803a16ff74fb
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 20:06:03 2017 -0500
+
+    f
+
+ ex.json  | 32 +++++++++++++++++++++++++++++++-
+ state.ml | 15 +--------------
+ 2 files changed, 32 insertions(+), 15 deletions(-)
+
+commit ade2ae96d60e55cd30b16a616c28cd6703d71ec9
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 20:04:56 2017 -0500
+
+    fixed json 2
+
+ ex.json | 23 ++++++++++++++---------
+ 1 file changed, 14 insertions(+), 9 deletions(-)
+
+commit 5711a5d08fd943ae8a138ada6e2a873e38bc59e7
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 20:03:57 2017 -0500
+
+    updated juson
+
+ state.ml | 37 -------------------------------------
+ 1 file changed, 37 deletions(-)
+
+commit c301ac638124a016e6f0d4393f0c1aec94ccf146
+Merge: 44a7ed5 14f0839
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 20:01:56 2017 -0500
+
+    merge
+
+commit 44a7ed5c3b834b4c9d04cee225bf4b82b559a6eb
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Dec 2 20:01:11 2017 -0500
+
+    merge
+
+ ex.json      | 32 +++++++++++++++++++++-----------
+ jsonparse.ml | 48 ++++++++++++++++++------------------------------
+ 2 files changed, 39 insertions(+), 41 deletions(-)
+
+commit 14f0839dd0b2431c6bd25aec2672c924b5a3d435
+Merge: 33a3caa e258c1c
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 02:00:25 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 33a3caae5f9310f93e07357cb214c96a3ad6153f
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 02:00:21 2017 -0500
+
+    modified json parse
+
+ state.ml | 78 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 78 insertions(+)
+
+commit e258c1c263069b5fac22ebac1a80e8790d2c7376
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 01:52:07 2017 -0500
+
+    init_wins, rules, points
+
+ jsonparse.ml | 140 +++++++++++++++++++++++++++++++----------------------------
+ state.ml     |  16 ++++++-
+ 2 files changed, 87 insertions(+), 69 deletions(-)
+
+commit 9da2057e849d3d223949107b618245bab3d4deaa
+Merge: a53918a cb3c588
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 00:12:56 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit cb3c58838fa2559aa1ff9a286674826d26489c72
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 00:12:46 2017 -0500
+
+    updated json parsing
+
+ state.ml | 39 +++++----------------------------------
+ 1 file changed, 5 insertions(+), 34 deletions(-)
+
+commit b6b3a8110739d2111a479a87078e97bfb5a2b979
+Merge: 699144a bfe6afa
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 00:12:26 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 699144af65f23928c0b694a0e5261f124d731ce3
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Sat Dec 2 00:12:19 2017 -0500
+
+    updated json parsing
+
+ jsonparse.ml | 27 ---------------------------
+ state.ml     | 46 +++++++++++++++++++++++++++++++++++++++-------
+ 2 files changed, 39 insertions(+), 34 deletions(-)
+
+commit a53918a80977ecc6ca10cae5c96bf9e096eb6ea1
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 00:12:16 2017 -0500
+
+    pre-pull for init_state
+
+ jsonparse.ml | 27 ---------------------------
+ state.ml     |  2 ++
+ 2 files changed, 2 insertions(+), 27 deletions(-)
+
+commit bfe6afa18b6428011e243ccd2b96a1a8b2048bac
+Merge: 7c224fe 8b18a61
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 00:08:02 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 7c224feda03a2e0fac4b2190ba1102a26f5daea0
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Dec 2 00:08:00 2017 -0500
+
+    i dont remember
+
+ jsonparse.ml | 8 ++++----
+ sample.ml    | 2 +-
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+commit 8b18a615375b44c00fbe7c1ff37c3e2773611ba5
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Fri Dec 1 21:35:48 2017 -0500
+
+    repl
+
+ main.ml | 10 ++++------
+ 1 file changed, 4 insertions(+), 6 deletions(-)
+
+commit 6570389d597286602b3fd1f6d0414132a98e7a67
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Fri Dec 1 21:29:41 2017 -0500
+
+    initialized repl
+
+ main.ml | 41 +++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 41 insertions(+)
+
+commit 23fc6c50f3381eed5962c0314a9a382da7068c64
+Merge: 51c52ee 6bdd18b
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Fri Dec 1 20:45:43 2017 -0500
+
+    merge
+
+commit 51c52ee000d2b8c68a589d1cdc3022f0458b787e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Fri Dec 1 20:43:13 2017 -0500
+
+    merge
+
+ ast.ml       | 6 ++++--
+ jsonparse.ml | 3 ++-
+ lexer.mll    | 2 ++
+ parser.mly   | 7 ++++---
+ state.ml     | 8 ++++----
+ 5 files changed, 16 insertions(+), 10 deletions(-)
+
+commit 6bdd18bd1d157e889344b3e76d36a2413844a076
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 18:39:00 2017 -0500
+
+    eval_wins fixed
+
+ jsonparse.ml | 23 +++++++----------------
+ 1 file changed, 7 insertions(+), 16 deletions(-)
+
+commit f5a316b863cd342d75eb96052c092c3ba757a484
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 18:33:47 2017 -0500
+
+    neq can take cards now
+
+ jsonparse.ml | 13 ++++++++++---
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+
+commit 4d74c60c99bcce782e708a0a34afab98b6f678cd
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 18:31:51 2017 -0500
+
+    eq can take cards now
+
+ jsonparse.ml | 13 ++++++++++---
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+
+commit 7655526f7a9a0be970cb1efc19e8706fc953e48e
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 18:16:52 2017 -0500
+
+    eval_rules
+
+ jsonparse.ml | 25 +++++++++++++------------
+ 1 file changed, 13 insertions(+), 12 deletions(-)
+
+commit ef7dbb5b94dd42098e4d1482a779dcdbdb0de655
+Merge: b73c528 19306b2
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 18:03:27 2017 -0500
+
+    merge fixes
+
+commit b73c5289c6ffb95544ae064e0c9b2700ee59fd6f
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 18:02:06 2017 -0500
+
+    more changes
+
+ jsonparse.ml | 38 +++++++++++---------------------------
+ 1 file changed, 11 insertions(+), 27 deletions(-)
+
+commit 19306b23ce3ded423f7a11df71a0b557cb846d72
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Fri Dec 1 17:54:15 2017 -0500
+
+    eval player
+
+ jsonparse.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 05d9130f2e46595f501800051979f69deb0205b5
+Merge: 37c5b0e 24b80fc
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 17:45:55 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 37c5b0e0d7b217eedeccea2f9393e7c1c1f28f17
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 17:45:47 2017 -0500
+
+    for wes
+
+ jsonparse.ml | 13 ++++++++++---
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+
+commit 24b80fc71f7ba1f9649dd80514a3c78d26741b31
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Fri Dec 1 17:45:17 2017 -0500
+
+    added score
+
+ state.ml | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit ac0bf41d88a7fc29d907713dcaa893109058b689
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 17:32:40 2017 -0500
+
+    new anonymous eval
+
+ jsonparse.ml | 179 +++++++++++++++++++++++++++--------------------------------
+ state.ml     |   3 +
+ 2 files changed, 86 insertions(+), 96 deletions(-)
+
+commit 6abd2ec54342e226de9a0717f1776e43b7d3c181
+Merge: 81d7aa0 164cc20
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 16:39:05 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 81d7aa0983a1b47aeb6f17cd20f2c254d57753ec
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Fri Dec 1 16:38:35 2017 -0500
+
+    new eval system
+
+ jsonparse.ml | 25 +++++++++++++++++++++----
+ 1 file changed, 21 insertions(+), 4 deletions(-)
+
+commit 164cc2087cd2c1dea36b456e59f380bdf3133715
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 21:55:01 2017 -0500
+
+    put_card_in_loc and play_helper
+
+ state.ml | 14 ++++++++++----
+ 1 file changed, 10 insertions(+), 4 deletions(-)
+
+commit 1d60cd4ce701eeba6995d12d487e97a88ef6f392
+Merge: a9cc280 f627ba0
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Nov 30 21:38:21 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit a9cc280ef8741b69ba18d1a8fa7f419037918bb8
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Nov 30 21:38:15 2017 -0500
+
+    finished command
+
+ command.ml | 85 ++++++++++++++++++++++++++++++++++++++++++++------------------
+ 1 file changed, 61 insertions(+), 24 deletions(-)
+
+commit f627ba0aa27e615f83d11b61a3dde8b12d07a6d9
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 21:37:40 2017 -0500
+
+    changes to state (play) and extension of json
+
+ ex.json  |  5 ++++-
+ state.ml | 25 +++++++++++++++++++------
+ 2 files changed, 23 insertions(+), 7 deletions(-)
+
+commit 8758932792fe49b583441c10aefb7c43a4627fbd
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 20:32:07 2017 -0500
+
+    look, turns, and score (all within execute)
+
+ state.ml | 9 +++------
+ 1 file changed, 3 insertions(+), 6 deletions(-)
+
+commit 0b0424c7562e64ba8dad155d13c3b18289018088
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 20:30:03 2017 -0500
+
+    turns in execute
+
+ state.ml | 17 +++++++++++++++--
+ 1 file changed, 15 insertions(+), 2 deletions(-)
+
+commit 80df562f5f896491f859503418db3c2bba5cc79e
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 20:11:55 2017 -0500
+
+    changed last move and added last command
+
+ state.ml | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 6bf417c23e0262c6937bf7a3ee54b11492ea32c1
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 19:58:27 2017 -0500
+
+    made more stuff in the json
+
+ ex.json | 30 ++++++++++++++++--------------
+ 1 file changed, 16 insertions(+), 14 deletions(-)
+
+commit 76794da0643d3b1a10cfbfb86534dd0dd36d18db
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Nov 30 19:43:27 2017 -0500
+
+    fixed json
+
+ ex.json | 15 +++++----------
+ 1 file changed, 5 insertions(+), 10 deletions(-)
+
+commit ae8c0b029398a28dceec05c25c759fe792bd81d6
+Merge: 41469db 44c7f61
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Nov 30 19:36:42 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 41469dba7aff779e1bff8a79903ea80d6ad34228
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Thu Nov 30 19:36:40 2017 -0500
+
+    working on command
+
+ command.ml | 29 ++++++++++++++++++++---------
+ state.ml   |  4 ++++
+ 2 files changed, 24 insertions(+), 9 deletions(-)
+
+commit 44c7f61a3e21bfb4aa5e6fb8f2695908c51b33fa
+Merge: 5518733 000d4da
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 19:35:53 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 5518733a49a60e3f49f7080479dc4eb88a63e8df
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 19:35:47 2017 -0500
+
+    example json
+
+ ex.json | 20 ++++++++++++++++++++
+ 1 file changed, 20 insertions(+)
+
+commit 000d4da7601dc8b29fb7dbfc366d0aa97a0717b8
+Merge: c527d22 82e0c95
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Nov 30 19:32:15 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit c527d2289fcb93de359c7e2d66e6f30179ca3fc7
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Nov 30 19:32:01 2017 -0500
+
+    Not sure what changed
+
+ jsonparse.ml | 14 ++++----------
+ state.ml     | 53 ++++++++++++++++++++++++++++++-----------------------
+ 2 files changed, 34 insertions(+), 33 deletions(-)
+
+commit 82e0c95aa0b7e2798691fe49456b255ce6b5e6bb
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 18:57:16 2017 -0500
+
+    removed deck type
+
+ state.ml | 2 --
+ 1 file changed, 2 deletions(-)
+
+commit f2faa3abfb88936aeec228b878cd97e20b0cbc17
+Merge: 793a359 fe0ac6a
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 18:56:54 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 793a359f38c4b072936fce97f1c9481b19f0c71a
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 18:56:52 2017 -0500
+
+    finished contains
+
+ state.ml | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit fe0ac6a732268bcf88f2e4bcb4d68d45d33f0805
+Merge: 833927e 94bccbb
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Nov 30 18:46:36 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 833927e2d718b5f108a4d59a18c48da577b188e8
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Nov 30 18:46:27 2017 -0500
+
+    asd;lkfjas;l
+
+ jsonparse.ml | 8 +-------
+ 1 file changed, 1 insertion(+), 7 deletions(-)
+
+commit 94bccbb24b91cb772c3ce201646428d2458f55e1
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 18:11:08 2017 -0500
+
+    contains
+
+ state.ml | 10 ++++++++--
+ 1 file changed, 8 insertions(+), 2 deletions(-)
+
+commit f6a0e36b6fcd6f907ef9a3ccb6a4c6d5b3a0a051
+Merge: f6c7abf 7594923
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Nov 30 17:52:00 2017 -0500
+
+    I don't remember
+
+commit f6c7abfcb79a169534b8a3c224428e0b317a811d
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Thu Nov 30 17:50:31 2017 -0500
+
+    I dont remember
+
+ ast.ml       |  1 +
+ jsonparse.ml | 18 ++++++++----------
+ 2 files changed, 9 insertions(+), 10 deletions(-)
+
+commit 75949237fc78c4965ae7f38ca256ef97b465793e
+Author: Raymone Radi <Raymone@dhcp-gs-6236.eduroam.cornell.edu>
+Date:   Thu Nov 30 17:49:28 2017 -0500
+
+    last_move, turn_message, and winner
+
+ state.ml | 10 +++++++---
+ 1 file changed, 7 insertions(+), 3 deletions(-)
+
+commit c0e6539f132e0e55510f130a6e9e70949053ae52
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Thu Nov 30 15:48:54 2017 -0500
+
+    added unwrapper
+
+ jsonparse.ml | 11 +++++++++--
+ 1 file changed, 9 insertions(+), 2 deletions(-)
+
+commit 18eac601979fb8636426143c949f3c81b84f94e9
+Merge: b4c6dca 017bf38
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 23:17:41 2017 -0500
+
+    merged
+
+commit b4c6dcacded2836546334b71689ace44faf60e6b
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 23:15:34 2017 -0500
+
+    added wildcards to suit_from_string and hand_helper
+
+ state.ml | 2 ++
+ 1 file changed, 2 insertions(+)
+
+commit 017bf38891040d5b870128d370ea3d2cbd50a889
+Merge: b017529 b04a829
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 23:14:49 2017 -0500
+
+    more state changes
+
+commit b017529b0158d3fd4ddade4d2a874f304ab9229c
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 23:11:02 2017 -0500
+
+    more state functions
+
+ state.ml | 40 +++++++++++++++++++++++-----------------
+ 1 file changed, 23 insertions(+), 17 deletions(-)
+
+commit b04a8294b998c4e5150fda29c25f2c283f1c251f
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 23:05:51 2017 -0500
+
+    play_locations is now unimplemetned and card_locations is
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 1e35b8db97de63db230e9c96a3c3915962f4d68b
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 22:58:04 2017 -0500
+
+    cardlocations and playlocations
+
+ state.ml | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit 824dcb6ecaafd08b397dbc12627dcff5a6f8943a
+Merge: e4ba74d 41b373b
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 22:56:35 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit e4ba74d01146a7befdef24e663b99f61731d3151
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 22:56:33 2017 -0500
+
+    hand and play_locations
+
+ state.ml | 20 +++++++++++++++++---
+ 1 file changed, 17 insertions(+), 3 deletions(-)
+
+commit 41b373b8de04829e17abd628bcf8ca3a4706ee1c
+Merge: a064940 343dbef
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Nov 29 22:56:01 2017 -0500
+
+    i dont even remember
+
+commit a06494050b108d923ba6eef2c3db37e9a259906e
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Nov 29 22:54:42 2017 -0500
+
+    I don't remember
+
+ ast.ml       |  6 -----
+ jsonparse.ml | 82 ++++++++++++++++++++++++++++++++++--------------------------
+ 2 files changed, 46 insertions(+), 42 deletions(-)
+
+commit 343dbef2de527a01e5b0e8b2663fcc9f0ed0689e
+Merge: 252715e 4cce073
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 22:18:36 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 252715eed3aaf15017bf4566a7bf319dac238d23
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 22:18:32 2017 -0500
+
+    hand
+
+ state.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 4cce073e02713bdeb815b445a4ebeb8c2bf908e7
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 22:18:17 2017 -0500
+
+    fix card_location
+
+ state.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 3b27085c59bf9ae540fed6641fd3a2397727cde1
+Merge: c223760 42c1563
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 22:15:24 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit c223760104ab256e741cc7097a584eb1da0a1444
+Author: Raymone Radi <Raymone@dhcp-gs-3062.eduroam.cornell.edu>
+Date:   Wed Nov 29 22:15:21 2017 -0500
+
+    implemented turns
+
+ state.ml | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit 42c1563d49ee97db6f45004fd0576a3f2f96b373
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 22:15:10 2017 -0500
+
+    changed card locations
+
+ state.ml | 20 +++++++++++++++-----
+ 1 file changed, 15 insertions(+), 5 deletions(-)
+
+commit 55e5fc79305d09b23291544df8c77a68fae49d3f
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 21:25:56 2017 -0500
+
+    aded some state functions
+
+ state.ml | 55 +++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 55 insertions(+)
+
+commit 7b8a683b17c8d66aa7b7eb7a4dfef2265c6ba212
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 20:55:47 2017 -0500
+
+    more state
+
+ ast.ml   | 10 ----------
+ state.ml | 13 +++++++++----
+ 2 files changed, 9 insertions(+), 14 deletions(-)
+
+commit 0fe9a0b3ba9d4938c4642bc9dc90195cc1965fc3
+Merge: 2e996a1 2273e31
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 20:28:14 2017 -0500
+
+    merge
+
+commit 2e996a1e0e33bbb4699499fb583fc21cd1f9685a
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 20:27:36 2017 -0500
+
+    started working on state
+
+ ast.ml   |  4 +++-
+ state.ml | 38 +++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 40 insertions(+), 2 deletions(-)
+
+commit 2273e3167b6ddd706f277c564ca20a743265d861
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Nov 29 20:23:21 2017 -0500
+
+    lazy => anon funcs
+
+ ast.ml       |  7 +++--
+ jsonparse.ml | 94 +++++++++++++++++++++++-------------------------------------
+ 2 files changed, 41 insertions(+), 60 deletions(-)
+
+commit c3d6c4c52e42b201644f34508dcb3318099d048e
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Nov 29 18:49:13 2017 -0500
+
+    cool new stuff
+
+ jsonparse.ml |  7 +++++++
+ sample.ml    | 11 +++++++++--
+ 2 files changed, 16 insertions(+), 2 deletions(-)
+
+commit c35701fecf9a9015594cdeee1cec63bc837c1dd4
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Nov 29 15:36:56 2017 -0500
+
+    lazy is being weird
+
+ jsonparse.ml | 41 +++++++++++++++++++++++++++++++++++++++++
+ sample.ml    | 19 +++++++++++++++++++
+ 2 files changed, 60 insertions(+)
+
+commit a0b84469a578c1444934ea43c35a99cacf9607e2
+Merge: e7e5b47 d0daa69
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Nov 29 14:25:52 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit e7e5b472aa723afb7da0fa53d043f4c22f78b9df
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Nov 29 14:25:43 2017 -0500
+
+    removed induction
+
+ jsonparse.ml | 15 ++++++++-------
+ 1 file changed, 8 insertions(+), 7 deletions(-)
+
+commit d0daa6901319c2c2e3bca9d63a4df6aab7a5c067
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 02:00:32 2017 -0500
+
+    fixed eval rules for eq and neq
+
+ ast.ml       |  8 ++++----
+ jsonparse.ml | 46 ++++++++++++++++++++++++++++++++++------------
+ parser.mly   |  7 ++++---
+ 3 files changed, 42 insertions(+), 19 deletions(-)
+
+commit a1600b0f671af698f147f7d9392181b015e31487
+Merge: 302412c fc51367
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 00:19:09 2017 -0500
+
+    merge
+
+commit 302412c61b119d2ae7ccb094ee80f142dd826ddf
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 00:18:18 2017 -0500
+
+    merge
+
+ jsonparse.ml | 8 ++++----
+ 1 file changed, 4 insertions(+), 4 deletions(-)
+
+commit fc513670313d0f95803c0821852a1c9bc365c228
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Wed Nov 29 00:13:20 2017 -0500
+
+    completed eval_rules and helpers for now
+
+ ast.ml       |  3 ++-
+ jsonparse.ml | 33 +++++++++++++++++++++++++++++++--
+ 2 files changed, 33 insertions(+), 3 deletions(-)
+
+commit 4ca33c99498e34e477b9b631a0f4db7170619f9f
+Merge: c491816 10a7be5
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 00:12:56 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit c49181677ad7da39b1594b36149eefe7b31c0b07
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 29 00:12:37 2017 -0500
+
+    fixed some liens
+
+ jsonparse.ml | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit 10a7be541588e63603e10eb08ae8442609092c05
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Nov 28 23:06:04 2017 -0500
+
+    Ima push as much as I want Wes
+
+ ast.ml       |  4 +++-
+ jsonparse.ml | 54 ++++++++++++++++++++++++++++++++++++++++++------------
+ 2 files changed, 45 insertions(+), 13 deletions(-)
+
+commit d10dfa870efa0bf5247923ad1dd2673e2e5fa1bf
+Merge: 59b643e 97f814b
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Nov 28 22:06:28 2017 -0500
+
+    fixed merge error
+
+commit 59b643e774f316ff0a3190331468872a5761c06e
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Nov 28 22:05:24 2017 -0500
+
+    started eval
+
+ jsonparse.ml | 72 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 72 insertions(+)
+
+commit 97f814b09885716ff39c9d3f4b454a0038018b2d
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 28 21:31:02 2017 -0500
+
+    merged
+
+ ast.ml       |  7 ++++---
+ jsonparse.ml | 11 ++---------
+ parser.mly   |  2 +-
+ 3 files changed, 7 insertions(+), 13 deletions(-)
+
+commit a61b3b3af84ff14310cbe073bc1d17a4be85134f
+Merge: 75b4702 81a8012
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 28 21:25:21 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 75b47027a3f2cf6b0ef6dca2b94fdf849e90b334
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 28 21:24:48 2017 -0500
+
+    prototype parse to ast
+
+ .ocamlinit    |  1 +
+ Makefile      |  4 ++--
+ ast.ml        | 12 +++++++-----
+ command.mli   |  5 ++++-
+ jsonparse.ml  | 25 +++++++++++++++++-------
+ jsonparse.mli |  4 +++-
+ lexer.mll     | 61 ++++++++++++++++++++++++++++++++++++++++++++---------------
+ parser.mly    | 34 +++++++++++++++++++++++----------
+ tests.ml      | 13 +++++++++++--
+ 9 files changed, 116 insertions(+), 43 deletions(-)
+
+commit 81a80126cd1a782e9cbe926bd759a2deee8c73b0
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Nov 28 19:22:37 2017 -0500
+
+    oops forgot to commit
+
+ ast.ml       | 34 +++++++++++++++++++++++++++++++---
+ jsonparse.ml | 17 ++---------------
+ state.ml     |  1 +
+ 3 files changed, 34 insertions(+), 18 deletions(-)
+
+commit c979cb8db4c48291b52be667e72f799457edcac7
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Nov 27 14:34:06 2017 -0500
+
+    updated tags file and ocamlinit
+
+ .ocamlinit | 6 ++++++
+ _tags      | 2 +-
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit 0f766f5cd88e703190c41b6d061ae900acbb2cfb
+Merge: 9e9d78b aa7bc4c
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 26 23:50:40 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 9e9d78b1b17191fe1d31dc4ed30fa4b08280b2b3
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 26 23:50:33 2017 -0500
+
+    added lexer ast and parser.mly files
+
+ ast.ml     |  43 ++++++++++++++++++
+ lexer.mll  |  57 +++++++++++++++++++++++
+ parser.mly | 151 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ 3 files changed, 251 insertions(+)
+
+commit aa7bc4cd45640322cdfef873391d1b46fa8687a2
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Nov 26 20:21:57 2017 -0500
+
+    oops forgot one thing
+
+ jsonparse.ml | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit f74245c515559acaa3981ff6d3f8fc44cf89548c
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sun Nov 26 20:21:28 2017 -0500
+
+    stuff
+
+ Sample Json Schema |  9 +++++++
+ jsonparse.ml       | 70 ++++++++++++++++++++++++++++++++++++++++++++++++++----
+ 2 files changed, 75 insertions(+), 4 deletions(-)
+
+commit edbdc5b09a2df9f839bcb4bc67851f5ff66046f5
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Nov 25 17:13:21 2017 -0500
+
+    fk u wes I'll push all I want
+
+ jsonparse.ml  | 32 +++++++++++++++++++++++++++++++-
+ jsonparse.mli |  2 ++
+ 2 files changed, 33 insertions(+), 1 deletion(-)
+
+commit b301ad8bfa856b032a51a865115320d2095c0f5f
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Sat Nov 25 12:05:26 2017 -0500
+
+    starting jsonparse
+
+ jsonparse.ml | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 56cbc526c748a6a14ba417749eb616065071b952
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 21 15:39:56 2017 -0500
+
+    removed web front-end files
+
+ css/main.css     |  3 ---
+ css/main.min.css |  1 -
+ css/main.scss    |  3 ---
+ index.html       | 13 -------------
+ 4 files changed, 20 deletions(-)
+
+commit c2ddeca436056992dfb710b986bda4f446afbe8e
+Merge: 9eb50d4 6d935e6
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 21 15:39:07 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 6d935e6c76fa2c09234b758134c5025e775ac77c
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Nov 21 15:08:36 2017 -0500
+
+    fixed function call
+
+ command.ml | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 703794a1d561bf4727c8d63504b2a23dc1e084f3
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Nov 21 15:08:05 2017 -0500
+
+    matches mli and added specs
+
+ command.ml | 13 ++++++++++---
+ 1 file changed, 10 insertions(+), 3 deletions(-)
+
+commit 6b9d810b418ce06617551465d3887b5a1fc3d946
+Merge: b195851 0e03968
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Nov 21 15:00:57 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit b19585170664fcc32c930a5e3316361a95aa71a3
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Tue Nov 21 15:00:21 2017 -0500
+
+    Started command, completed parsing function
+
+ command.ml | 41 +++++++++++++++++++++++++++++++++++++++++
+ 1 file changed, 41 insertions(+)
+
+commit 9eb50d4ddcf3b6b4769ef5796c42a58872a4b16a
+Merge: 0d5765d 0e03968
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Nov 18 16:07:33 2017 -0500
+
+    front-end setup
+
+commit 0d5765d0b21d934db65afb9b5983c16ecee4415d
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Wed Nov 15 11:16:08 2017 -0500
+
+    interface zip
+
+ interfaces.zip           | Bin 0 -> 2361 bytes
+ interfaces/command.mli   |  19 ++++++++++
+ interfaces/jsonparse.mli |  11 ++++++
+ interfaces/state.mli     |  89 +++++++++++++++++++++++++++++++++++++++++++++++
+ state.mli                |   2 +-
+ 5 files changed, 120 insertions(+), 1 deletion(-)
+
+commit 0e03968707e6871621d71809ff1eab628c5d4d30
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Nov 15 10:56:39 2017 -0500
+
+    updated specs
+
+ state.mli | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit b8dda2f75c33596123293eb38890f55fbed940eb
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Nov 15 10:54:48 2017 -0500
+
+    updated specs
+
+ command.mli | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 6c234bc9465005e0a700e9a8d36c09e1363a52e6
+Merge: ed32397 5b2e585
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Nov 15 10:52:59 2017 -0500
+
+    updated specs
+
+commit ed32397da06ca4d22df059abe390f95c5aea69bb
+Author: cakoch10 <cakoch10@gmail.com>
+Date:   Wed Nov 15 10:49:05 2017 -0500
+
+    updated specs
+
+ state.mli | 42 ++++++++++++++++++++++++------------------
+ 1 file changed, 24 insertions(+), 18 deletions(-)
+
+commit 5b2e585755884024c01af89c872b7bdf8eee1b05
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 14 17:02:39 2017 -0500
+
+    removed unecessary open statements
+
+ command.mli | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit bd9522bb79bb26ec64b2a982ca127802a5dad906
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 14 17:01:25 2017 -0500
+
+    json parser name change
+
+ jsonparse.mli | 5 +----
+ 1 file changed, 1 insertion(+), 4 deletions(-)
+
+commit df648e14703f607a22f367e9af28bd53e9a5b849
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 14 16:55:27 2017 -0500
+
+    updated command.ml
+
+ command.mli | 9 +++++----
+ 1 file changed, 5 insertions(+), 4 deletions(-)
+
+commit 07f31c685400d321bbc9e3df73217c6e80f91dbf
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 14 16:12:36 2017 -0500
+
+    removed unnecessary main.mli
+
+ main.mli | 1 -
+ 1 file changed, 1 deletion(-)
+
+commit a0f0db7131c15a2759347e30ab8be34da3cc7c42
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Tue Nov 14 15:56:26 2017 -0500
+
+    changed name of parser module
+
+ command.mli                         | 2 +-
+ cardgameconfig.mli => jsonparse.mli | 0
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+
+commit c0905e62c4b1d562544419c2cb5c0e3665a968e7
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Nov 13 19:31:38 2017 -0500
+
+    added deck order to the state
+
+ state.mli | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit b44b29fc8a747468c1d652aa32dd0ffad5a11783
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Nov 13 17:53:05 2017 -0500
+
+    fixed command
+
+ state.mli | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 8a060e00319b0ed1f382861be8b268cf03be1408
+Merge: c2adbdc dfbe66b
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Nov 13 17:52:20 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit c2adbdc555c38da96e5048319df7d390ccdbf92e
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Nov 13 17:52:12 2017 -0500
+
+    fixed command
+
+ command.mli | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit dfbe66bed15b96ad576269bde8378c8cecae9a3c
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Nov 13 17:48:01 2017 -0500
+
+    54 not 52
+
+ state.mli | 4 ++--
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+
+commit 1c5f5bcfabc4320a7604b0abf992f0a25936ebe6
+Merge: 621210e b851b4b
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Nov 13 17:44:05 2017 -0500
+
+    new state
+
+commit 621210e2576d3a89cbb5a87eae9c2c57426cc8d2
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Mon Nov 13 17:42:41 2017 -0500
+
+    state updated
+
+ state.mli | 43 ++++++++++++++++++++++++++++++++-----------
+ 1 file changed, 32 insertions(+), 11 deletions(-)
+
+commit b851b4b6dca77e603e81925c0a5436d53ea3e633
+Author: EQUASHNZRKUL <justinkae@gmail.com>
+Date:   Mon Nov 13 17:13:43 2017 -0500
+
+    we don't commit enough
+
+ state.mli | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit c7748dd73abc0733aa0fed0e431696f20243640a
+Author: Raymone1 <raymonelawyer@gmail.com>
+Date:   Sun Nov 12 20:54:46 2017 -0500
+
+    removed verb from command.mli
+
+ command.mli | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit b16ff4057a222df21b329c15496c566aaa8972bd
+Merge: af556ca 76d1b64
+Author: Raymone1 <raymonelawyer@gmail.com>
+Date:   Sun Nov 12 20:53:20 2017 -0500
+
+    merge conflicts in command
+
+commit 76d1b64c0cdcf491e5098080062dbc33950ce3e8
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 20:52:47 2017 -0500
+
+    added some more to state
+
+ main.mli  | 2 +-
+ state.mli | 6 ++++++
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit af556ca25358ff5ba66f4994a7e7f0c2d9712b6b
+Author: Raymone1 <raymonelawyer@gmail.com>
+Date:   Sun Nov 12 20:52:19 2017 -0500
+
+    lol
+
+ command.mli | 4 ----
+ 1 file changed, 4 deletions(-)
+
+commit 57925c82010f737e0498e3f519b613f2473b8304
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 20:44:41 2017 -0500
+
+    removed state from command
+
+ command.mli | 3 ---
+ 1 file changed, 3 deletions(-)
+
+commit 955b013096b7c79f98758ac54cbd51e06af55cfe
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 20:44:04 2017 -0500
+
+    fixed Look type in command
+
+ command.mli | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+
+commit 7f2ff54884578b62b7bad339da66423de5363fc3
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 20:41:50 2017 -0500
+
+    prototype of state.mli
+
+ state.mli | 23 +++++++++++++++++++++--
+ 1 file changed, 21 insertions(+), 2 deletions(-)
+
+commit f4ce5a9115256dbda64ad01b0d72546fb7d2cd46
+Merge: 375a1c8 9bf5f25
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 20:24:34 2017 -0500
+
+    Merge branch 'master' of https://github.coecis.cornell.edu/wt237/cs-3110-final-project
+
+commit 375a1c876cac25e584d60e5cd0bcf94bf669852f
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 20:24:08 2017 -0500
+
+    halfway done with state
+
+ command.mli |  5 +----
+ state.mli   | 37 ++++++++++++++++++++++++++++++++++++-
+ 2 files changed, 37 insertions(+), 5 deletions(-)
+
+commit 9bf5f250aae82e5b1e5068cf32f6fd4a9fe41338
+Author: Raymone1 <raymonelawyer@gmail.com>
+Date:   Sun Nov 12 20:09:03 2017 -0500
+
+    command.mli done
+
+ command.mli | 23 ++++++++++++++++++++++-
+ 1 file changed, 22 insertions(+), 1 deletion(-)
+
+commit cebceec4157d7e6c24a096195a5e8f28e3ad1a69
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 19:36:06 2017 -0500
+
+    fixed command and state
+
+ state.mli | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 0f2699aa4e289613ddfc12a0547ac7c229e96d59
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 19:33:03 2017 -0500
+
+    other setup files
+
+ .merlin     | 6 ++++++
+ Makefile    | 5 +++++
+ _tags       | 1 +
+ command.mli | 7 ++++++-
+ state.mli   | 4 +++-
+ tests.ml    | 2 ++
+ 6 files changed, 23 insertions(+), 2 deletions(-)
+
+commit 19cebc99c5ab6750c0d4e8cb7e3438fe7cad56bd
+Author: Raymone1 <raymonelawyer@gmail.com>
+Date:   Sun Nov 12 19:27:01 2017 -0500
+
+    cardgameconfig mli
+
+ cardgameconfig.mli | 10 +++++++++-
+ 1 file changed, 9 insertions(+), 1 deletion(-)
+
+commit a5633a7b84daac2f0cbb87efc117889d9db2c983
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sun Nov 12 19:22:07 2017 -0500
+
+    added cardGameConfig type
+
+ cardgameconfig.mli | 7 ++++++-
+ 1 file changed, 6 insertions(+), 1 deletion(-)
+
+commit f7a1c4ffcf68cf9ef1a79cbb72e1b95b91baf664
+Author: Wes T4N <wesleyt1998@gmail.com>
+Date:   Sat Nov 11 18:20:03 2017 -0500
+
+    File setup
+
+ cardgameconfig.mli | 1 +
+ command.mli        | 1 +
+ main.mli           | 1 +
+ state.mli          | 1 +
+ 4 files changed, 4 insertions(+)
+
+commit a4f331fb7699367b0a73eab3957e9e56ba1f7646
+Author: Wesley Tan <wt237@cornell.edu>
+Date:   Sat Nov 11 13:17:28 2017 -0500
+
+    Initial commit
+
+ README.md | 2 ++
+ 1 file changed, 2 insertions(+)

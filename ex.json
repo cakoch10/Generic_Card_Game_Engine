@@ -1,0 +1,54 @@
+{
+  "players": 4,
+  "win_conditions": [
+    "WC: Size({t}) = 0",
+    "WC: Size({p1}) = 0"
+  ],
+  "card_points": [
+    // 
+  ],
+  "rules": [
+    "R: (Size({p1}) != 0) -> Play([<<*|*>>], {Deck})"
+  ],
+  "intro_message": "Introduction",
+  "help_message": "This is a message which will be shown with the HELP cmd",
+  "locations": ["deck", "discard", "p1", "p2", "p3", "p4"],
+  "deal": [{
+    "location": "deck",
+    "number_of_cards": 10
+  }, {
+    "location": "p1",
+    "number_of_cards": 2
+  }, {
+    "location": "p2",
+    "number_of_cards": 1
+  }, {
+    "location": "p3",
+    "number_of_cards": 8
+  }, {
+    "location": "p4",
+    "number_of_cards": 8
+  }],
+  "show": [{
+    "location": "deck",
+    "visible": true
+  }, {
+    "location": "discard",
+    "visible": true
+  }, {
+    "location": "p1",
+    "visible": false
+  }, {
+    "location": "p2",
+    "visible": false
+  }, {
+    "location": "p3",
+    "visible": false
+  }, {
+    "location": "p4",
+    "visible": false
+  }],
+  "default_play_location": "Discard",
+  "default_draw_location": "Deck",
+  "default_take_location": "Deck"
+}

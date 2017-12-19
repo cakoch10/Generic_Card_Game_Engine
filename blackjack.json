@@ -1,0 +1,70 @@
+{
+  "players": 4,
+  "win_conditions": [
+    "WC: (Contains({t}, [<<J|S>>; <<A|*>>]) || Contains({t}, [<<J|C>>; <<A|*>>])) && Size({t}) = 2",
+    "WC: (Turns(p1) >= 1) && (Turns(p2) >= 1) && (Turns(p3) >= 1) && (Turns(p4) >= 1) && (HighScore() = Score(t)) && (Score(t) <= 21)"
+  ],
+  "card_points": [
+    "CP: (Contains({t}, [<<2|*>>])) -> (2)",
+    "CP: (Contains({t}, [<<3|*>>])) -> (3)",
+    "CP: (Contains({t}, [<<4|*>>])) -> (4)",
+    "CP: (Contains({t}, [<<5|*>>])) -> (5)",
+    "CP: (Contains({t}, [<<6|*>>])) -> (6)",
+    "CP: (Contains({t}, [<<7|*>>])) -> (7)",
+    "CP: (Contains({t}, [<<8|*>>])) -> (8)",
+    "CP: (Contains({t}, [<<9|*>>])) -> (9)",
+    "CP: (Contains({t}, [<<10|*>>])) -> (10)",
+    "CP: (Contains({t}, [<<J|*>>])) -> (10)",
+    "CP: (Contains({t}, [<<Q|*>>])) -> (10)",
+    "CP: (Contains({t}, [<<K|*>>])) -> (10)",
+    "CP: (Contains({t}, [<<A|*>>]) && (Score(t) > 10)) -> 1",
+    "CP: (Contains({t}, [<<A|*>>]) && Score(t) <= 10) -> 11",
+    "CP: (Score(t) > 21) -> -1000"
+  ],
+  "rules": [
+      "R: (Score(t) <= 21) && (Turns(t) = 0) -> Draw({deck})",
+      "R: Score(t) > 21 -> End()",
+      "R: true -> End()"
+  ],
+  "intro_message": "Hello, Welcome to Blackjack!",
+  "help_message": "You can type play [card] or draw to draw a card",
+  "locations": ["deck", "discard", "p1", "p2", "p3", "p4"],
+  "deal": [{
+    "location": "deck",
+    "number_of_cards": 44
+  }, {
+    "location": "p1",
+    "number_of_cards": 2
+  }, {
+    "location": "p2",
+    "number_of_cards": 2
+  }, {
+    "location": "p3",
+    "number_of_cards": 2
+  }, {
+    "location": "p4",
+    "number_of_cards": 2
+  }],
+  "show": [{
+    "location": "deck",
+    "visible": false
+  }, {
+    "location": "discard",
+    "visible": true
+  }, {
+    "location": "p1",
+    "visible": false
+  }, {
+    "location": "p2",
+    "visible": false
+  }, {
+    "location": "p3",
+    "visible": false
+  }, {
+    "location": "p4",
+    "visible": false
+  }],
+  "default_play_location": "discard",
+  "default_draw_location": "deck",
+  "default_take_location": "deck"
+}

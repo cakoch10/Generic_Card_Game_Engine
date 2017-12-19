@@ -1,0 +1,112 @@
+{
+  "players": 4,
+  "win_conditions": [
+    "WC: (Contains({t}, [<<J|S>>; <<A|*>>]) || Contains({t}, [<<J|C>>; <<A|*>>])) && Size({t}) = 2",
+    "WC: (Turns(p1) >= 1) && (Turns(p2) >= 1) && (Turns(p3) >= 1) && (Turns(p4) >= 1) && (HighScore() = Score(t)) && (Score(t) <= 21)"
+  ],
+  "card_points": [
+    "CP: (Score(t) > 21) -> -1000",
+    "CP: (Contains({t}, [<<2|C>>])) -> (2)",
+    "CP: (Contains({t}, [<<2|S>>])) -> (2)",
+    "CP: (Contains({t}, [<<2|D>>])) -> (2)",
+    "CP: (Contains({t}, [<<2|H>>])) -> (2)",
+    "CP: (Contains({t}, [<<3|C>>])) -> (3)",
+    "CP: (Contains({t}, [<<3|S>>])) -> (3)",
+    "CP: (Contains({t}, [<<3|D>>])) -> (3)",
+    "CP: (Contains({t}, [<<3|H>>])) -> (3)",
+    "CP: (Contains({t}, [<<4|C>>])) -> (4)",
+    "CP: (Contains({t}, [<<4|S>>])) -> (4)",
+    "CP: (Contains({t}, [<<4|D>>])) -> (4)",
+    "CP: (Contains({t}, [<<4|H>>])) -> (4)",
+    "CP: (Contains({t}, [<<5|C>>])) -> (5)",
+    "CP: (Contains({t}, [<<5|S>>])) -> (5)",
+    "CP: (Contains({t}, [<<5|D>>])) -> (5)",
+    "CP: (Contains({t}, [<<5|H>>])) -> (5)",
+    "CP: (Contains({t}, [<<6|C>>])) -> (6)",
+    "CP: (Contains({t}, [<<6|S>>])) -> (6)",
+    "CP: (Contains({t}, [<<6|D>>])) -> (6)",
+    "CP: (Contains({t}, [<<6|H>>])) -> (6)",
+    "CP: (Contains({t}, [<<7|C>>])) -> (7)",
+    "CP: (Contains({t}, [<<7|S>>])) -> (7)",
+    "CP: (Contains({t}, [<<7|D>>])) -> (7)",
+    "CP: (Contains({t}, [<<7|H>>])) -> (7)",
+    "CP: (Contains({t}, [<<8|C>>])) -> (8)",
+    "CP: (Contains({t}, [<<8|S>>])) -> (8)",
+    "CP: (Contains({t}, [<<8|D>>])) -> (8)",
+    "CP: (Contains({t}, [<<8|H>>])) -> (8)",
+    "CP: (Contains({t}, [<<9|C>>])) -> (9)",
+    "CP: (Contains({t}, [<<9|S>>])) -> (9)",
+    "CP: (Contains({t}, [<<9|D>>])) -> (9)",
+    "CP: (Contains({t}, [<<9|H>>])) -> (9)",
+    "CP: (Contains({t}, [<<10|C>>])) -> (10)",
+    "CP: (Contains({t}, [<<10|S>>])) -> (10)",
+    "CP: (Contains({t}, [<<10|D>>])) -> (10)",
+    "CP: (Contains({t}, [<<10|H>>])) -> (10)",
+    "CP: (Contains({t}, [<<J|C>>])) -> (10)",
+    "CP: (Contains({t}, [<<J|S>>])) -> (10)",
+    "CP: (Contains({t}, [<<J|D>>])) -> (10)",
+    "CP: (Contains({t}, [<<J|H>>])) -> (10)",
+    "CP: (Contains({t}, [<<Q|C>>])) -> (10)",
+    "CP: (Contains({t}, [<<Q|D>>])) -> (10)",
+    "CP: (Contains({t}, [<<Q|S>>])) -> (10)",
+    "CP: (Contains({t}, [<<Q|H>>])) -> (10)",
+    "CP: (Contains({t}, [<<K|C>>])) -> (10)",
+    "CP: (Contains({t}, [<<K|D>>])) -> (10)",
+    "CP: (Contains({t}, [<<K|S>>])) -> (10)",
+    "CP: (Contains({t}, [<<K|H>>])) -> (10)",
+    "CP: (Contains({t}, [<<A|C>>]) && (Score(t) > 10)) -> 1",
+    "CP: (Contains({t}, [<<A|S>>]) && (Score(t) > 10)) -> 1",
+    "CP: (Contains({t}, [<<A|D>>]) && (Score(t) > 10)) -> 1",
+    "CP: (Contains({t}, [<<A|H>>]) && (Score(t) > 10)) -> 1",
+    "CP: (Contains({t}, [<<A|H>>]) && Score(t) <= 10) -> 11",
+    "CP: (Contains({t}, [<<A|C>>]) && Score(t) <= 10) -> 11",
+    "CP: (Contains({t}, [<<A|S>>]) && Score(t) <= 10) -> 11",
+    "CP: (Contains({t}, [<<A|D>>]) && Score(t) <= 10) -> 11"
+  ],
+  "rules": [
+      "R: (Score(t) <= 21) && (Turns(t) = 0) -> Draw({deck})",
+      "R: Score(t) > 21 -> End()",
+      "R: true -> End()"
+  ],
+  "intro_message": "Hello, Welcome to Blackjack!",
+  "help_message": "You can type play [card] or draw to draw a card",
+  "locations": ["deck", "discard", "p1", "p2", "p3", "p4"],
+  "deal": [{
+    "location": "deck",
+    "number_of_cards": 44
+  }, {
+    "location": "p1",
+    "number_of_cards": 2
+  }, {
+    "location": "p2",
+    "number_of_cards": 2
+  }, {
+    "location": "p3",
+    "number_of_cards": 2
+  }, {
+    "location": "p4",
+    "number_of_cards": 2
+  }],
+  "show": [{
+    "location": "deck",
+    "visible": false
+  }, {
+    "location": "discard",
+    "visible": true
+  }, {
+    "location": "p1",
+    "visible": false
+  }, {
+    "location": "p2",
+    "visible": false
+  }, {
+    "location": "p3",
+    "visible": false
+  }, {
+    "location": "p4",
+    "visible": false
+  }],
+  "default_play_location": "discard",
+  "default_draw_location": "deck",
+  "default_take_location": "deck"
+}

@@ -1,0 +1,53 @@
+{
+  "players": 2,
+  "win_conditions": [
+    "WC: Size({p1}) = 6"
+  ],
+  "card_points": [
+    //
+  ],
+  "rules": [
+    "R: (true) -> (Play([<<*|*>>], {deck}))",
+    "R: (true) -> Play([<<*|*>>], {p1})",
+    "R: (true) -> Play([<<*|*>>], {p2})",
+
+    "R: (true) -> Take([<<*|*>>], {deck})",
+    "R: (true) -> Take([<<*|*>>], {p1})",
+    "R: (true) -> Take([<<*|*>>], {p2})",
+
+    "R: (true) -> Draw({deck})",
+    "R: (true) -> Draw({p1})",
+    "R: (true) -> Draw({p2})",
+
+    "R: true -> End()"
+  ],
+  "intro_message": "Introduction",
+  "help_message": "This is a message which will be shown with the HELP cmd",
+  "locations": ["deck", "discard", "p1", "p2"],
+  "deal": [{
+    "location": "deck",
+    "number_of_cards": 52
+  }, {
+    "location": "p1",
+    "number_of_cards": 0
+  }, {
+    "location": "p2",
+    "number_of_cards": 0
+  }],
+  "show": [{
+    "location": "deck",
+    "visible": true
+  }, {
+    "location": "discard",
+    "visible": true
+  }, {
+    "location": "p1",
+    "visible": true
+  }, {
+    "location": "p2",
+    "visible": true
+  }],
+  "default_play_location": "discard",
+  "default_draw_location": "deck",
+  "default_take_location": "deck"
+}

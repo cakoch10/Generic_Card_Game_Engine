@@ -1,1 +1,2 @@
-# Generic_Card_Game_Engine
+# cs-3110-final-project
+CS 3110 Final Project

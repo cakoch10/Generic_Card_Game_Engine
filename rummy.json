@@ -1,0 +1,58 @@
+{
+    "players": 2,
+    "win_conditions": [
+      "WC: Size({t}) = 0"
+    ],
+    "card_points": [
+    ],
+    "rules": [
+	    "R: ((TopCard({discard}) == <<*|S>>) && (CardsPlayed() = 0)) -> (Play ([<<*|S>>], {discard}))",
+	    
+        "R: ((TopCard({discard}) == <<Q|*>>) && (CardsPlayed() = 0)) -> (Play ([<<Q|*>>], {discard}))",
+        "R: ((TopCard({discard}) == <<K|*>>) && (CardsPlayed() = 0)) -> (Play ([<<K|*>>], {discard}))",
+        "R: ((TopCard({discard}) == <<A|*>>) && (CardsPlayed() = 0)) -> (Play ([<<A|*>>], {discard}))",
+        "R: (CardsPlayed() = 0) -> (Draw({deck}))",
+        "R: ((CardsPlayed() = 1) || (CardsDrawn() = 1)) -> End()"
+    ],
+    "intro_message": "Hello, Welcome to Rummy!",
+    "help_message": "You can type play [card] or draw to draw a card..",
+    "locations":
+    ["deck", "discard","p1","p2","p1 runs","p2 runs"], 
+      "deal": [{
+        "location": "discard",
+        "number_of_cards" : 1
+      },{
+        "location" : "deck",
+        "number_of_cards" : 41
+      },{
+        "location" : "p1",
+        "number_of_cards" : 5
+      },{
+        "location" : "p2",
+        "number_of_cards" : 5
+      }
+    ],
+    "show": [{
+      "location": "deck",
+      "visible": false
+    }, {
+      "location": "discard",
+      "visible": true
+    }, {
+      "location": "p1",
+      "visible": false
+    }, {
+      "location": "p2",
+      "visible": false
+    }, {
+      "location": "p1 runs",
+      "visible": true
+    }, {
+      "location": "p2 runs",
+      "visible": true
+    }],
+    "default_play_location": "discard",
+    "default_draw_location": "deck",
+    "default_take_location": "deck"
+  }
+  
