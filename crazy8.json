@@ -69,6 +69,19 @@
       "location": "p4",
       "visible": false
     }],
+    "ai" : [{
+      "player" : "p1",
+      "is_ai" : false 
+    },{
+      "player" : "p2",
+      "is_ai" : false
+    },{
+      "player" : "p3",
+      "is_ai" : false
+    },{
+      "player" : "p4",
+      "is_ai" : false
+    }],
     "default_play_location": "discard",
     "default_draw_location": "deck",
     "default_take_location": "deck"
