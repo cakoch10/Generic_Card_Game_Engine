@@ -1,3 +1,6 @@
+# Generic_Card_Game_Engine
+This is a CS 3110 final project. We made a generic card game engine that takes a card game represented by a JSON file and runs that card game through the terminal.
+
 The required packages for our system are: 
 oUnit
 yojson
