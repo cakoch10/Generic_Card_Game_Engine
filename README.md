@@ -1,20 +1,22 @@
 # Generic_Card_Game_Engine
-This is a CS 3110 final project. We made a generic card game engine that takes a card game represented by a JSON file and runs that card game through the terminal.
+This is a CS 3110 final project. We made a generic card game engine that takes a card game represented by a JSON file and runs that card game through the terminal via a read-eval-play loop (REPL).
 
 The required packages for our system are: 
-oUnit
-yojson
-str
-ANSITerminal
+- oUnit
+- yojson
+- str
+- ANSITerminal
 
-1. Playing a Game
+## Playing a Game
 To access and interact with the REPL, make sure that the game JSON is in the 
-same folder as the rest of the card engine files, and then run 'make play' when 
-you are in the correct directory. 
+same folder as the rest of the card engine files, and then run `make play` when 
+you are in the correct directory. You should be prompted to input the name of the game json you would like to load. So, for example, if you wanted to play crazy eights, then you would proceed by typing `crazy8.json`.
 
-2. Creating a Game (JSON) 
-For example JSONs, refer to blackjack.json, crazy8.json, and test.json. The 
-win conditions are certain conditions that, if true, allow a user to win the 
+## Creating a Game (JSON) 
+For example JSONs, refer to `blackjack2.json`, `crazy8.json`, and `test.json`. 
+
+
+The win conditions are certain conditions that, if true, allow a user to win the 
 game. The win condition is assigned to whatever player was responsible for 
 making that certain condition true. Card points are integer points assigned to 
 specific cards in the 52 card deck. And finally, rules are conditions that must
@@ -23,10 +25,10 @@ rule. Remember that our engine assumes that all rule are specified in the JSON.
 This means that if you don't exactly specify when a player can do what,
 players will not be allowed to make any move. 
 
-3. Running the test suite 
-To run test.ml, run 'make test'. 
+## Running the test suite 
+To run test.ml, run `make test`. 
 
-4. Writing your own game.
+## Writing your own game.
 If you want to write your own game, we've provided some example jsons to go off
 of. Additionally here's some guidelines on how to write some rules for your 
 game.
