@@ -648,6 +648,13 @@ let rec pl_lst_hlp num_pl lst =
   else
     pl_lst_hlp (num_pl - 1) ((plyer ("p" ^ (string_of_int num_pl)))::lst)
 
+let rec check_ais p_lst j =
+  match p_lst with
+  | [] -> []
+  | h::t -> 
+    let ai = (j |> member (h.name ^ "is_ai") |> to_bool) in
+    {h with is_ai = ai}::(check_ais t j)
+
  (* [init_state j] is the starting state of card game represented by json [j] *)
 let init_state j =
   let low = String.lowercase_ascii in
@@ -680,7 +687,7 @@ let init_state j =
                                   (create_deck []) in
 
   {
-    players = player_lst;
+    players = check_ais player_lst j;
     last_player = List.hd (List.rev player_lst);
     curr_player = List.hd player_lst;
     next_player = List.hd (List.tl player_lst);

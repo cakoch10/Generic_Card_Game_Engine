@@ -61,6 +61,10 @@
     }],
     "default_play_location": "discard",
     "default_draw_location": "discard",
-    "default_take_location": "discard"
+    "default_take_location": "discard",
+    "p1_is_ai": false,
+    "p2_is_ai": false,
+    "p3_is_ai": false,
+    "p4_is_ai": false
   }
   

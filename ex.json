@@ -5,7 +5,6 @@
     "WC: Size({p1}) = 0"
   ],
   "card_points": [
-    // 
   ],
   "rules": [
     "R: (Size({p1}) != 0) -> Play([<<*|*>>], {Deck})"
@@ -50,5 +49,9 @@
   }],
   "default_play_location": "Discard",
   "default_draw_location": "Deck",
-  "default_take_location": "Deck"
+  "default_take_location": "Deck",
+  "p1_is_ai": false,
+  "p2_is_ai": false,
+  "p3_is_ai": false,
+  "p4_is_ai": false
 }
