@@ -652,7 +652,7 @@ let rec check_ais p_lst j =
   match p_lst with
   | [] -> []
   | h::t -> 
-    let ai = (j |> member (h.name ^ "is_ai") |> to_bool) in
+    let ai = (j |> member (h.name ^ "_is_ai") |> to_bool) in
     {h with is_ai = ai}::(check_ais t j)
 
  (* [init_state j] is the starting state of card game represented by json [j] *)
