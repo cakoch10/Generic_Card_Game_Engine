@@ -1253,8 +1253,7 @@ let compute_valid_plays st =
     in
   f (hand st st.curr_player)
 
-(* [compute_valid_moves st] is a list of all the valid moves the current player
- * in state [st] can make *)
+
 let compute_valid_moves st =
   (compute_valid_draw st)@(compute_valid_take st)@(compute_valid_plays st)
 
@@ -1270,11 +1269,7 @@ let rec compute_scores moves st =
     (h, new_score)::(compute_scores t st)
 
 
-(* [compute_max_score mves st] is the move in [mves] that will maximize the 
- * current players score according to state [st] unless all moves leave the
- * current score unchanged in which case the resulting move is END.
- * requires:
- * - [mves] is nonempty *)
+
 let compute_max_score mves st =
   let pairs = compute_scores mves st in
   let max = List.hd pairs in
@@ -1284,3 +1279,5 @@ let compute_max_score mves st =
   let max_move = List.fold_left f max pairs in
   if snd max_move = st.curr_player.score then End
   else fst max_move
+
+let is_ai_helper st = st.curr_player.is_ai

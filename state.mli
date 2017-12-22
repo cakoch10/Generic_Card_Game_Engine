@@ -109,6 +109,22 @@ val winners_to_str : state -> string
  * executed in state [s] *)
 val execute : Command.command -> state -> state
 
-
-
 val parse_to_ast : string -> Ast.expr
+
+(* [compute_valid_moves st] is a list of all the valid moves the current player
+ * in state [st] can make *)
+ val compute_valid_moves : state -> Command.command list
+
+
+ (* [compute_max_score mves st] is the move in [mves] that will maximize the 
+ * current players score according to state [st] unless all moves leave the
+ * current score unchanged in which case the resulting move is END.
+ * requires:
+ * - [mves] is nonempty *)
+ val compute_max_score : Command.command list -> state -> Command.command
+
+(* [command_to_string c] is the string representation of command [c] *)
+ val command_to_string : Command.command -> string
+
+(** [is_ai_helper s] is true iff the current player is an AI *)
+ val is_ai_helper : state -> bool 

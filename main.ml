@@ -28,7 +28,45 @@ let available_commands =
 
 
 (* END OF REPL STRINGS *)
-let rec play_ai st =
+
+  
+
+
+(** [repl st] is the Read Evaluate Print Loop for a card gamecurrently in 
+ * state [st] 
+ * Requires: [st] is either an initial state or a state after a command 
+ * has been executed *)
+let rec repl st = 
+  if is_ai_helper st then play_ai st else
+  print_endline new_screen;
+  prerr_endline (intro_message st);
+  if (winner st <> "") then
+  ANSITerminal.(print_string [red] (single_line ^ "\n" 
+                                    ^ winners_to_str st ^ "\n" ^
+                                    single_line ^ "\n"));
+  print_endline double_line;
+  ANSITerminal.(print_string [green] (locations_to_string st ^ "\n\n"));
+  ANSITerminal.(print_string [cyan] ("[HANDS]: " ^ all_hands_to_string st ^ "\n"));
+  print_endline (double_line);
+  ANSITerminal.(print_string [yellow] (last_move st ^ "\n"));
+  print_endline double_line;
+  ANSITerminal.(print_string [blue] ("[YOUR HAND] "
+  ^ curr_player_hand_to_string st ^ "\n"));
+  print_endline (double_line);
+  match last_command st with
+  | Quit -> print_endline (new_screen ^ last_cmd_to_str st); ()
+  | _ -> print_endline (last_cmd_to_str st);
+         print_endline (single_line);
+         ANSITerminal.(print_string [red] (turn_message st ^ "\n"));
+         print_endline (single_line);
+         ANSITerminal.(print_string [yellow] (available_commands ^ "\n"));
+         print_endline (single_line);
+         print_string "> ";
+         repl (execute (parse (read_line ())) st)
+
+
+
+and play_ai st =
   (*
     Here's the main idea:
     - figure out which moves are valid, try play C for every C in the AI's hand
@@ -66,42 +104,8 @@ let rec play_ai st =
           print_endline (single_line);
           ANSITerminal.(print_string [yellow] (available_commands ^ "\n"));
           print_endline (single_line);
-          print_string "> " ^ (command_to_string move);
+          print_string ("> " ^ (command_to_string move));
           repl (execute move st)
-  
-
-
-(** [repl st] is the Read Evaluate Print Loop for a card gamecurrently in 
- * state [st] 
- * Requires: [st] is either an initial state or a state after a command 
- * has been executed *)
-let rec repl st = 
-  if st.curr_player.is_ai then play_ai st else
-  print_endline new_screen;
-  prerr_endline (intro_message st);
-  if (winner st <> "") then
-  ANSITerminal.(print_string [red] (single_line ^ "\n" 
-                                    ^ winners_to_str st ^ "\n" ^
-                                    single_line ^ "\n"));
-  print_endline double_line;
-  ANSITerminal.(print_string [green] (locations_to_string st ^ "\n\n"));
-  ANSITerminal.(print_string [cyan] ("[HANDS]: " ^ all_hands_to_string st ^ "\n"));
-  print_endline (double_line);
-  ANSITerminal.(print_string [yellow] (last_move st ^ "\n"));
-  print_endline double_line;
-  ANSITerminal.(print_string [blue] ("[YOUR HAND] "
-  ^ curr_player_hand_to_string st ^ "\n"));
-  print_endline (double_line);
-  match last_command st with
-  | Quit -> print_endline (new_screen ^ last_cmd_to_str st); ()
-  | _ -> print_endline (last_cmd_to_str st);
-         print_endline (single_line);
-         ANSITerminal.(print_string [red] (turn_message st ^ "\n"));
-         print_endline (single_line);
-         ANSITerminal.(print_string [yellow] (available_commands ^ "\n"));
-         print_endline (single_line);
-         print_string "> ";
-         repl (execute (parse (read_line ())) st)
 
 (** Helper: Loads json from [file_name] into a json type *)
 let load_json file_name = 
