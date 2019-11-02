@@ -1,11 +1,19 @@
 # Generic_Card_Game_Engine
 This is a CS 3110 final project. We made a generic card game engine that takes a card game represented by a JSON file and runs that card game through the terminal via a read-eval-play loop (REPL).
 
+## Setup
 The required packages for our system are: 
 - oUnit
 - yojson
 - str
 - ANSITerminal
+
+Make sure you're running `OCaml 4.05.0`. You can switch to this version by running
+```
+opam switch -y 4.05.0
+eval ``opam config env``
+make distclean
+```
 
 ## Playing a Game
 To access and interact with the REPL, make sure that the game JSON is in the 
