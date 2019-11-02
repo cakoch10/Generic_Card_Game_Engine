@@ -11,7 +11,7 @@ The required packages for our system are:
 Make sure you're running `OCaml 4.05.0`. You can switch to this version by running
 ```
 opam switch -y 4.05.0
-eval ``opam config env``
+eval `opam config env`
 make distclean
 ```
 
