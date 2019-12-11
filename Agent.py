@@ -3,7 +3,13 @@ import numpy as np
 import copy
 
 class Agent: 
-    def __init__(self, decision_dict, null_vec=None, gen=None, name=None, vec_len=52):
+    def __init__(self, loadpoint=None, decision_dict=None, null_vec=None, gen=None, name=None, vec_len=52):
+        if loadpoint is not None: 
+            self.decision_dict = np.load(loadpoint)
+            self.generation = int(loadpoint[:loadpoint.find('_')])
+            self.name = int(loadpoint[loadpoint.find('_')+1:])
+            self.null_vec = self.decision_dict["null_vec"]
+            del self.decision_dict['null_vec']
         self.generation = gen
         self.name = name
         self.state_dict = decision_dict
@@ -13,7 +19,7 @@ class Agent:
             self.null = null_vec
 
     def __str__(self):
-        return "Agent: " + self.name + " Gen: " + str(self.generation)
+        return "Agent: " + str(self.name) + " Gen: " + str(self.generation)
 
     """ Calling the Agent with a state will return the PMF associated with
         the state given [st]. If the state has not been encountered yet, the
@@ -34,7 +40,10 @@ class Agent:
     # UTILITY STATIC METHODS
     @staticmethod
     def normalize(vec):
-        return vec/(np.sum(vec))
+        vec_sum = np.sum(vec)
+        if vec_sum == 0:
+            return Agent.perturb(vec)
+        return vec/vec_sum
 
     """ Takes [vec] and randomly adds small changes to randomly chosen values (and renorms) """
     @staticmethod
@@ -48,12 +57,18 @@ class Agent:
         vec[pos_i] += perturb_amt
         vec[neg_i] -= perturb_amt
         vec[vec < 0] = 0
-        return self.normalize(vec)
+        return Agent.normalize(vec)
 
     """ Generates a random vector of length [length]. """
     @staticmethod
     def gen_ran(length):
-        return self.normalize(np.random.rand(length))
+        return Agent.normalize(np.random.rand(length))
+
+    """ Stores the Agent's data into [directory]"""
+    def save(self, directory):
+        filename = str(self.gen) + "_" + str(self.name)
+        self.state_dict["null_vec"] = self.null_vec
+        np.save(filename, self.state_dict)
 
 """ Returns UNPERTURBED merged vec1 and vec2 through element-wise multiplcation"""
 def merge_element(vec1, vec2):
@@ -69,12 +84,13 @@ def merge_choose(vec1, vec2):
     res[i_vec2] = vec2[i_vec2]
     return (res)
 
-""" Returns class of agents from merging agent [a1] and agent [a2] through various means. """
-def meiosis(a1, a2, merge_func, null_func, sig_M=1):
-    d1, n1 = a1.get_data()
-    d2, n2 = a2.get_data()
+def meiosis(d1, d2, merge_func, null_func, sig_M=1):
+    # d1, n1 = a1.get_data()
+    # d2, n2 = a2.get_data()
+    n1 = d1["null"]
+    n2 = d2["null"]
     xor_d = {}
-    int_set = {}
+    int_set = set()
     for key in d1:
         if key not in d2:
             xor_d[key] = d1[key]
@@ -89,10 +105,11 @@ def meiosis(a1, a2, merge_func, null_func, sig_M=1):
     for i in range(sig_M):
         int_d = {}
         for key in int_set:
-            int_d[key] = Agent.perturb(merge_func(d1[key], d2[key]))
+            merged_vec = merge_func(d1[key], d2[key])
+            int_d[key] = Agent.perturb(merged_vec)
         merged_d = {**copy.deepcopy(xor_d), **int_d}
         merged_null = null_func(n1, n2)
-        child = Agent(merged_d, null_vec=merged_null)
-        res_list.append(child)
+        merged_d["null"] = merged_null
+        # child = Agent(merged_d, null_vec=merged_null)
+        res_list.append(merged_d)
     return res_list
-
