@@ -1,4 +1,5 @@
 _build
+src/_build
 .DS_Store
 *.byte
 *.merlin

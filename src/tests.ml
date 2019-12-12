@@ -4,13 +4,13 @@ open Command
 open State
 open Yojson.Basic.Util
 
-let exjson = Yojson.Basic.from_file "ex.json"
-let testj = Yojson.Basic.from_file "test.json"
-let blackjj = Yojson.Basic.from_file "blackjack.json"
-let blackjj2 = Yojson.Basic.from_file "blackjack2.json"
-let crazy8j = Yojson.Basic.from_file "crazy8.json"
-let myshipj = Yojson.Basic.from_file "myshipsails.json"
-let fivecardj = Yojson.Basic.from_file "5carddraw.json"
+let exjson = Yojson.Basic.from_file "../games/ex.json"
+let testj = Yojson.Basic.from_file "../games/test.json"
+let blackjj = Yojson.Basic.from_file "../games/blackjack.json"
+let blackjj2 = Yojson.Basic.from_file "../games/blackjack2.json"
+let crazy8j = Yojson.Basic.from_file "../games/crazy8.json"
+let myshipj = Yojson.Basic.from_file "../games/myshipsails.json"
+let fivecardj = Yojson.Basic.from_file "../games/5carddraw.json"
 
 let p1_has_kings = testj |> init_state |> execute (parse "take K|S deck") |> execute (parse "take K|D deck") 
 |> execute (parse "take K|C deck") |> execute (parse "take K|H deck")

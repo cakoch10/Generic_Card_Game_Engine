@@ -29,11 +29,9 @@ let available_commands =
 
 (* END OF REPL STRINGS *)
 
-  
-
 
 (** [repl st] is the Read Evaluate Print Loop for a card gamecurrently in 
- * state [st] 
+ * state [st]
  * Requires: [st] is either an initial state or a state after a command 
  * has been executed *)
 let rec repl st = 
