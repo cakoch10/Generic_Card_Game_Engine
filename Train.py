@@ -39,9 +39,9 @@ def save_children(save_path, child_dict):
     #     child_agent = child_dict[child_name]
     #     np.savez(save_path+child_name, child_agent)
 
-""" [train_agents] is the master function for reproducing a generation 
+""" [reproduction] is the master function for reproducing a generation 
     to create a new one. """
-def train_agents(data_path): 
+def reproduction(data_path): 
     parent_dict = load_generation(data_path+"/Parents/", 0)
     gen = 1 # TODO: Figure out how to read generation
     i = 0
@@ -78,6 +78,43 @@ def run_state(agent_name, st, prev_st=None, prev_move=None):
     pmf = agent[st]
     move = np.random.choice(np.arange(NUM_OF_CHOICES), p=pmf)
     return move
+    
+""" [play_game] handles playing [a1] and [a2] against each other. 
+    [a1] and [a2] are both strategies, NOT indexes. 
+
+    Returns True if a1 wins, False if a2 wins, and a tuple of their scores"""
+def play_game(a1, a2):
+    return True, (1, 0) #placeholder
+
+""" [eval_generation] takes a generation of recently born children, and
+    pits them against each other, in order to determine the strongest of
+    the offspring. """
+def eval_generation(gen_dict):
+    children = gen_dict.values()
+    N = len(children)
+    child_idx_arr = np.arange(N)
+    matchings = itertools.product(child_idx_arr, child_idx_arr)
+    scoreboard = np.zeros(N, dtype=np.int8).tolist()
+    point_diff = np.zeros(N).tolist()
+    for c1, c2 in matchings:
+        if c1 == c2: 
+            continue
+        winner_bool, scores = play_game(gen_dict[c1], gen_dict[c2])
+        # Handle metric by which to evaluate goodness. 
+        winner = c1 if winner_bool else c2
+        loser = c2 if winner_bool else c1
+        scoreboard[winner] += 1
+        point_diff[winner] += abs(scores[1] - scores[0])
+        point_diff[loser] -= abs(scores[1] - scores[0])
+    # Take top 10 or whatever of the children and return their indexes
+    winner_list = [0, 1]
+    return winner_list
+
+def train(parent_dir):
+    # loop over these two commands
+    child_dict = reproduction(parent_dir)
+    winners = eval_generation(child_dict)
+
 
 NUM_OF_CHOICES = 52
 # LAST_STATE = "0"
