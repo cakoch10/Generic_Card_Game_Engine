@@ -1,10 +1,11 @@
+open Base
 
 (* The type of the abstract syntax tree (AST). *)
-type location = string
+type location = string [@@deriving sexp, compare, equal, hash]
 
-type card = string * string
+type card = string * string [@@deriving sexp, compare, equal, hash]
 
-type player = string
+type player = string [@@deriving sexp, compare, equal, hash]
 
 type expr =
   | Int of int
@@ -50,3 +51,4 @@ type expr =
   | Rule of expr * expr
   | CardPoint of expr * expr
   | WinCondition of expr
+  [@@deriving sexp, compare, equal, hash]

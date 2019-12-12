@@ -1,10 +1,12 @@
-type card = string * string
+open Base
+
+type card = string * string [@@deriving sexp, compare, equal, hash]
 
 let ranks = ["2";"3";"4";"5";"6";"7";"8";"9";"10";"J";"K";"Q";"A"]
 
 let suits = ["C";"D";"H";"S"]
 
-type location = string
+type location = string [@@deriving sexp, compare, equal, hash]
 
 type command = 
   | Play of (card * location)
@@ -19,17 +21,19 @@ type command =
   | Help
   | Quit
   | Err of string
+  [@@deriving sexp, compare, equal, hash]
 
 (* [parse_to_card obj] takes a string [obj] parses this string to a card. For 
  * example, "K|S" becomes the king of spades, which is ("K", "S"). 
  * requires: [obj] is a valid string representing a card in the 52 card deck *)
 let parse_to_card obj =
-  let lst = String.split_on_char '|' obj in
+  let lst = String.split ~on:'|' obj in
   match lst with
   | r::s::[] ->
-    let r' = r |> String.uppercase_ascii |> String.trim in
-    let s' = s |> String.uppercase_ascii |> String.trim in
-    if (List.mem r' ranks && List.mem s' suits) then
+    let r' = r |> String.uppercase |> String.strip in
+    let s' = s |> String.uppercase |> String.strip in
+    if (List.mem ranks r' ~equal:String.equal 
+      && List.mem suits s' ~equal:String.equal) then
       (r',s')
     else
       ("","")
@@ -71,13 +75,13 @@ let parse_to_card obj =
   * simply return a tuple containing the verb and the emptry string. 
   * requires: None. *)
 let get_verb_object str =
-  let lst = str |> String.trim |> String.split_on_char ' ' 
-    |> List.filter (fun s -> s <> "") in
+  let lst = str |> String.strip |> String.split ~on:' ' 
+    |> List.filter ~f:(fun s -> not (String.equal s "")) in
   match lst with
-  | v::[] -> (String.lowercase_ascii v,"","")
-  | v::o::[] -> (String.lowercase_ascii v, String.lowercase_ascii o,"")
-  | v::o::l::[] -> (String.lowercase_ascii v, String.lowercase_ascii o, 
-                String.lowercase_ascii l)
+  | v::[] -> (String.lowercase v,"","")
+  | v::o::[] -> (String.lowercase v, String.lowercase o,"")
+  | v::o::l::[] -> (String.lowercase v, String.lowercase o, 
+                String.lowercase l)
   | _ -> ("","","")
 
 (** [parse str] is the string [str] converted into a command. If str is an 

@@ -1,6 +1,6 @@
-type card = string * string
+type card = string * string [@@deriving sexp, compare, equal, hash]
 
-type location = string
+type location = string [@@deriving sexp, compare, equal, hash]
 (* [command] represents a command input by a player. It may have the actual 
  * verbal command that dictates what the command will be doing and also may 
  * contain the card that will be manipulated to due the command *)
@@ -17,6 +17,7 @@ type command =
   | Help
   | Quit
   | Err of string
+  [@@deriving sexp, compare, equal, hash]
 
 (* [parse s] takes in some input string [s] from the user, typing into the REPL,
  * and parses that string into a command type as defined above

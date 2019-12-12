@@ -1,6 +1,7 @@
 open Ast
 open Command
 open Yojson.Basic.Util
+(* open Base *)
 
 exception ParserError
 exception AstParseError
@@ -10,9 +11,9 @@ let ranks = ["2"; "3"; "4"; "5"; "6"; "7"; "8"; "9"; "10"; "J"; "K"; "Q"; "A"]
 
 let suits = ["C"; "D"; "H"; "S"]
 
-type card = string * string
+type card = string * string [@@deriving sexp, compare, equal, hash]
 
-type location = string
+type location = string [@@deriving sexp, compare, equal, hash]
 
 type player = {
   name: string;
@@ -20,9 +21,10 @@ type player = {
   has_won: bool;
   score: int;
   is_ai: bool;
-}
+} [@@deriving sexp, compare, equal, hash]
 
-type card_location = (location * (card list))
+type card_location =
+  (location * (card list)) [@@deriving sexp, compare, equal, hash]
 
 (* [state] represents the current state of the card game. *)
 type state = {
@@ -51,7 +53,68 @@ and static_data = {
   default_play_loc: string;
   default_draw_loc: string;
   default_take_loc: string;
-}
+} [@@deriving sexp, compare, equal, hash]
+
+
+(* [topCard_func loc st] is the singleton of the card on the top of the card 
+ * stack labelled [loc] in state [st]. 
+ * Requires: 
+ * - [loc] is a valid location in state [st]. 
+ * - [st] is a valid state. *)
+
+(* [rank_to_int rank] converts a [rank] string to an integer *)
+let rank_to_int rank =
+  match rank with
+  | "A" -> 14
+  | "K" -> 13
+  | "Q" -> 12
+  | "J" -> 11
+  | s -> int_of_string s
+
+(* [card_to_int card] maps a card to a unique integer between 1 and 52 *)
+let card_to_int ((rk, suit):card) = 
+  match suit with
+  | "C" -> 4*((rank_to_int rk) - 1)
+  | "D" -> 4*((rank_to_int rk) - 1) - 1
+  | "H" -> 4*((rank_to_int rk) - 1) - 2 
+  | "S" -> 4*((rank_to_int rk) - 1) - 3
+  | _ -> ~-1
+
+(* [sublist n l] is the list of the first n elements of l. If [l] is less than
+   [n] elements the rest of the entries will be 0 
+   - requires: [l] is an int list *)
+let rec sublist n l =
+  if n = 0 then []
+  else match l with
+  | [] -> 0::(sublist (n-1) [])
+  | h::t -> h::(sublist (n-1) l)
+
+(* [pow a b] is an int a^b where a and b are ints *)
+let pow a b =
+  let p = (float_of_int a) ** (float_of_int b) in
+  int_of_float p
+
+(* [hash_state st] creates a hash for a given st *)
+let hash_state st =
+  (* let p = 524288 *)
+  let pl = st.curr_player.name in
+  (* get hand of pl, assume at most 7 cards *)
+  let cards = List.assoc pl st.card_locations in
+  let card_ints = List.map (fun card -> card_to_int card) cards in
+  let card_ints_truncated = sublist 7 card_ints in
+  let hash_vec = card_ints_truncated @ [
+    st.curr_cards_played;
+    st.curr_cards_drawn;
+    st.curr_cards_taken;
+    st.highscore;
+  ] in
+  let p = 524288 in
+  let a = 14514 in
+  let (hash_val, idx) = List.fold_left (fun (vl, i) x ->
+    ((vl + (pow a i)) mod p, i+1)
+  ) (0,0) hash_vec in
+  hash_val
+
 
 
 (* 

@@ -1,1 +1,1 @@
-true: package(oUnit), package(yojson), package(str), package(ANSITerminal), use_menhir
+true: package(oUnit), package(yojson), package(str), package(ANSITerminal), package(base), use_menhir

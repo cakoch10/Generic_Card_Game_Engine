@@ -1,4 +1,3 @@
-
 (* [player] represents the players in a card game. This will hold 
  * information about their hand, their current score and whether they have "won"
  * already *)
@@ -7,15 +6,16 @@ type player
 (* [card] represents the cards from a standard 54-card deck - 52 if 
  * not including jokers. This will consist of a tuple holding the rank and the 
  * suit *)
-type card = string * string
+type card = string * string [@@deriving sexp, compare, equal, hash]
 
 (* [location] represents the possible locations a card can be
 in during a card game *)
 type location
 
 (* [state] is a type representing the state of a card game. *)
-type state
+type state [@@deriving sexp, compare, equal, hash]
 
+val hash_state : state -> int
 
 (* (* [win_cond s] is the win condition of the current game whose state is 
  * represented by s. This will depend on the card game configuration *)

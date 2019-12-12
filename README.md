@@ -7,6 +7,7 @@ The required packages for our system are:
 - yojson
 - str
 - ANSITerminal
+- Base
 
 Make sure you're running `OCaml 4.05.0`. You can switch to this version by running
 ```
@@ -77,3 +78,19 @@ Available Acessors for conditions:
 `TopCard(location)`
 `Size (location)`
 `Contains(location, cards)`
+
+
+## Using in utop
+First make sure the project has been built by running e.g. `make test`. Navigate
+to the `_build` directory and when inside it run `utop` and run
+
+```
+#require "Base";;
+#require "yojson";;
+#load "ast.cmo";;
+#load "command.cmo";;
+#load "lexer.cmo";;
+#load "parser.cmo";;
+#load "state.cmo";;
+#use "state.ml";;
+```
