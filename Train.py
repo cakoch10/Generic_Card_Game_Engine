@@ -62,30 +62,30 @@ def train_agents(data_path):
     If the state is not in the agent's domain, it is added with the value of
     the perturbed null state value. 
     If the state is the same as the previous one, then know the last move
-    was invalid and agent[st][move] is zeroed. """
-def run_state(agent_name, st):
-    global LAST_STATE
-    global LAST_MOVE
+    was invalid and agent[st][move] is zeroed. 
+
+    These are done now rather than when the agent has been evaluated since it 
+    can slow down evaluation if invalid or unknown states are constantly 
+    needed to be handled.  
+    """
+def run_state(agent_name, st, prev_st=None, prev_move=None):
     agent = AGENT_DICT[agent_name]
-    if LAST_STATE == st: # Last move was invalid: 
-        agent[st][LAST_MOVE] = 0
+    if prev_st == st and prev_move is not None: # Last move was invalid (state didn't change): 
+        agent[st][prev_move] = 0
         agent[st] = Agent.normalize(agent[st])
-    if st not in agent: 
+    if st not in agent: # [st] is in agent's null space, and needs to be added to domain
         agent[st] = Agent.perturb(agent['null'].copy())
     pmf = agent[st]
-    # print(np.reshape(agent[st].shape, NUM_OF_CHOICES))
-    print(np.array(pmf).shape)
-    move = np.random.choice(np.arange(NUM_OF_CHOICES), pmf)
-    LAST_STATE = st
-    LAST_MOVE = move
+    move = np.random.choice(np.arange(NUM_OF_CHOICES), p=pmf)
     return move
 
 NUM_OF_CHOICES = 52
-LAST_STATE = "0"
-LAST_MOVE = None
+# LAST_STATE = "0"
+# LAST_MOVE = None
 
 path = 'Data'
 gen0_dict = {"0_0" : {"null":np.zeros(NUM_OF_CHOICES)}, "0_1" : {"null":np.ones(NUM_OF_CHOICES)}}
 np.savez(path+"/Parents/"+"Gen0.npz", **gen0_dict)
 AGENT_DICT = train_agents("Data")
-run_state("1_0", "1")
+move = run_state("1_0", "1", "0", 0)
+print(move)
