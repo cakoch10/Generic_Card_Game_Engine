@@ -115,7 +115,7 @@
         "R: ((CardsPlayed() = 0) && (CardsDrawn() = 0)) && (Turns(t) = 0) -> Play([<<*|*>>], {discard})",
         "R: (CardsPlayed() = CardsDrawn()) && (Turns(t) = 0) && (CardsPlayed() < 5) -> Play([<<*|*>>], {discard})"
     ],
-    "intro_message": "Hello, Welcome to Rummy!",
+    "intro_message": "Hello, Welcome to Five Card Draw!",
     "help_message": "You can type play [card] or draw to draw a card..",
     "locations":
     ["deck", "discard","p1","p2","p3","p4"], 

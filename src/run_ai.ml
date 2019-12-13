@@ -4,22 +4,35 @@ open Command
 open Yojson.Basic.Util 
 open Strategy
 
-(** [load_strategy f] loads json file from [f] into a stategy *)
-let load_strategy f = failwith "Unimplemented"
+(** [load_strategy j] parses json [j] into a strategy object *)
+let load_strategy j =
+  List.map (fun (s, json) -> 
+    (int_of_string s, json |> to_list |> List.map to_float)
+  ) (to_assoc j)
+
 
 (** [save_stategies s1 s2] writes strategies [s1] and [s2] to json files *)
 let save_stategies s1 s2 = failwith "Unimplemented"
 
+let json_from_strat lst =
+  `Assoc (List.map (fun (i, vec) ->
+    (string_of_int i, `List (List.map (fun v -> `Float v) vec))
+  ) lst)
+
+
 (** [save_winner w] writes winner [w] to file *)
-let save_winner w strat = ()
+let save_winner w strat =
+  Yojson.Basic.to_file w (json_from_strat strat)
 
-
+(** [update_strat strat1 strat2 hash vec turn] is a helper function which 
+ *  updates strat1 or strat2 depending on turn with the action (hash, vec) *)
 let update_strat strat1 strat2 hash vec turn =
   let f str = if List.mem (hash, vec) str then str
               else (hash, vec)::str in
   if turn then (f strat1),strat2 else strat1,(f strat2)
 
-(* a tail recursive implementaiton of List.init since not available in 4.05.0 *)
+(** [init n f] is a tail recursive implementaiton of List.init (available after
+ *  4.06.0 which returns the list [f 0;...; f n-1] *)
 let init n f =
   let rec init' acc i n f =
     if i >= n then acc
@@ -76,10 +89,13 @@ let rec play_ai (st:state) (strat1:strategy) (strat2:strategy) (turn:bool) =
   let strat1, strat2 = update_strat strat1 strat2 hash vec turn in
   (* need to check if there's a winner, see if move is invalid, update turn val *)
   if (winner st' <> "") then
-    save_winner winner (if turn then strat1 else strat2)
+    if "p1" = winner st' then save_winner "../Strategies/1.json" strat1
+    else save_winner "../Strategies/2.json" strat2
   else 
     match last_command st' with
-    | Err _ -> if turn then save_winner "p2" strat else save_winner "p1" strat
+    | Err _ -> if turn then 
+                save_winner "../Strategies/2.json" strat 
+              else save_winner "../Strategies/1.json" strat
     | End _ -> play_ai st' strat1 strat2 (not turn)
     | _ -> play_ai st' strat1 strat2 turn
   
@@ -94,8 +110,8 @@ let play_game f =
   (* split f into respective file names *)
   let st_lst = String.split_on_char ';' f in
   let st = init_state (load_json (List.hd st_lst)) in
-  let strat1 = load_strategy (List.nth st_lst 1) in
-  let strat2 = load_strategy (List.nth st_lst 2) in
+  let strat1 = load_strategy (load_json (List.nth st_lst 1)) in
+  let strat2 = load_strategy (load_json (List.nth st_lst 2)) in
   play_ai st strat1 strat2 true
     
 
