@@ -5,6 +5,14 @@ import os.path
 import itertools
 import copy
 import json
+from subprocess import Popen, PIPE
+import time
+
+
+# PATH VARIABLES
+strategy_directory = "./Strategies/"
+game_directory = "./games/"
+
 
 # def merge_element(v1, v2):
 #     return v1 * v2
@@ -98,8 +106,22 @@ def run_state(agent, st, prev_st=None, prev_move=None):
     [a1] and [a2] are both strategies, NOT indexes. 
 
     Returns True if a1 wins, False if a2 wins, and a tuple of their scores"""
-def play_game(a1, a2):
-    return True, (1, 0) #placeholder
+def play_game(a1, a2, game):
+    process = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    process.stdin.write("cd src && make play_ai" + "\n")
+    cmd2 = os.path.join(game_directory, game)
+    process.stdin.write(cmd2 + "\n")
+    process.stdin.close()
+
+    # wait for result to be written
+    result1 = os.path.join(strategy_directory, "1.json")
+    result2 = os.path.join(strategy_directory, "2.json")
+    while not (os.path.exists(result1) or os.path.exists(result2)):
+        time.sleep(0.5)
+    if os.path.isfile(result1):
+        return True, result1
+    else:
+        return False, result2
 
 """ [eval_generation] takes a generation of recently born children, and
     pits them against each other, in order to determine the strongest of
