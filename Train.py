@@ -6,6 +6,20 @@ import itertools
 import copy
 import json
 
+# def merge_element(v1, v2):
+#     return v1 * v2
+
+# """ """
+# def load_parents(load_path):
+#     parent_dict = {}
+#     for parent_dir in os.listdir(load_path):
+#         if parent_dir == ".DS_Store": 
+#             continue
+#         parent_agent = np.load(load_path + parent_dir, allow_pickle=True)
+#         name = parent_dir[:-4]
+#         parent_dict[name] = parent_agent
+#     return paren
+
 """ Helper for load_generation_json. Turns agent's pmfs into np array"""
 def numpyify_agent(agent):
     for k in agent.keys():
@@ -53,10 +67,9 @@ def reproduction(data_path="Data", gen=0):
     for (p1_i, p2_i) in itertools.product(parent_idx, parent_idx):
         p1 = parent_list[p1_i]
         p2 = parent_list[p2_i]
-        children_ec = Agent.meiosis(p1, p2, Agent.merge_element, Agent.merge_choose)
-        children_cc = Agent.meiosis(p1, p2, Agent.merge_choose, Agent.merge_choose)
-        children_ce = Agent.meiosis(p1, p2, Agent.merge_choose, Agent.merge_element)
-        child_list = child_list + children_ec + children_cc + children_ce
+        children_e = Agent.meiosis(p1, p2, Agent.merge_element)
+        children_c = Agent.meiosis(p1, p2, Agent.merge_choose)
+        child_list = children_e + children_c 
     save_children_json(data_path+"/Gen"+str(gen+1)+"/", child_list)
     return child_list
 
