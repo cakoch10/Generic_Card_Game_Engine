@@ -4,59 +4,61 @@ import os
 import os.path
 import itertools
 import copy
+import json
 
-# def merge_element(v1, v2):
-#     return v1 * v2
+""" Helper for load_generation_json. Turns agent's pmfs into np array"""
+def numpyify_agent(agent):
+    for k in agent.keys():
+        agent[k] = np.array(agent[k])
 
-# """ """
-# def load_parents(load_path):
-#     parent_dict = {}
-#     for parent_dir in os.listdir(load_path):
-#         if parent_dir == ".DS_Store": 
-#             continue
-#         parent_agent = np.load(load_path + parent_dir, allow_pickle=True)
-#         name = parent_dir[:-4]
-#         parent_dict[name] = parent_agent
-#     return paren
+""" Helper for save_children_json. Turns agent's pmfs into python lists. """
+def listify_agent(agent):
+    for k in agent.keys(): 
+        agent[k] = agent[k].tolist()
 
 """ [load_generation] creates a dictionary of the npz file of a previously
     created generation found as [path/]Gen[gen].npz"""
-def load_generation(path, gen):
-    parent_dict = {}
-    load_path = path+"Gen"+str(gen)+".npz"
-    gen_npz = np.load(load_path, allow_pickle=True)
-    for parent_name in gen_npz.keys():
-        parent_dict[parent_name] = gen_npz[parent_name].item()
-    return parent_dict #[load_parents] and [load_generation] should return same format
+def load_generation_json(load_path, gen):
+    parent_list = []
+    # load_path = path+"Gen"+str(gen)+'/'
+    num_files = len(os.listdir(load_path))
+    for i in range(num_files):
+        name = load_path + str(i) + ".json"
+        with open(name, 'r') as fp:
+            agent = json.load(fp)
+            numpyify_agent(agent)
+            parent_list.append(agent)
+    return parent_list
 
 """ [save_children] saves the generation of agents [child_dict] as an npz
     file in [save_path]. """
-def save_children(save_path, child_dict):
-    # save_path = path
-    print(child_dict)
-    np.savez(save_path+"Gen1", **child_dict)
-    # for child_name in child_dict.keys():
-    #     child_agent = child_dict[child_name]
-    #     np.savez(save_path+child_name, child_agent)
+def save_children_json(save_path, child_list):
+    print(child_list)
+    try: 
+        os.mkdir(save_path)
+    except FileExistsError: 
+        T = 0
+    for i, agent, in enumerate(child_list):
+        name = save_path + str(i) + ".json"
+        with open(name, 'w') as fp:
+            listify_agent(agent)
+            json.dump(agent, fp)
 
 """ [reproduction] is the master function for reproducing a generation 
-    to create a new one. """
-def reproduction(data_path): 
-    parent_dict = load_generation(data_path+"/Parents/", 0)
-    gen = 1 # TODO: Figure out how to read generation
-    i = 0
-    child_dict = {}
-    for (p1_name, p2_name) in itertools.product(parent_dict.keys(), parent_dict.keys()):
-        p1 = parent_dict[p1_name]
-        p2 = parent_dict[p2_name]
-        print(p1)
-        child_list = Agent.meiosis(p1, p2, Agent.merge_element, Agent.merge_choose)
-        for child_agent in child_list:
-            name = str(gen) + '_' + str(i)
-            i+=1
-            child_dict[name] = child_agent
-    save_children(data_path+"/Children/", child_dict)
-    return child_dict
+    to create a new one. [data_path] is the Data folder"""
+def reproduction(data_path="Data", gen=0): 
+    parent_list = load_generation_json(data_path+"/Gen"+str(gen)+'/', gen)
+    parent_idx = np.arange(len(parent_list))
+    child_list = []
+    for (p1_i, p2_i) in itertools.product(parent_idx, parent_idx):
+        p1 = parent_list[p1_i]
+        p2 = parent_list[p2_i]
+        children_ec = Agent.meiosis(p1, p2, Agent.merge_element, Agent.merge_choose)
+        children_cc = Agent.meiosis(p1, p2, Agent.merge_choose, Agent.merge_choose)
+        children_ce = Agent.meiosis(p1, p2, Agent.merge_choose, Agent.merge_element)
+        child_list = child_list + children_ec + children_cc + children_ce
+    save_children_json(data_path+"/Gen"+str(gen+1)+"/", child_list)
+    return child_list
 
 """ Returns a move based on agent [agent_name] and the state [st]. 
     If the state is not in the agent's domain, it is added with the value of
@@ -68,8 +70,8 @@ def reproduction(data_path):
     can slow down evaluation if invalid or unknown states are constantly 
     needed to be handled.  
     """
-def run_state(agent_name, st, prev_st=None, prev_move=None):
-    agent = AGENT_DICT[agent_name]
+def run_state(agent, st, prev_st=None, prev_move=None):
+    # agent = AGENT_DICT[agent_name]
     if prev_st == st and prev_move is not None: # Last move was invalid (state didn't change): 
         agent[st][prev_move] = 0
         agent[st] = Agent.normalize(agent[st])
@@ -89,8 +91,8 @@ def play_game(a1, a2):
 """ [eval_generation] takes a generation of recently born children, and
     pits them against each other, in order to determine the strongest of
     the offspring. """
-def eval_generation(gen_dict):
-    children = gen_dict.values()
+def eval_generation(gen_list):
+    children = gen_list
     N = len(children)
     child_idx_arr = np.arange(N)
     matchings = itertools.product(child_idx_arr, child_idx_arr)
@@ -99,7 +101,7 @@ def eval_generation(gen_dict):
     for c1, c2 in matchings:
         if c1 == c2: 
             continue
-        winner_bool, scores = play_game(gen_dict[c1], gen_dict[c2])
+        winner_bool, scores = play_game(gen_list[c1], gen_list[c2])
         # Handle metric by which to evaluate goodness. 
         winner = c1 if winner_bool else c2
         loser = c2 if winner_bool else c1
@@ -110,9 +112,11 @@ def eval_generation(gen_dict):
     winner_list = [0, 1]
     return winner_list
 
+""" trains the model """
 def train(parent_dir):
     # loop over these two commands
-    child_dict = reproduction(parent_dir)
+    gen = 0
+    child_dict = reproduction(parent_dir, gen)
     winners = eval_generation(child_dict)
 
 
@@ -121,8 +125,11 @@ NUM_OF_CHOICES = 52
 # LAST_MOVE = None
 
 path = 'Data'
-gen0_dict = {"0_0" : {"null":np.zeros(NUM_OF_CHOICES)}, "0_1" : {"null":np.ones(NUM_OF_CHOICES)}}
-np.savez(path+"/Parents/"+"Gen0.npz", **gen0_dict)
-AGENT_DICT = train_agents("Data")
-move = run_state("1_0", "1", "0", 0)
-print(move)
+# gen0_dict = {"0_0" : {"null":np.zeros(NUM_OF_CHOICES)}, "0_1" : {"null":np.ones(NUM_OF_CHOICES)}}
+# np.savez(path+"/Parents/"+"Gen0.npz", **gen0_dict)
+gen0_list = [{"null":np.zeros(NUM_OF_CHOICES)}, {"null":np.ones(NUM_OF_CHOICES)}]
+save_children_json("Data/Gen0/", gen0_list)
+train(path)
+# AGENT_DICT = train("Data")
+# move = run_state("1_0", "1", "0", 0)
+# print(move)
