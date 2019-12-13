@@ -10,15 +10,11 @@ let load_strategy j =
     (int_of_string s, json |> to_list |> List.map to_float)
   ) (to_assoc j)
 
-
-(** [save_stategies s1 s2] writes strategies [s1] and [s2] to json files *)
-let save_stategies s1 s2 = failwith "Unimplemented"
-
+(** [json_from_strat lst] parses the assoc list [lst] into a json object *)
 let json_from_strat lst =
   `Assoc (List.map (fun (i, vec) ->
     (string_of_int i, `List (List.map (fun v -> `Float v) vec))
   ) lst)
-
 
 (** [save_winner w] writes winner [w] to file *)
 let save_winner w strat =
@@ -89,13 +85,13 @@ let rec play_ai (st:state) (strat1:strategy) (strat2:strategy) (turn:bool) =
   let strat1, strat2 = update_strat strat1 strat2 hash vec turn in
   (* need to check if there's a winner, see if move is invalid, update turn val *)
   if (winner st' <> "") then
-    if "p1" = winner st' then save_winner "../Strategies/1.json" strat1
-    else save_winner "../Strategies/2.json" strat2
+    if "p1" = winner st' then save_winner "../Data/strategies/1.json" strat1
+    else save_winner "../Data/strategies/2.json" strat2
   else 
     match last_command st' with
     | Err _ -> if turn then 
-                save_winner "../Strategies/2.json" strat 
-              else save_winner "../Strategies/1.json" strat
+                save_winner "../Data/strategies/2.json" strat 
+              else save_winner "../Data/strategies/1.json" strat
     | End _ -> play_ai st' strat1 strat2 (not turn)
     | _ -> play_ai st' strat1 strat2 turn
   

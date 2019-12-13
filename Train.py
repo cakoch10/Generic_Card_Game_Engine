@@ -10,7 +10,7 @@ import time
 
 
 # PATH VARIABLES
-strategy_directory = "./Strategies/"
+strategy_directory = "./Data/strategies/"
 game_directory = "./games/"
 
 
