@@ -1,3 +1,3 @@
-type strategy = (int * (int list)) list
+type strategy = (int * (float list)) list
 
-val eval_strat : strategy -> int -> int list
+val eval_strat : int -> strategy -> float list

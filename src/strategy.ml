@@ -1,3 +1,3 @@
-type strategy = (int * (int list)) list
+type strategy = (int * (float list)) list
 
-let eval_strat = List.assoc
+let eval_strat (hash:int) (s:strategy) = List.assoc hash s

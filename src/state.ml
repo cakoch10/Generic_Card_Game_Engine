@@ -81,8 +81,8 @@ let card_to_int ((rk, suit):card) =
   | "S" -> 4*(rank_to_int rk) - 3
   | _ -> ~-1
 
-(* [int_to_card i] maps an int to a card *)
-let int_to_card i = 
+(* [card_from_int i] maps an int to a card *)
+let card_from_int i = 
   let suit = (~-1*((i mod 4) - 4)) mod 4 in
   let rank = (i+suit) / 4 in
   let suit_str = if suit = 0 then "C"
@@ -110,6 +110,7 @@ let pow a b =
   let p = (float_of_int a) ** (float_of_int b) in
   int_of_float p
 
+
 (* [hash_state st] creates a hash for a given st *)
 let hash_state st =
   (* let p = 524288 *)
@@ -131,7 +132,6 @@ let hash_state st =
     ((vl + x*(pow a i)) mod p, i+1)
   ) (0,0) hash_vec in
   hash_val
-
 
 
 (* 
@@ -187,6 +187,13 @@ let cards_taken st = st.curr_cards_taken
  * Requires:  
  * - [st] is a valid state. *)
 let high_score st = st.highscore
+
+let default_draw_l st = st.static_dat.default_draw_loc
+
+let default_take_l st = st.static_dat.default_take_loc
+
+let default_play_l st = st.static_dat.default_play_loc
+
 
 (* [get_player p_list p_name] is the player in [p_list] with name [p_name] *)
 let rec get_player p_list p_name =

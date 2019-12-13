@@ -17,7 +17,7 @@ type state [@@deriving sexp, compare, equal, hash]
 
 val hash_state : state -> int
 
-val int_to_card : int -> card
+val card_from_int : int -> card
 
 (* (* [win_cond s] is the win condition of the current game whose state is 
  * represented by s. This will depend on the card game configuration *)
@@ -32,6 +32,17 @@ val size : Ast.location -> state -> int
 val contains : Ast.location -> Ast.card list -> state -> bool
 
 val cards_played : state -> int
+
+val cards_drawn : state -> int
+
+val cards_taken : state -> int
+
+val default_draw_l : state -> string
+
+val default_take_l : state -> string
+
+val default_play_l : state -> string
+
 
 (* [player_status s] is the current status of all players in the game in 
  * state [s]. *)
