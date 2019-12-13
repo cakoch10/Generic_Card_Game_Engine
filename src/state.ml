@@ -134,6 +134,17 @@ let hash_state st =
   hash_val
 
 
+(* maps moves to ints *)
+let ints_from_moves moves =
+  let f move =
+    match move with
+    | Draw (_) -> 104
+    | Play(card,_) -> (card_to_int card) - 1
+    | Take(card,_) -> (card_to_int card) + 51
+    | _ -> 105 in
+  List.map f moves
+
+
 (* 
 STATE HELPER FUNCTIONS
   topCard : state -> location -> card

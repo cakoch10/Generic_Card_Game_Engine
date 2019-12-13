@@ -19,6 +19,8 @@ val hash_state : state -> int
 
 val card_from_int : int -> card
 
+val ints_from_moves : Command.command list -> int list
+
 (* (* [win_cond s] is the win condition of the current game whose state is 
  * represented by s. This will depend on the card game configuration *)
 val win_condition : state -> string *)
