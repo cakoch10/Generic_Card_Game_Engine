@@ -17,6 +17,8 @@ type state [@@deriving sexp, compare, equal, hash]
 
 val hash_state : state -> int
 
+val int_to_card : int -> card
+
 (* (* [win_cond s] is the win condition of the current game whose state is 
  * represented by s. This will depend on the card game configuration *)
 val win_condition : state -> string *)

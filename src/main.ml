@@ -117,7 +117,7 @@ let rec play_game f =
 
 
 (* [main ()] starts the REPL for the card game engine *)
- let main () =
+let main () =
   print_string new_screen;
 	ANSITerminal.(print_string [blue] intro);
   print_endline start_msg;

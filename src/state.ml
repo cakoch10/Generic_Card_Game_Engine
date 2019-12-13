@@ -11,6 +11,7 @@ let ranks = ["2"; "3"; "4"; "5"; "6"; "7"; "8"; "9"; "10"; "J"; "K"; "Q"; "A"]
 
 let suits = ["C"; "D"; "H"; "S"]
 
+(* cards are of the form (rank, suit) *)
 type card = string * string [@@deriving sexp, compare, equal, hash]
 
 type location = string [@@deriving sexp, compare, equal, hash]
@@ -65,7 +66,7 @@ and static_data = {
 (* [rank_to_int rank] converts a [rank] string to an integer *)
 let rank_to_int rank =
   match rank with
-  | "A" -> 14
+  | "A" -> 1
   | "K" -> 13
   | "Q" -> 12
   | "J" -> 11
@@ -74,11 +75,26 @@ let rank_to_int rank =
 (* [card_to_int card] maps a card to a unique integer between 1 and 52 *)
 let card_to_int ((rk, suit):card) = 
   match suit with
-  | "C" -> 4*((rank_to_int rk) - 1)
-  | "D" -> 4*((rank_to_int rk) - 1) - 1
-  | "H" -> 4*((rank_to_int rk) - 1) - 2 
-  | "S" -> 4*((rank_to_int rk) - 1) - 3
+  | "C" -> 4*(rank_to_int rk)
+  | "D" -> 4*(rank_to_int rk) - 1
+  | "H" -> 4*(rank_to_int rk) - 2 
+  | "S" -> 4*(rank_to_int rk) - 3
   | _ -> ~-1
+
+(* [int_to_card i] maps an int to a card *)
+let int_to_card i = 
+  let suit = (~-1*((i mod 4) - 4)) mod 4 in
+  let rank = (i+suit) / 4 in
+  let suit_str = if suit = 0 then "C"
+                 else if suit = 1 then "D"
+                 else if suit = 2 then "H"
+                 else "S" in
+  let rank_str = if rank = 1 then "A"
+                 else if rank = 11 then "J"
+                 else if rank = 12 then "Q"
+                 else if rank = 13 then "K"
+                 else string_of_int rank in
+  (rank_str, suit_str)
 
 (* [sublist n l] is the list of the first n elements of l. If [l] is less than
    [n] elements the rest of the entries will be 0 
@@ -108,10 +124,11 @@ let hash_state st =
     st.curr_cards_taken;
     st.highscore;
   ] in
+  (* hash as x1+ax2+a^2x+a^3x3+... mod p *)
   let p = 524288 in
   let a = 14514 in
   let (hash_val, idx) = List.fold_left (fun (vl, i) x ->
-    ((vl + (pow a i)) mod p, i+1)
+    ((vl + x*(pow a i)) mod p, i+1)
   ) (0,0) hash_vec in
   hash_val
 
