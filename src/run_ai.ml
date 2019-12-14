@@ -98,13 +98,13 @@ let rec play_ai (st:state) (strat1:strategy) (strat2:strategy) (turn:bool) =
   let strat1, strat2 = update_strat strat1 strat2 hash vec turn in
   (* need to check if there's a winner, see if move is invalid, update turn val *)
   if (winner st' <> "") then
-    if "p1" = winner st' then save_winner "../Data/strategies/1.json" strat1
-    else save_winner "../Data/strategies/2.json" strat2
+    if "p1" = winner st' then save_winner "../Data/strategies/0.json" strat1
+    else save_winner "../Data/strategies/1.json" strat2
   else 
     match last_command st' with
     | Err _ -> if turn then 
-                save_winner "../Data/strategies/2.json" strat 
-              else save_winner "../Data/strategies/1.json" strat
+                save_winner "../Data/strategies/1.json" strat 
+              else save_winner "../Data/strategies/0.json" strat
     | End _ -> play_ai st' strat1 strat2 (not turn)
     | _ -> play_ai st' strat1 strat2 turn
   

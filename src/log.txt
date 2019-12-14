@@ -1,4 +1,0 @@
-
-[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[5|♣]]
-Last Move:
-p1: [A|♣] [3|♦] [6|♣] [2|♦] [2|♣] 
