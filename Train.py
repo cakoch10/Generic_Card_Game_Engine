@@ -144,8 +144,8 @@ def train(data_dir, game, max_gen=10):
 
 NUM_OF_CHOICES = 106
 
-path = '../Data'
-gen0_list = [{"0":np.zeros(NUM_OF_CHOICES)}, {"0":np.ones(NUM_OF_CHOICES)}, {"0":Agent.gen_ran(NUM_OF_CHOICES)}]
+path = './Data'
+gen0_list = [{"0":Agent.perturb(np.zeros(NUM_OF_CHOICES))}, {"0":Agent.normalize(np.ones(NUM_OF_CHOICES))}]
 save_children_json("./Data/Gen0/", gen0_list)
 train(path, "crazy8_ai.json", 2)
 # AGENT_DICT = train("Data")
