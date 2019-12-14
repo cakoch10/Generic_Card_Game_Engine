@@ -23,13 +23,26 @@ def listify_agent(agent):
     for k in agent.keys(): 
         agent[k] = agent[k].tolist()
 
+# def load_parents():
+#     parent_list = []
+#     # load_path = path+"Gen"+str(gen)+'/'
+#     num_files = len(os.listdir(parent_directory))
+#     for i in range(num_files):
+#         name = load_path + str(i) + ".json"
+#         with open(name, 'r') as fp:
+#             agent = json.load(fp)
+#             numpyify_agent(agent)
+#             parent_list.append(agent)
+#     return parent_list
+
 """ [load_generation] creates a dictionary of the npz file of a previously
     created generation found as [path/]Gen[gen].npz"""
-def load_generation_json(load_path, gen):
+def load_generation_json(load_path, gen=0):
     parent_list = []
     # load_path = path+"Gen"+str(gen)+'/'
     num_files = len(os.listdir(load_path))
-    for i in range(num_files):
+    # print(os.listdir(load_path))
+    for i in range(num_files-1):
         name = load_path + str(i) + ".json"
         with open(name, 'r') as fp:
             agent = json.load(fp)
@@ -54,7 +67,8 @@ def save_children_json(save_path, child_list):
 """ [reproduction] is the master function for reproducing a generation 
     to create a new one. [data_path] is the Data folder"""
 def reproduction(data_path="Data", gen=0): 
-    parent_list = load_generation_json(data_path+"/Gen"+str(gen)+'/', gen)
+    # parent_list = load_generation_json(data_path+"/Gen"+str(gen)+'/', gen)
+    parent_list = load_generation_json(parent_directory)
     parent_idx = np.arange(len(parent_list))
     child_list = []
     for (p1_i, p2_i) in itertools.product(parent_idx, parent_idx):
@@ -129,7 +143,7 @@ def eval_generation(game, agent_directory, N):
         winner_list.append(winner)
         # TODO: Move the winner to Data/Parents/ & delete from /Data/Strategies/
         # TODO: Make sure to rename to new i.json. 
-        os.rename(result, parent_directory+(i//2)+".json")
+        os.rename(result, parent_directory+str(i//2)+".json")
         i += 2
     # Take top 10 or whatever of the children and return their indexes
     return winner_list
@@ -142,8 +156,9 @@ def train(data_dir, game, max_gen=10):
         gen_size = reproduction(data_dir, gen)
         child_gen_dir = data_dir+"/Gen"+str(gen+1)+"/"
         winner_list = eval_generation(game, child_gen_dir, gen_size)
-        print("Winners of Gen"+str(0)+":"+winner_list)
-        os.rename(parent_directory, data_dir+"/Gen"+str(gen+1)+"/")
+        print("Winners of Gen"+str(gen)+":", winner_list)
+        # os.rename(parent_directory, data_dir+"/Gen"+str(gen+1)+"/")
+        gen+=1
 
 NUM_OF_CHOICES = 106
 
@@ -151,7 +166,7 @@ path = '../Data'
 data_path = './Data'
 gen0_list = [{"0":Agent.perturb(np.zeros(NUM_OF_CHOICES))}, {"0":Agent.normalize(np.ones(NUM_OF_CHOICES))}]
 save_children_json("./Data/Gen0/", gen0_list)
-train(data_path, "crazy8_ai.json", 2)
+train(data_path, "crazy8_ai.json", 5)
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)
