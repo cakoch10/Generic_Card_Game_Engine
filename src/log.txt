@@ -1,0 +1,9 @@
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[10|♣]]
+Last Move:
+p1: [4|♦] [Q|♦] [Q|♣] [Q|♠] [8|♦] 
+56353
+
+Draw
+Play [Q|♣]
+Play [8|♦]
