@@ -9,8 +9,8 @@ from subprocess import Popen, PIPE
 import time
 
 # PATH VARIABLES
-strategy_directory = "./Data/strategies/"
-game_directory = "./games/"
+strategy_directory = "../Data/strategies/"
+game_directory = "../games/"
 parent_directory = "./Data/Parents/"
 
 """ Helper for load_generation_json. Turns agent's pmfs into np array"""
@@ -144,7 +144,7 @@ def train(data_dir, game, max_gen=10):
 
 NUM_OF_CHOICES = 106
 
-path = './Data'
+path = '../Data'
 gen0_list = [{"0":np.zeros(NUM_OF_CHOICES)}, {"0":np.ones(NUM_OF_CHOICES)}, {"0":Agent.gen_ran(NUM_OF_CHOICES)}]
 save_children_json("./Data/Gen0/", gen0_list)
 train(path, "blackjack.json", 2)
