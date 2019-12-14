@@ -108,11 +108,11 @@ def run_state(agent, st, prev_st=None, prev_move=None):
     Returns True if a1 wins, False if a2 wins, and a tuple of their scores"""
 def play_game(a1, a2, game):
     process = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
-    process.stdin.write("cd src && make play_ai" + "\n")
-    cmd2 = os.path.join(game_directory, game)
-    process.stdin.write(cmd2 + "\n")
-    process.stdin.close()
-
+    commands = "cd src && make play_ai" + "\n"
+    commands += os.path.join(game_directory, game) + ";" + a1 + ";" + a2
+    out, err = process.communicate(commands.encode('utf-8'))
+    if err:
+        print("Error in executing command: " + err)
     # wait for result to be written
     result1 = os.path.join(strategy_directory, "1.json")
     result2 = os.path.join(strategy_directory, "2.json")
