@@ -2,3 +2,31 @@
 [LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[5|♣]]
 Last Move:
 p1: [A|♣] [3|♦] [6|♣] [2|♦] [2|♣] 
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[4|♣]]
+Last Move:
+p1: [3|♣] [7|♣] [K|♣] [10|♥] [9|♥] 
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[4|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [3|♣] [7|♣] [K|♣] [10|♥] [9|♥] 
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♦]]
+Last Move:
+p1: [4|♥] [7|♠] [K|♣] [6|♥] [K|♠] 
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♥] [4|♥] [7|♠] [K|♣] [6|♥] [K|♠] 
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♥]]
+Last Move:
+p1: [Q|♠] [J|♥] [3|♣] [4|♥] [K|♦] 
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♠]]
+Last Move:
+p1: [3|♦] [6|♠] [2|♦] [4|♠] [9|♥] 
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♠]]
+Last Move: p1: Drew from { Deck }
+p1: [5|♥] [3|♦] [6|♠] [2|♦] [4|♠] [9|♥] 

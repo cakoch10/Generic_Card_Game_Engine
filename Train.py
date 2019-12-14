@@ -102,8 +102,9 @@ def play_game(a1, a2, game, agent_directory):
     if err:
         print("Error in executing command: " + str(err))
     # wait for result to be written
-    result1 = os.path.join(strategy_directory, str(a1)+".json")
-    result2 = os.path.join(strategy_directory, str(a2)+".json")
+    result1 = os.path.join(strategy_directory, "1.json")
+    result2 = os.path.join(strategy_directory, "2.json")
+    os.listdir(strategy_directory)
     while not (os.path.exists(result1) or os.path.exists(result2)):
         time.sleep(0.5)
     if os.path.isfile(result1):
