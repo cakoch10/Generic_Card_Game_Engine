@@ -9,8 +9,8 @@ from subprocess import Popen, PIPE
 import time
 
 # PATH VARIABLES
-strategy_directory = "./Data/strategies/"
-game_directory = "./games/"
+strategy_directory = "../Data/strategies/"
+game_directory = "../games/"
 parent_directory = "./Data/Parents/"
 
 """ Helper for load_generation_json. Turns agent's pmfs into np array"""
