@@ -1,0 +1,60 @@
+{
+    "players": 2,
+    "win_conditions": [
+      "WC: (Contains({t}, [<<J|S>>; <<A|*>>]) || Contains({t}, [<<J|C>>; <<A|*>>])) && Size({t}) = 2",
+      "WC: (Turns(p1) >= 1) && (Turns(p2) >= 1) && (HighScore() = Score(t)) && (Score(t) <= 21)"
+    ],
+    "card_points": [
+      "CP: (Contains({t}, [<<2|*>>])) -> (2)",
+      "CP: (Contains({t}, [<<3|*>>])) -> (3)",
+      "CP: (Contains({t}, [<<4|*>>])) -> (4)",
+      "CP: (Contains({t}, [<<5|*>>])) -> (5)",
+      "CP: (Contains({t}, [<<6|*>>])) -> (6)",
+      "CP: (Contains({t}, [<<7|*>>])) -> (7)",
+      "CP: (Contains({t}, [<<8|*>>])) -> (8)",
+      "CP: (Contains({t}, [<<9|*>>])) -> (9)",
+      "CP: (Contains({t}, [<<10|*>>])) -> (10)",
+      "CP: (Contains({t}, [<<J|*>>])) -> (10)",
+      "CP: (Contains({t}, [<<Q|*>>])) -> (10)",
+      "CP: (Contains({t}, [<<K|*>>])) -> (10)",
+      "CP: (Contains({t}, [<<A|*>>]) && (Score(t) > 10)) -> 1",
+      "CP: (Contains({t}, [<<A|*>>]) && Score(t) <= 10) -> 11",
+      "CP: (Score(t) > 21) -> -1000"
+    ],
+    "rules": [
+        "R: (Score(t) <= 21) && (Turns(t) = 0) -> Draw({deck})",
+        "R: Score(t) > 21 -> End()",
+        "R: true -> End()"
+    ],
+    "intro_message": "Hello, Welcome to Blackjack!",
+    "help_message": "You can type play [card] or draw to draw a card",
+    "locations": ["deck", "discard", "p1", "p2"],
+    "deal": [{
+      "location": "deck",
+      "number_of_cards": 48
+    }, {
+      "location": "p1",
+      "number_of_cards": 2
+    }, {
+      "location": "p2",
+      "number_of_cards": 2
+    }],
+    "show": [{
+      "location": "deck",
+      "visible": true
+    }, {
+      "location": "discard",
+      "visible": true
+    }, {
+      "location": "p1",
+      "visible": true
+    }, {
+      "location": "p2",
+      "visible": true
+    }],
+    "default_play_location": "discard",
+    "default_draw_location": "deck",
+    "default_take_location": "deck",
+    "p1_is_ai": false,
+    "p2_is_ai": false
+  }

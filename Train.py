@@ -93,7 +93,7 @@ def run_state(agent, st, prev_st=None, prev_move=None):
     Returns True if a1 wins, False if a2 wins, and a tuple of their scores"""
 def play_game(a1, a2, game, agent_directory):
     print(agent_directory)
-    process = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    processg = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
     commands = "cd src && make play_ai" + "\n"
     a1_dir = agent_directory+str(a1)+".json"
     a2_dir = agent_directory+str(a2)+".json"
@@ -147,7 +147,7 @@ NUM_OF_CHOICES = 106
 path = '../Data'
 gen0_list = [{"0":np.zeros(NUM_OF_CHOICES)}, {"0":np.ones(NUM_OF_CHOICES)}, {"0":Agent.gen_ran(NUM_OF_CHOICES)}]
 save_children_json("./Data/Gen0/", gen0_list)
-train(path, "blackjack.json", 2)
+train(path, "crazy8_ai.json", 2)
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)

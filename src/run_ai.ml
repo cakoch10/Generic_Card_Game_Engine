@@ -35,12 +35,25 @@ let init n f =
     else init' ((f i)::acc) (i+1) n f
   in List.rev (init' [] 0 n f) 
 
+let log_last_command st =
+  let str_st = last_cmd_to_str st in
+  let oc = open_out_gen [Open_append; Open_creat] 0o666 "log.txt" in
+  Printf.fprintf oc "%s\n" str_st;
+  let loc_st = locations_to_string st in
+  let mov_st = last_move st in
+  let hand_st = curr_player_hand_to_string st in
+  Printf.fprintf oc "%s\n" loc_st;
+  Printf.fprintf oc "%s\n" mov_st;
+  Printf.fprintf oc "%s\n" hand_st;
+  close_out oc
+
 (** [play_ai st strat1 strat2 turn] is the main loop for running the stategy
  * [strat1] against the strategy [strat2] where [turn] is a boolean indicating
  * which strategy to run in the immediate move
  * Requires: [st] is either an initial state or a state after a command 
  * has been executed *)
 let rec play_ai (st:state) (strat1:strategy) (strat2:strategy) (turn:bool) =
+  let _ = log_last_command st in
   let strat = if turn then strat1 else strat2 in
   let hash = hash_state st in
   (* obtain vec *)
