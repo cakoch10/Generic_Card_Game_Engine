@@ -92,12 +92,15 @@ def run_state(agent, st, prev_st=None, prev_move=None):
 
     Returns True if a1 wins, False if a2 wins, and a tuple of their scores"""
 def play_game(a1, a2, game, agent_directory):
+    print(agent_directory)
     process = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
     commands = "cd src && make play_ai" + "\n"
-    commands += os.path.join(game_directory, game) + ";" + a1 + ";" + a2
+    a1_dir = agent_directory+str(a1)+".json"
+    a2_dir = agent_directory+str(a2)+".json"
+    commands += os.path.join(game_directory, game) + ";" + a1_dir + ";" + a2_dir
     out, err = process.communicate(commands.encode('utf-8'))
     if err:
-        print("Error in executing command: " + err)
+        print("Error in executing command: " + str(err))
     # wait for result to be written
     result1 = os.path.join(strategy_directory, str(a1)+".json")
     result2 = os.path.join(strategy_directory, str(a2)+".json")
@@ -129,12 +132,11 @@ def eval_generation(game, agent_directory, N):
     return winner_list
 
 """ trains the model """
-def train(local_dir, game, max_gen=10):
-    data_dir = local_dir + "/Data/"
+def train(data_dir, game, max_gen=10):
     # loop over these two commands
     gen = 0
     while gen < max_gen:
-        gen_size = reproduction(local_dir, gen)
+        gen_size = reproduction(data_dir, gen)
         child_gen_dir = data_dir+"/Gen"+str(gen+1)+"/"
         winner_list = eval_generation(game, child_gen_dir, gen_size)
         print("Winners of Gen"+str(0)+":"+winner_list)
@@ -142,9 +144,9 @@ def train(local_dir, game, max_gen=10):
 
 NUM_OF_CHOICES = 106
 
-path = 'Data'
+path = './Data'
 gen0_list = [{"0":np.zeros(NUM_OF_CHOICES)}, {"0":np.ones(NUM_OF_CHOICES)}, {"0":Agent.gen_ran(NUM_OF_CHOICES)}]
-save_children_json("Data/Gen0/", gen0_list)
+save_children_json("./Data/Gen0/", gen0_list)
 train(path, "blackjack.json", 2)
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
