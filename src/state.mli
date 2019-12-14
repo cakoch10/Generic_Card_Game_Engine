@@ -143,3 +143,8 @@ val parse_to_ast : string -> Ast.expr
 
 (** [is_ai_helper s] is true iff the current player is an AI *)
  val is_ai_helper : state -> bool 
+
+
+ val curr_player_score : state -> int
+
+ val last_player_score : state -> int

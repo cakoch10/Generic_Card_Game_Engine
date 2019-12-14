@@ -1379,3 +1379,7 @@ let compute_max_score mves st =
   else fst max_move
 
 let is_ai_helper st = st.curr_player.is_ai
+
+let curr_player_score st = st.curr_player.score
+
+let last_player_score st = st.last_player.score

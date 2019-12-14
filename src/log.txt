@@ -1,4 +1,14 @@
 
+<<<<<<< HEAD
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[10|♣]]
+Last Move:
+p1: [4|♦] [Q|♦] [Q|♣] [Q|♠] [8|♦] 
+56353
+
+Draw
+Play [Q|♣]
+Play [8|♦]
+=======
 [LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♠]]
 Last Move:
 p1: [8|♥] [8|♣] [10|♠] [3|♦] [5|♦] 
@@ -1654,3 +1664,4 @@ You drew from { Deck }
 [LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[5|♣]]
 Last Move: p1: Drew from { Deck }
 p1: [2|♥] [8|♥] [9|♠] [3|♦] [3|♥] [6|♣] [4|♦] 
+>>>>>>> 5126cc6f9584580f47eefab0debf6c8accbfe43d
