@@ -8,25 +8,10 @@ import json
 from subprocess import Popen, PIPE
 import time
 
-
 # PATH VARIABLES
 strategy_directory = "./Data/strategies/"
 game_directory = "./games/"
-
-
-# def merge_element(v1, v2):
-#     return v1 * v2
-
-# """ """
-# def load_parents(load_path):
-#     parent_dict = {}
-#     for parent_dir in os.listdir(load_path):
-#         if parent_dir == ".DS_Store": 
-#             continue
-#         parent_agent = np.load(load_path + parent_dir, allow_pickle=True)
-#         name = parent_dir[:-4]
-#         parent_dict[name] = parent_agent
-#     return paren
+parent_directory = "./Data/Parents/"
 
 """ Helper for load_generation_json. Turns agent's pmfs into np array"""
 def numpyify_agent(agent):
@@ -79,7 +64,7 @@ def reproduction(data_path="Data", gen=0):
         children_c = Agent.meiosis(p1, p2, Agent.merge_choose)
         child_list = children_e + children_c 
     save_children_json(data_path+"/Gen"+str(gen+1)+"/", child_list)
-    return child_list
+    return len(child_list)
 
 """ Returns a move based on agent [agent_name] and the state [st]. 
     If the state is not in the agent's domain, it is added with the value of
@@ -106,7 +91,7 @@ def run_state(agent, st, prev_st=None, prev_move=None):
     [a1] and [a2] are both strategies, NOT indexes. 
 
     Returns True if a1 wins, False if a2 wins, and a tuple of their scores"""
-def play_game(a1, a2, game):
+def play_game(a1, a2, game, agent_directory):
     process = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
     process.stdin.write("cd src && make play_ai" + "\n")
     cmd2 = os.path.join(game_directory, game)
@@ -114,8 +99,8 @@ def play_game(a1, a2, game):
     process.stdin.close()
 
     # wait for result to be written
-    result1 = os.path.join(strategy_directory, "1.json")
-    result2 = os.path.join(strategy_directory, "2.json")
+    result1 = os.path.join(strategy_directory, str(a1)+".json")
+    result2 = os.path.join(strategy_directory, str(a2)+".json")
     while not (os.path.exists(result1) or os.path.exists(result2)):
         time.sleep(0.5)
     if os.path.isfile(result1):
@@ -125,46 +110,42 @@ def play_game(a1, a2, game):
 
 """ [eval_generation] takes a generation of recently born children, and
     pits them against each other, in order to determine the strongest of
-    the offspring. """
-def eval_generation(gen_list):
-    children = gen_list
-    N = len(children)
-    child_idx_arr = np.arange(N)
-    matchings = itertools.product(child_idx_arr, child_idx_arr)
-    scoreboard = np.zeros(N, dtype=np.int8).tolist()
-    point_diff = np.zeros(N).tolist()
-    for c1, c2 in matchings:
-        if c1 == c2: 
-            continue
-        winner_bool, scores = play_game(gen_list[c1], gen_list[c2])
+    the offspring. Stores strongest to /Data/Parents/"""
+def eval_generation(game, agent_directory, N):
+    i = 0
+    winner_list = []
+    while i < N: 
+        c1 = i; c2 = i+1
+        winner_bool, result = play_game(c1, c2, game, agent_directory)
         # Handle metric by which to evaluate goodness. 
         winner = c1 if winner_bool else c2
-        loser = c2 if winner_bool else c1
-        scoreboard[winner] += 1
-        point_diff[winner] += abs(scores[1] - scores[0])
-        point_diff[loser] -= abs(scores[1] - scores[0])
+        # loser = c2 if winner_bool else c1
+        winner_list.append(winner)
+        # TODO: Move the winner to Data/Parents/ & delete from /Data/Strategies/
+        # TODO: Make sure to rename to new i.json. 
+        os.rename(result, parent_directory+(i//2)+".json")
+        i += 2
     # Take top 10 or whatever of the children and return their indexes
-    winner_list = [0, 1]
     return winner_list
 
 """ trains the model """
-def train(parent_dir):
+def train(local_dir, game, max_gen=10):
+    data_dir = local_dir + "/Data/"
     # loop over these two commands
     gen = 0
-    child_dict = reproduction(parent_dir, gen)
-    winners = eval_generation(child_dict)
+    while gen < max_gen:
+        gen_size = reproduction(local_dir, gen)
+        child_gen_dir = data_dir+"/Gen"+str(gen+1)+"/"
+        winner_list = eval_generation(game, child_gen_dir, gen_size)
+        print("Winners of Gen"+str(0)+":"+winner_list)
+        os.rename(parent_directory, data_dir+"/Gen"+str(gen+1)+"/")
 
-
-NUM_OF_CHOICES = 52
-# LAST_STATE = "0"
-# LAST_MOVE = None
+NUM_OF_CHOICES = 106
 
 path = 'Data'
-# gen0_dict = {"0_0" : {"null":np.zeros(NUM_OF_CHOICES)}, "0_1" : {"null":np.ones(NUM_OF_CHOICES)}}
-# np.savez(path+"/Parents/"+"Gen0.npz", **gen0_dict)
-gen0_list = [{"null":np.zeros(NUM_OF_CHOICES)}, {"null":np.ones(NUM_OF_CHOICES)}]
+gen0_list = [{"0":np.zeros(NUM_OF_CHOICES)}, {"0":np.ones(NUM_OF_CHOICES)}, {"0":Agent.gen_ran(NUM_OF_CHOICES)}]
 save_children_json("Data/Gen0/", gen0_list)
-train(path)
+train(path, "blackjack.json", 2)
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)
