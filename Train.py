@@ -9,7 +9,7 @@ from subprocess import Popen, PIPE
 import time
 
 # PATH VARIABLES
-strategy_directory = "../Data/strategies/"
+strategy_directory = "./Data/strategies/"
 game_directory = "../games/"
 parent_directory = "./Data/Parents/"
 
@@ -108,8 +108,10 @@ def play_game(a1, a2, game, agent_directory):
     while not (os.path.exists(result1) or os.path.exists(result2)):
         time.sleep(0.5)
     if os.path.isfile(result1):
+        print("Got result1!")
         return True, result1
     else:
+        print("Got result2!")
         return False, result2
 
 """ [eval_generation] takes a generation of recently born children, and
