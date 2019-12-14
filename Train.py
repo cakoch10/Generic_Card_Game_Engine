@@ -93,7 +93,7 @@ def run_state(agent, st, prev_st=None, prev_move=None):
     Returns True if a1 wins, False if a2 wins, and a tuple of their scores"""
 def play_game(a1, a2, game, agent_directory):
     print(agent_directory)
-    processg = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    process = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
     commands = "cd src && make play_ai" + "\n"
     a1_dir = agent_directory+str(a1)+".json"
     a2_dir = agent_directory+str(a2)+".json"
@@ -119,7 +119,7 @@ def eval_generation(game, agent_directory, N):
     winner_list = []
     while i < N: 
         c1 = i; c2 = i+1
-        winner_bool, result = play_game(c1, c2, game, agent_directory)
+        winner_bool, result = play_game(c1, c2, game, "."+agent_directory)
         # Handle metric by which to evaluate goodness. 
         winner = c1 if winner_bool else c2
         # loser = c2 if winner_bool else c1
@@ -145,9 +145,10 @@ def train(data_dir, game, max_gen=10):
 NUM_OF_CHOICES = 106
 
 path = '../Data'
+data_path = './Data'
 gen0_list = [{"0":Agent.perturb(np.zeros(NUM_OF_CHOICES))}, {"0":Agent.normalize(np.ones(NUM_OF_CHOICES))}]
 save_children_json("./Data/Gen0/", gen0_list)
-train(path, "crazy8_ai.json", 2)
+train(data_path, "crazy8_ai.json", 2)
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)

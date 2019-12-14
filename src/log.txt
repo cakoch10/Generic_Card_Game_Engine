@@ -1,8 +1,4 @@
 
-[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[5|♣]]
 Last Move:
-p1: [5|♥] [4|♦] [7|♣] [J|♥] [J|♣] 
-You drew from { Deck }
-[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
-Last Move: p1: Drew from { Deck }
-p1: [9|♦] [5|♥] [4|♦] [7|♣] [J|♥] [J|♣] 
+p1: [A|♣] [3|♦] [6|♣] [2|♦] [2|♣] 
