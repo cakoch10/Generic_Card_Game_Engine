@@ -189,7 +189,7 @@ data_path = './Data'
 clear_dir(parent_directory)
 gen0_list = make_gen0(4)
 save_children_json("./Data/Parents/", gen0_list)
-train(data_path, "crazy8_ai.json", 5)
+train(data_path, "`crazy8_ai.json", 50)
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)
