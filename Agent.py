@@ -47,7 +47,7 @@ def normalize(vec):
 
 """ Takes [vec] and randomly adds small changes to randomly chosen values (and renorms) """
 # @staticmethod
-def perturb(vec, choose_p=0.1, perturb_amt=0.05):
+def perturb(vec, choose_p=0.05, perturb_amt=0.005):
     length = vec.shape[0]
     r_vec = np.random.rand(length)
     i_vec = np.ndarray.flatten(np.argwhere(r_vec < choose_p))
@@ -88,11 +88,9 @@ def merge_choose(vec1, vec2):
     dictating the merger parameter and [null_func] dictating how the two
     null pmf vectors are merged. [sig_M] is the number of children this 
     function outputs. """
-def meiosis(d1, d2, merge_func, null_func, sig_M=1):
-    # d1, n1 = a1.get_data()
-    # d2, n2 = a2.get_data()
-    n1 = d1["null"]
-    n2 = d2["null"]
+def meiosis(d1, d2, merge_func, sig_M=1):
+    # n1 = d1["null"]
+    # n2 = d2["null"]
     xor_d = {}
     int_set = set()
     for key in d1:
@@ -112,8 +110,8 @@ def meiosis(d1, d2, merge_func, null_func, sig_M=1):
             merged_vec = merge_func(d1[key], d2[key])
             int_d[key] = perturb(merged_vec)
         merged_d = {**copy.deepcopy(xor_d), **int_d}
-        merged_null = null_func(n1, n2)
-        merged_d["null"] = merged_null
+        # merged_null = null_func(n1, n2)
+        # merged_d["null"] = merged_null
         # child = Agent(merged_d, null_vec=merged_null)
         res_list.append(merged_d)
     return res_list
