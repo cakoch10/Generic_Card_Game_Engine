@@ -135,11 +135,14 @@ def play_game(a1, a2, game, agent_directory):
 """ [eval_generation] takes a generation of recently born children, and
     pits them against each other, in order to determine the strongest of
     the offspring. Stores strongest to /Data/Parents/"""
-def eval_generation(game, agent_directory, N):
+def eval_generation(game, agent_directory, N, child_idx_list=None):
     i = 0
     winner_list = []
     while i < N: 
-        c1 = i; c2 = i+1
+        if child_idx_list is None: 
+            c1 = i; c2 = i+1
+        else: 
+            c1 = child_idx_list[i]; c2 = child_idx_list[i+1]
         winner_bool, result = play_game(c1, c2, game, "."+agent_directory)
         # Handle metric by which to evaluate goodness. 
         winner = c1 if winner_bool else c2
@@ -167,6 +170,8 @@ def train(data_dir, game, max_gen=10):
         # os.rmdir(parent_directory)
         clear_dir(parent_directory)
         winner_list = eval_generation(game, child_gen_dir, gen_size)
+        while len(winner_list) > 16: 
+            winner_list = eval_generation(game, child_gen_dir, gen_size, winner_list)
         print("Winners of Gen"+str(gen)+":", winner_list)
         # os.rename(parent_directory, data_dir+"/Gen"+str(gen+1)+"/")
         gen+=1
@@ -189,7 +194,7 @@ data_path = './Data'
 clear_dir(parent_directory)
 gen0_list = make_gen0(4)
 save_children_json("./Data/Parents/", gen0_list)
-train(data_path, "`crazy8_ai.json", 50)
+train(data_path, "`crazy8_ai.json", 3)
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)
