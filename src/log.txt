@@ -506,5 +506,2385 @@ p1: [Q|♠] [4|♠] [9|♥] [5|♣] [5|♦] [A|♥] [4|♣] [9|♠] [6|♥]
 Error: Not valid command.
 [LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♠]]
 Last Move: p1: Drew from { Deck }
+<<<<<<< HEAD
 p1: [Q|♠] [4|♠] [9|♥] [5|♣] [5|♦] [A|♥] [4|♣] [9|♠] [6|♥] 
 169059
+=======
+p1: [9|♣] [2|♥] [9|♦] [6|♠] [5|♦] [7|♦] [8|♠] [J|♠] [K|♠] 
+449820
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move:
+p1: [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+506173
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move:
+p1: [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+506173
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+69099
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+69099
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+69099
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+69099
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+406213
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+406213
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+406213
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+430701
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+430701
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [A|♦] [J|♦] [10|♠] [K|♦] [Q|♦] [7|♠] [2|♣] [3|♥] 
+49980
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move:
+p1: [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+249900
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+393467
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+393467
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+256273
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+256273
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+256273
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+25492
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+25492
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+25492
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [6|♦] [J|♣] [8|♦] [6|♠] [5|♣] [A|♠] [3|♦] [3|♠] [5|♦] 
+156313
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move:
+p1: [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+480681
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move:
+p1: [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+480681
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move:
+p1: [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+480681
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+449820
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+449820
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+449820
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+193547
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+193547
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[Q|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♣] [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+49980
+You played [A|♣]
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p1: Played [A|♣]
+p1: [2|♠] [9|♣] [2|♦] [5|♦] [Q|♥] [4|♥] [9|♠] 
+193547
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move:
+p2: [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+119079
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+6373
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [K|♣] [3|♦] [J|♠] [10|♠] [Q|♠] [6|♦] [J|♥] 
+125452
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move:
+p1: [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+106333
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move:
+p1: [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+106333
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move:
+p1: [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+106333
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+243527
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+243527
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+212666
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+212666
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+143567
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+143567
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+143567
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+143567
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+143567
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[K|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♠] [A|♠] [10|♥] [3|♠] [5|♦] [2|♣] [A|♣] [K|♣] [10|♦] 
+193547
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move:
+p1: [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+506173
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+449820
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♠] [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+143567
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♠] [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+143567
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♠] [A|♠] [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+69099
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[8|♦]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♠] [A|♠] [9|♣] [K|♦] [4|♣] [7|♣] [3|♣] [9|♠] 
+69099
+You played [3|♣]
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p1: Played [3|♣]
+p1: [10|♠] [A|♠] [9|♣] [K|♦] [4|♣] [7|♣] [9|♠] 
+69099
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move:
+p2: [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+499800
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move:
+p2: [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+499800
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move:
+p2: [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+499800
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+162686
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+399840
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+293507
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+293507
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+293507
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+293507
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[3|♣]]
+Last Move: p2: Drew from { Deck }
+p2: [8|♥] [4|♠] [8|♣] [9|♥] [10|♣] [2|♦] [2|♠] [K|♥] [3|♥] 
+112706
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move:
+p1: [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+499800
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move:
+p1: [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+499800
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [4|♠] [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+293507
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♦] [4|♠] [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+356233
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [K|♦] [10|♦] [4|♠] [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+506173
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [7|♣] [K|♦] [10|♦] [4|♠] [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+349860
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [7|♣] [K|♦] [10|♦] [4|♠] [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+349860
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [7|♣] [K|♦] [10|♦] [4|♠] [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+349860
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [7|♣] [K|♦] [10|♦] [4|♠] [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+349860
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[A|♥]]
+Last Move: p1: Drew from { Deck }
+p1: [7|♣] [K|♦] [10|♦] [4|♠] [10|♣] [8|♦] [5|♦] [Q|♦] [6|♠] 
+349860
+
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move:
+p1: [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+112706
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+493427
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+493427
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+493427
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+337114
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+212666
+Error: Either card is not in players hand or invalid location
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+212666
+You drew from { Deck }
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+430701
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+430701
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+430701
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+430701
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+430701
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+430701
+Error: Not valid command.
+[LOCATIONS]:    { Deck } [[X|X]]   { Discard } [[J|♣]]
+Last Move: p1: Drew from { Deck }
+p1: [A|♦] [10|♥] [2|♥] [8|♠] [8|♥] [9|♠] [K|♠] [7|♦] [Q|♥] 
+430701
+>>>>>>> f285ac50221909cfae1a7a9a963b10ec9b79fdbd
