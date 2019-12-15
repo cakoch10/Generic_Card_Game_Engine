@@ -130,7 +130,7 @@ let rec play_ai (st:state)
   if (winner st' <> "") then
     if "p1" = winner st' then save_winner "../Data/strategies/0.json" strat1
     else save_winner "../Data/strategies/1.json" strat2
-  else if rnd > 100 then
+  else if rnd > 50 then
     if (curr_player_score st) > (last_player_score st) then
       if turn then save_winner "../Data/strategies/0.json" strat1
       else save_winner "../Data/strategies/1.json" strat2
