@@ -6,9 +6,9 @@ src/_build
 pyml
 Data/*
 src/log.txt
-Data/
 Data/Gen0/0.json
 Data/Gen0/1.json
 Data/Gen1/0.json
 Data/Gen1/1.json
 Data/Gen0/2.json
+__pycache__/*
