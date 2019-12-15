@@ -146,7 +146,7 @@ let rec play_ai (st:state)
     (* | Err _ -> if turn then 
                 save_winner "../Data/strategies/1.json" strat 
               else save_winner "../Data/strategies/0.json" strat *)
-    | End _ -> play_ai st' strat1 strat2 (not turn) (rnd+1)
+    | End -> play_ai st' strat1 strat2 (not turn) (rnd+1)
     | _ -> play_ai st' strat1 strat2 turn (rnd+1)
   
 (* 
