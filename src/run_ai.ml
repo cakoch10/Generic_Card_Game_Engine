@@ -149,6 +149,12 @@ let rec play_ai (st:state)
     | End _ -> play_ai st' strat1 strat2 (not turn) (rnd+1)
     | _ -> play_ai st' strat1 strat2 turn (rnd+1)
   
+(* 
+
+../games/crazy8_ai.json;../Data/Gen1/10.json;../Data/Gen1/11.json
+../../games/crazy8_ai.json;../../Data/Gen1/10.json;../../Data/Gen1/11.json
+
+*)
 
 
 (** Helper: Loads json from [file_name] into a json type *)

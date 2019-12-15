@@ -5,3 +5,4 @@ src/_build
 *.merlin
 pyml
 Data/*
+src/log.txt
