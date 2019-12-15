@@ -59,7 +59,7 @@ let get_new_vec valids =
  *  redistributing the weight of the probability val at idx across the other 
  *  nonzero entries *)
 let renormalize_vec vec idx =
-  let supp_size = 
+  let supp_size =
     (List.fold_left (fun a b -> if b <> 0.0 then a+1 else a) 0 vec) - 1 in
   (* assume that a prob vec cannot have some move with prob = 1 *)
   let prob_val = List.nth vec idx in
@@ -131,6 +131,7 @@ let rec play_ai (st:state)
     if "p1" = winner st' then save_winner "../Data/strategies/0.json" strat1
     else save_winner "../Data/strategies/1.json" strat2
   else if rnd > 50 then
+    (* let _ = print_endline "exiting rounds" in *)
     if (curr_player_score st) > (last_player_score st) then
       if turn then save_winner "../Data/strategies/0.json" strat1
       else save_winner "../Data/strategies/1.json" strat2
@@ -140,9 +141,11 @@ let rec play_ai (st:state)
   else
     match last_command st' with
     | Err _ -> 
-      let new_vec = renormalize_vec vec idx in
+      (* let new_vec = renormalize_vec vec idx in *)
+      let new_vec = get_new_vec (compute_valid_moves st) in
       let strat1,strat2 = update_hash strat1 strat2 hash new_vec turn in
-      play_ai st' strat1 strat2 (not turn) (rnd+1)
+      (* play_ai st' strat1 strat2 (not turn) (rnd+1) *)
+      play_ai st strat1 strat2 (turn) (rnd+1)
     (* | Err _ -> if turn then 
                 save_winner "../Data/strategies/1.json" strat 
               else save_winner "../Data/strategies/0.json" strat *)
