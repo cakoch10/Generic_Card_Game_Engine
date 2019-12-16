@@ -53,15 +53,15 @@
       "visible": true
     }],
     "ai" : [{
-      "player" : "p1",
-      "is_ai" : false 
-    },{
-      "player" : "p2",
-      "is_ai" : true
+        "player" : "p1",
+        "is_ai" : false 
+      },{
+        "player" : "p2",
+        "is_ai" : true
     }],
     "default_play_location": "discard",
     "default_draw_location": "deck",
     "default_take_location": "deck",
     "p1_is_ai": false,
-    "p2_is_ai": false
+    "p2_is_ai": true
   }
