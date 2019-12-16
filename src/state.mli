@@ -128,8 +128,9 @@ val parse_to_ast : string -> Ast.expr
 
 (* [compute_valid_moves st] is a list of all the valid moves the current player
  * in state [st] can make *)
- val compute_valid_moves : state -> Command.command list
+val compute_valid_moves : state -> Command.command list
 
+val move_is_valid : state -> Command.command -> bool
 
  (* [compute_max_score mves st] is the move in [mves] that will maximize the 
  * current players score according to state [st] unless all moves leave the

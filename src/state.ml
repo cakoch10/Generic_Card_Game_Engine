@@ -778,6 +778,7 @@ let init_state j =
                     default_take_loc = def_tke_loc
                   } in
   let player_lst = (pl_lst_hlp num_players []) in
+  let player_lst_ai = check_ais player_lst j in
   let locs = (j |> member "locations" 
                 |> to_list |> List.map to_string |> List.map low) in
   let c_locations = set_card_locs (j |> member "deal" |> to_list)
@@ -785,10 +786,10 @@ let init_state j =
                                   (create_deck []) in
 
   {
-    players = check_ais player_lst j;
-    last_player = List.hd (List.rev player_lst);
-    curr_player = List.hd player_lst;
-    next_player = List.hd (List.tl player_lst);
+    players = player_lst_ai;
+    last_player = List.hd (List.rev player_lst_ai);
+    curr_player = List.hd player_lst_ai;
+    next_player = List.hd (List.tl player_lst_ai);
     card_locations = c_locations;
     curr_cards_played = 0;
     curr_cards_drawn = 0;
@@ -1354,6 +1355,18 @@ let compute_valid_plays st =
 
 let compute_valid_moves st =
   (compute_valid_draw st)@(compute_valid_take st)@(compute_valid_plays st)
+
+(* returns true if move is valid in state [st] *)
+let move_is_valid st move = 
+  let equal valid_move =
+    match valid_move, move with 
+    | Play ((rnk, st),_), Play ((rnk',st'),_)-> rnk = rnk' && st = st'
+    | Take ((rnk, st),_), Take ((rnk',st'),_)-> rnk = rnk' && st = st'
+    | Draw (_), Draw (_) -> true
+    | End, End -> true
+    | _ -> false
+  in
+  List.exists equal (compute_valid_moves st)
 
 
 (* [compute_max_score mves st] is an association list of the moves in [mves]

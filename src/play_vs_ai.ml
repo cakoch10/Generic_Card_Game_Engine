@@ -3,6 +3,7 @@ open Command
 open Strategy
 open Yojson.Basic.Util
 
+(* ../games/crazy8_v_ai.json;../Data/Gen2/0.json *)
 
 (* REPL STRINGS *)
 
@@ -59,6 +60,30 @@ let get_new_vec valids =
     in
     init 106 f
 
+(* [decodes_index st i] returns the move encoded by integer i in state [st] *)
+let decode_index st idx = 
+  if (idx+1) = 106 then End
+  else if (idx+1) = 105 then Draw (default_draw_l st)
+  else
+    let card = card_from_int idx in
+    if (idx+1) <= 52 then Play (card, default_play_l st)
+    else Take (card, default_take_l st)
+
+(* [sample_vec vec] samples an index i according to the distribution [vec] *)
+let sample_vec vec =
+  let i = Random.float 1.0 in
+  (* want to find j such that *)
+  (* strat[0]+..+strat[j] <= i < strat[0]+..+strat[j]+strat[j+1] *)
+  let fold_helper (acc, trigger, j) p =
+    if (acc <= i && i <= acc+.p) || trigger then (acc, true, j)
+    else (acc+.p, false, j+1) in
+  let _,_,idx = List.fold_left fold_helper (0.0, false, 0) vec in
+  idx
+
+(* update strat if needed *)
+let update_strat strat hash vec =
+  if List.mem (hash, vec) strat then strat else (hash, vec)::strat
+
 (** [repl st] is the Read Evaluate Print Loop for a card gamecurrently in 
  * state [st]
  * Requires: [st] is either an initial state or a state after a command 
@@ -92,7 +117,6 @@ let rec repl st strat =
          repl (execute (parse (read_line ())) st) strat
 
 and play_ai st strat =
-
   let hash = hash_state st in
   (* obtain vec *)
   let vec = 
@@ -102,29 +126,24 @@ and play_ai st strat =
       let valids = compute_valid_moves st in
       get_new_vec valids
     in
+
   (* update strat if needed *)
   let strat = if List.mem (hash, vec) strat then strat 
               else (hash, vec)::strat in
 
   (* need to randomly sample according to strat vector *)
-  let i = Random.float 1.0 in
-  (* want to find j such that *)
-  (* strat[0]+..+strat[j] <= i < strat[0]+..+strat[j]+strat[j+1] *)
-  let fold_helper (acc, trigger, j) p =
-    if (acc <= i && i <= acc+.p) || trigger then (acc, true, j)
-    else (acc+.p, false, j+1) in
-  let _,_,idx = List.fold_left fold_helper (0.0, false, 0) vec in
+  let idx = sample_vec vec in
   (* want to decode idx as a move *)
   (* need to write idx = 4j - k where k encodes suit and j encodes rank *)
-  let move = 
-    if (idx+1) = 106 then End
-    else if (idx+1) = 105 then Draw (default_draw_l st)
-    else
-      let card = card_from_int idx in
-      if (idx+1) <= 52 then Play (card, default_play_l st)
-      else Take (card, default_take_l st)
-    in
+  let move = decode_index st idx in
 
+  (* check move is valid *)
+  let move, strat = if move_is_valid st move then move,strat else
+                    let new_vec = get_new_vec (compute_valid_moves st) in
+                    let new_strat = update_strat strat hash new_vec in
+                    (decode_index st (sample_vec new_vec)), new_strat
+                    in
+  
   print_endline new_screen;
   prerr_endline (intro_message st);
   if (winner st <> "") then
@@ -137,11 +156,11 @@ and play_ai st strat =
   print_endline (double_line);
   ANSITerminal.(print_string [yellow] (last_move st ^ "\n"));
   print_endline double_line;
-  ANSITerminal.(print_string [blue] ("[YOUR HAND] "
+  ANSITerminal.(print_string [blue] ("[AI HAND] "
   ^ curr_player_hand_to_string st ^ "\n"));
   print_endline (double_line);
   match last_command st with
-  | Err _ -> print_endline ("Error: invalid command. Ending turn \n");
+  | Err _ -> print_endline ("Error: invalid command from AI. Ending turn \n");
              repl (execute End st) strat
   | Quit -> print_endline (new_screen ^ last_cmd_to_str st); ()
   | _ -> print_endline (last_cmd_to_str st);
