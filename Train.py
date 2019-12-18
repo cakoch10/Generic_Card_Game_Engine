@@ -137,9 +137,9 @@ def play_game_versus(d1, d2, game):
     # print(agent_directory)
     process = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
     commands = "cd src && make play_ai" + "\n"
-    a1_dir = d1
-    a2_dir = d2
-    print(a1_dir, a2_dir)
+    a1_dir = "."+d1
+    a2_dir = "."+d2
+    # print(a1_dir, a2_dir)
     commands += os.path.join(game_directory, game) + ";" + a1_dir + ";" + a2_dir
     out, err = process.communicate(commands.encode('utf-8'))
     if err:
@@ -228,7 +228,10 @@ def versus(gen_dir1, gen_dir2, game):
     gen1_list = os.listdir(gen_dir1)
     gen2_list = os.listdir(gen_dir2)
     # print(gen1_list)
+    # matchings = 
+    # print(len(itertools.product(gen1_list, gen2_list)))
     win_count = [0, 0]
+    # print(len(gen1_list), len(gen2_list))
     for (c1, c2) in itertools.product(gen1_list, gen2_list):
         if (".DS_Store" in c1) or (".DS_Store" in c2):
             continue
@@ -266,15 +269,19 @@ NUM_OF_CHOICES = 106
 path = '../Data'
 data_path = './Data'
 # "./Data/Archive/Blackjack_32_Archive/Gen213/"
-versus("./Data/Archive/Blackjack_32_Archive/Gen213/", 
-    "./Data/Archive/Blackjack_16_Archive/Gen300/",
-    "blackjack_ai.json")
+# versus("./Data/Gen1/", "./Data/Gen50/", "blackjack_ai.json")
+
+# bestof("./Data/Gen50/", "blackjack_ai.json", 10)
+
+# ../Data/Archive/Blackjack_32_Archive/213/729.json;../Data/Archive/Blackjack_16_Archive/Gen300/100.json;blackjack_ai.json
 
 # clear_dir(parent_directory)
 # gen0_list = make_gen0(4)
 # print((gen0_list))
 # save_children_json("./Data/Parents/", gen0_list)
-# train(data_path, "crazy8_ai.json", 3)
+# train(data_path, "blackjack_ai.json", 300)
+
+versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen1/", "blackjack_ai.json")
 
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
