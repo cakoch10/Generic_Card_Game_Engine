@@ -32,6 +32,7 @@ let available_commands =
 
 (* END OF REPL STRINGS *)
 
+
 (** [load_strategy j] parses json [j] into a strategy object *)
 let load_strategy j =
   List.map (fun (s, json) -> 
@@ -84,6 +85,19 @@ let sample_vec vec =
 let update_strat strat hash vec =
   if List.mem (hash, vec) strat then strat else (hash, vec)::strat
 
+
+(* [print_vec vec] is a string of the strategy vec [vec] *)
+let print_vec vec st =
+  let f (i,s) p =
+    let mov_str = command_to_string (decode_index st i) in
+    let s' = if p = 0.0 then s else 
+      s ^ "\n move: " ^ mov_str ^ " prob: " ^ (string_of_float p) ^ "\n" in
+    (i+1,s')
+  in
+  let _,str = List.fold_left f (0,"") vec in
+  str
+
+
 (** [repl st] is the Read Evaluate Print Loop for a card gamecurrently in 
  * state [st]
  * Requires: [st] is either an initial state or a state after a command 
@@ -120,7 +134,7 @@ and play_ai st strat =
   let hash = hash_state st in
   (* obtain vec *)
   let vec = 
-    try eval_strat (hash_state st) strat
+    try eval_strat hash strat
     with e ->
       (* need to update strategy and vec *)
       let valids = compute_valid_moves st in
@@ -145,6 +159,8 @@ and play_ai st strat =
                     (decode_index st (sample_vec new_vec)), new_strat
                     in
   print_endline new_screen;
+  (* print vec *)
+  print_endline (print_vec (eval_strat hash strat) st);
   (* print_endline ((last_move (execute move st)) ^ "\n"); *)
   prerr_endline (intro_message st);
   if (winner st <> "") then
