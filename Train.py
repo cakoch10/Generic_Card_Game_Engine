@@ -82,7 +82,7 @@ def reproduction(data_path="Data", gen=0):
         children_c = Agent.meiosis(p1, p2, Agent.merge_choose)
         child_list = child_list + children_e + children_c 
     save_children_json(data_path+"/Gen"+str(gen+1)+"/", child_list)
-    print(gen, len(child_list))
+    # print(gen, len(child_list))
     return len(child_list)
 
 """ Returns a move based on agent [agent_name] and the state [st]. 
@@ -115,6 +115,30 @@ def play_game(a1, a2, game, agent_directory):
     commands = "cd src && make play_ai" + "\n"
     a1_dir = agent_directory+str(a1)+".json"
     a2_dir = agent_directory+str(a2)+".json"
+    # print(a1_dir, a2_dir)
+    commands += os.path.join(game_directory, game) + ";" + a1_dir + ";" + a2_dir
+    out, err = process.communicate(commands.encode('utf-8'))
+    if err:
+        print("Error in executing command: " + str(err))
+    # wait for result to be written
+    result1 = os.path.join(strategy_directory, "0.json")
+    result2 = os.path.join(strategy_directory, "1.json")
+    os.listdir(strategy_directory)
+    while not (os.path.exists(result1) or os.path.exists(result2)):
+        time.sleep(0.5)
+    if os.path.isfile(result1):
+        # print("Got result1!")
+        return True, result1
+    else:
+        # print("Got result2!")
+        return False, result2
+
+def play_game_versus(d1, d2, game):
+    # print(agent_directory)
+    process = Popen("/bin/bash", stdin=PIPE, stdout=PIPE, stderr=PIPE)
+    commands = "cd src && make play_ai" + "\n"
+    a1_dir = d1
+    a2_dir = d2
     print(a1_dir, a2_dir)
     commands += os.path.join(game_directory, game) + ";" + a1_dir + ";" + a2_dir
     out, err = process.communicate(commands.encode('utf-8'))
@@ -139,12 +163,18 @@ def play_game(a1, a2, game, agent_directory):
 def eval_generation(game, agent_directory, N, child_idx_list=None):
     i = 0
     winner_list = []
-    while i < N: 
-        print(i)
+    lim = N if child_idx_list is None else len(child_idx_list)
+    while i < lim: 
+        # print(i)
         if child_idx_list is None: 
             c1 = i; c2 = i+1
         else: 
-            c1 = child_idx_list[i]; c2 = child_idx_list[i+1]
+            try: 
+                c1 = child_idx_list[i]; c2 = child_idx_list[i+1]
+            except IndexError:
+                print(child_idx_list)
+                print(i, len(child_idx_list))
+                raise IndexError
         winner_bool, result = play_game(c1, c2, game, "."+agent_directory)
         # Handle metric by which to evaluate goodness. 
         winner = c1 if winner_bool else c2
@@ -162,23 +192,26 @@ def clear_dir(parent_directory):
             os.remove(os.path.join(parent_directory, file))
 
 """ trains the model """
-def train(data_dir, game, max_gen=10):
+def train(data_dir, game, max_gen=10, curr_gen=0):
     # loop over these two commands
-    gen = 0
+    gen = curr_gen
     while gen < max_gen:
         gen_size = reproduction(data_dir, gen)
         print("Size of Gen"+str(gen)+':', gen_size)
         child_gen_dir = data_dir+"/Gen"+str(gen+1)+"/"
         clear_dir(parent_directory)
-        print("cleared parents")
+        # print("cleared parents")
         winner_list = eval_generation(game, child_gen_dir, gen_size)
-        while len(winner_list) > 16: 
-            print("Completed eval")
+        while len(winner_list) > 8: 
+            # print("Completed eval")
+            clear_dir(parent_directory)
             winner_list = eval_generation(game, child_gen_dir, gen_size, winner_list)
         print("Winners of Gen"+str(gen)+":", winner_list)
-        # os.rename(parent_directory, data_dir+"/Gen"+str(gen+1)+"/")
+        if (gen % 5) != 0 and gen > 5: # Save space by deleting non-5 directories
+            clear_dir(os.path.join(data_dir, "Gen"+str(gen)))
         gen+=1
 
+# Generates a random strategy of given size. 
 def make_gen0(gen_size): 
     hash_list = [306253, 487054, 169059, 125452, 287134, 343487, 156313, 193547, 69099, 287134, 193547, 169059, 49980]
     gen0_list = []
@@ -188,17 +221,58 @@ def make_gen0(gen_size):
             agent[each_hash] = Agent.gen_ran(NUM_OF_CHOICES)
         gen0_list.append(agent)
     return gen0_list
-    
+
+
+def versus(gen_dir1, gen_dir2, game):
+    # gen1_list = load_generation_json(gen_dir1)
+    gen1_list = os.listdir(gen_dir1)
+    gen2_list = os.listdir(gen_dir2)
+    win_count = [0, 0]
+    for (c1, c2) in itertools.product(gen1_list, gen2_list):
+        if (".DS_Store" in c1) or (".DS_Store" in c2):
+            continue
+        winner_bool, result = play_game_versus(c1, c2, game)
+        # winner = c1 if winner_bool else c2
+        if winner_bool: 
+            win_count[0]+=1
+        else: 
+            win_count[1]+=1
+    print(gen_dir1, gen_dir2, win_count)
+
+
+def bestof(gen_dir, game, N, child_idx_list=None):
+    gen_list = load_generation_json(gen_dir)
+    i = 0
+    # winner_list = [0 for i in range(len(gen_list))]
+    winner_list = np.zeros(len(gen_list))
+    parent_idx = np.arange(int(len(gen_list)))
+    for (c1, c2) in itertools.product(parent_idx, parent_idx):
+        if c1 == c2: 
+            continue
+        winner_bool, result = play_game(c1, c2, game, "."+gen_dir)
+        # Handle metric by which to evaluate goodness. 
+        winner = c1 if winner_bool else c2
+        winner_list[winner]+=1
+    # Take top 10 or whatever of the children and return their indexes
+    best_list = np.argmax(winner_list)
+    while i < N: 
+        print(gen_dir+"- Rank "+str(i)+" Wins: "+str(winner_list[i]))
+        i+=1
 
 NUM_OF_CHOICES = 106
 path = '../Data'
 data_path = './Data'
-# gen0_list = [{"0":Agent.perturb(np.zeros(NUM_OF_CHOICES))}, {"0":Agent.normalize(np.ones(NUM_OF_CHOICES))}]
-clear_dir(parent_directory)
-gen0_list = make_gen0(4)
-print((gen0_list))
-save_children_json("./Data/Parents/", gen0_list)
-train(data_path, "crazy8_ai.json", 3)
+
+versus("./Data/Archive/Blackjack_32_Archive/Gen213/", 
+    "./Data/Archive/Blackjack_16_Archive/Gen300/",
+    "./games/blackjack_ai.json")
+
+# clear_dir(parent_directory)
+# gen0_list = make_gen0(4)
+# print((gen0_list))
+# save_children_json("./Data/Parents/", gen0_list)
+# train(data_path, "crazy8_ai.json", 3)
+
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)
