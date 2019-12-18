@@ -149,3 +149,5 @@ val move_is_valid : state -> Command.command -> bool
  val curr_player_score : state -> int
 
  val last_player_score : state -> int
+
+ val next_player_name : state -> string

@@ -65,7 +65,7 @@ let decode_index st idx =
   if (idx+1) = 106 then End
   else if (idx+1) = 105 then Draw (default_draw_l st)
   else
-    let card = card_from_int idx in
+    let card = card_from_int (idx+1) in
     if (idx+1) <= 52 then Play (card, default_play_l st)
     else Take (card, default_take_l st)
 
@@ -124,6 +124,7 @@ and play_ai st strat =
     with e ->
       (* need to update strategy and vec *)
       let valids = compute_valid_moves st in
+      let _ = List.map (fun m -> print_endline (command_to_string m);) valids in
       get_new_vec valids
     in
 
@@ -143,8 +144,8 @@ and play_ai st strat =
                     let new_strat = update_strat strat hash new_vec in
                     (decode_index st (sample_vec new_vec)), new_strat
                     in
-  
   print_endline new_screen;
+  (* print_endline ((last_move (execute move st)) ^ "\n"); *)
   prerr_endline (intro_message st);
   if (winner st <> "") then
   ANSITerminal.(print_string [red] (single_line ^ "\n" 
@@ -154,23 +155,27 @@ and play_ai st strat =
   ANSITerminal.(print_string [green] (locations_to_string st ^ "\n\n"));
   ANSITerminal.(print_string [cyan] ("[HANDS]: " ^ all_hands_to_string st ^ "\n"));
   print_endline (double_line);
-  ANSITerminal.(print_string [yellow] (last_move st ^ "\n"));
+  ANSITerminal.(print_string [yellow] ((last_move st) ^ "\n"));
   print_endline double_line;
   ANSITerminal.(print_string [blue] ("[AI HAND] "
   ^ curr_player_hand_to_string st ^ "\n"));
   print_endline (double_line);
-  match last_command st with
+  print_endline ("Next player: " ^ (next_player_name st));
+  print_endline "\nThe current move string is: \n";
+  print_endline (command_to_string move);
+  let st' = execute move st in
+  match last_command st' with
   | Err _ -> print_endline ("Error: invalid command from AI. Ending turn \n");
              repl (execute End st) strat
   | Quit -> print_endline (new_screen ^ last_cmd_to_str st); ()
-  | _ -> print_endline (last_cmd_to_str st);
+  | _ ->  print_endline (last_cmd_to_str st);
           print_endline (single_line);
           ANSITerminal.(print_string [red] (turn_message st ^ "\n"));
           print_endline (single_line);
           ANSITerminal.(print_string [yellow] (available_commands ^ "\n"));
           print_endline (single_line);
           print_string ("> " ^ (command_to_string move));
-          repl (execute move st) strat
+          repl st' strat
 
 (** Helper: Loads json from [file_name] into a json type *)
 let load_json file_name = 
