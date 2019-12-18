@@ -23,25 +23,11 @@ def listify_agent(agent):
     for k in agent.keys(): 
         agent[k] = agent[k].tolist()
 
-# def load_parents():
-#     parent_list = []
-#     # load_path = path+"Gen"+str(gen)+'/'
-#     num_files = len(os.listdir(parent_directory))
-#     for i in range(num_files):
-#         name = load_path + str(i) + ".json"
-#         with open(name, 'r') as fp:
-#             agent = json.load(fp)
-#             numpyify_agent(agent)
-#             parent_list.append(agent)
-#     return parent_list
-
 """ [load_generation] creates a dictionary of the npz file of a previously
     created generation found as [path/]Gen[gen].npz"""
 def load_generation_json(load_path, gen=0):
     parent_list = []
-    # load_path = path+"Gen"+str(gen)+'/'
     num_files = len(os.listdir(load_path))
-    # print(os.listdir(load_path))
     for i in range(num_files-1):
         name = load_path + str(i) + ".json"
         with open(name, 'r') as fp:
@@ -53,7 +39,6 @@ def load_generation_json(load_path, gen=0):
 """ [save_children] saves the generation of agents [child_dict] as an npz
     file in [save_path]. """
 def save_children_json(save_path, child_list):
-    # print(child_list)
     try: 
         os.mkdir(save_path)
     except FileExistsError: 
@@ -70,11 +55,6 @@ def reproduction(data_path="Data", gen=0):
     parent_list = load_generation_json(parent_directory)
     parent_idx = np.arange(int(len(parent_list)))
     child_list = []
-    # print(len(parent_list))
-    # matchings = np.random.choice(parent_idx, size=(len(parent_list)//2, 2), replace=False)
-    # matchings = matchings.tolist() + np.random.choice(parent_idx, size=(len(parent_list), 2), replace=True).tolist()
-    # print(matchings)
-    # for p1_i, p2_i in matchings: 
     for (p1_i, p2_i) in itertools.product(parent_idx, parent_idx):
         p1 = parent_list[p1_i]
         p2 = parent_list[p2_i]
@@ -82,7 +62,6 @@ def reproduction(data_path="Data", gen=0):
         children_c = Agent.meiosis(p1, p2, Agent.merge_choose)
         child_list = child_list + children_e + children_c 
     save_children_json(data_path+"/Gen"+str(gen+1)+"/", child_list)
-    # print(gen, len(child_list))
     return len(child_list)
 
 """ Returns a move based on agent [agent_name] and the state [st]. 
@@ -115,7 +94,6 @@ def play_game(a1, a2, game, agent_directory):
     commands = "cd src && make play_ai" + "\n"
     a1_dir = agent_directory+str(a1)+".json"
     a2_dir = agent_directory+str(a2)+".json"
-    # print(a1_dir, a2_dir)
     commands += os.path.join(game_directory, game) + ";" + a1_dir + ";" + a2_dir
     out, err = process.communicate(commands.encode('utf-8'))
     if err:
@@ -139,8 +117,6 @@ def play_game_versus(d1, d2, game):
     commands = "cd src && make play_ai" + "\n"
     a1_dir = "."+d1
     a2_dir = "."+d2
-    # print(a1_dir, a2_dir)
-    # print(game_directory, game)
     commands += os.path.join(game_directory, game) + ";" + a1_dir + ";" + a2_dir
     out, err = process.communicate(commands.encode('utf-8'))
     if err:
@@ -239,7 +215,6 @@ def versus(gen_dir1, gen_dir2, game):
         d1 = os.path.join(gen_dir1, c1)
         d2 = os.path.join(gen_dir2, c2)
         winner_bool, result = play_game_versus(d1, d2, game)
-        # winner = c1 if winner_bool else c2
         os.remove(result)
         if winner_bool: 
             win_count[0]+=1
@@ -270,29 +245,12 @@ def bestof(gen_dir, game, N, child_idx_list=None):
 NUM_OF_CHOICES = 106
 path = '../Data'
 data_path = './Data'
-# "./Data/Archive/Blackjack_32_Archive/Gen213/"
-# versus("./Data/Gen1/", "./Data/Gen50/", "blackjack_ai.json")
-
-# bestof("./Data/Gen50/", "blackjack_ai.json", 10)
-
-# ../Data/Archive/Blackjack_32_Archive/213/729.json;../Data/Archive/Blackjack_16_Archive/Gen300/100.json;blackjack_ai.json
 
 # clear_dir(parent_directory)
 # gen0_list = make_gen0(4)
 # print((gen0_list))
 # save_children_json("./Data/Parents/", gen0_list)
 # train(data_path, "blackjack_ai.json", 300)
-
-versus("./Data/Archive/Blackjack_best/16_Gen300/", "./Data/Archive/Blackjack_best/8_Gen300/", "blackjack_ai.json")
-versus("./Data/Archive/Blackjack_8_Archive/Gen5/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
-
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen10/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen50/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen100/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen150/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen200/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen250/", "blackjack_ai.json")
 
 # versus("./Data/Archive/Blackjack_8_Archive/Gen10/", "./Data/Archive/Blackjack_8_Archive/Gen50/", "blackjack_ai.json")
 # AGENT_DICT = train("Data")
