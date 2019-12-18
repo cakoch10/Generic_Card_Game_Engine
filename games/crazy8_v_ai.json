@@ -1,0 +1,72 @@
+{
+    "players": 2,
+    "win_conditions": [
+      "WC: Size({t}) = 0"
+    ],
+    "card_points": [
+    ],
+    "rules": [
+	    "R: ((TopCard({discard}) == <<*|S>>) && (CardsPlayed() = 0)) -> (Play ([<<*|S>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<*|H>>) && (CardsPlayed() = 0)) -> (Play ([<<*|H>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<*|D>>) && (CardsPlayed() = 0)) -> (Play ([<<*|D>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<*|C>>) && (CardsPlayed() = 0)) -> (Play ([<<*|C>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<2|*>>) && (CardsPlayed() = 0)) -> (Play ([<<2|*>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<3|*>>) && (CardsPlayed() = 0)) -> (Play ([<<3|*>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<4|*>>) && (CardsPlayed() = 0)) -> (Play ([<<4|*>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<5|*>>) && (CardsPlayed() = 0)) -> (Play ([<<5|*>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<6|*>>) && (CardsPlayed() = 0)) -> (Play ([<<6|*>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<7|*>>) && (CardsPlayed() = 0)) -> (Play ([<<7|*>>], {discard}))",
+      "R: ((TopCard({discard}) == <<8|*>>) && (CardsPlayed() = 0)) -> (Play ([<<*|*>>], {discard}))",
+      "R: ((TopCard({discard}) == <<*|*>>) && (CardsPlayed() = 0)) -> (Play ([<<8|*>>], {discard}))",      
+	    "R: ((TopCard({discard}) == <<9|*>>) && (CardsPlayed() = 0)) -> (Play ([<<9|*>>], {discard}))",
+	    "R: ((TopCard({discard}) == <<10|*>>) && (CardsPlayed() = 0)) -> (Play ([<<10|*>>], {discard}))",
+      "R: ((TopCard({discard}) == <<J|*>>) && (CardsPlayed() = 0)) -> (Play ([<<J|*>>], {discard}))",
+      "R: ((TopCard({discard}) == <<Q|*>>) && (CardsPlayed() = 0)) -> (Play ([<<Q|*>>], {discard}))",
+      "R: ((TopCard({discard}) == <<K|*>>) && (CardsPlayed() = 0)) -> (Play ([<<K|*>>], {discard}))",
+      "R: ((TopCard({discard}) == <<A|*>>) && (CardsPlayed() = 0)) -> (Play ([<<A|*>>], {discard}))",
+      "R: (CardsPlayed() = 0) -> (Draw({deck}))",
+      "R: ((CardsPlayed() = 1) || (CardsDrawn() = 1)) -> End()"
+    ],
+    "intro_message": "Hello, Welcome to Crazy Eights!\nPlayers play onto the discard pile. \nYou can only play a card that either matches the suit\nor rank of the current top card on the discard pile.\n8s are crazy. If you see someone has put on an eight to the discard,\nthen you can play whichever card you wish.\nIf you cannot play any card, you must draw from the deck. \nOnce you've drawn or played one card, you must end your turn",
+    "help_message": "You can type play [card] or draw to draw a card..",
+    "locations":
+    ["deck", "discard","p1","p2"], 
+      "deal": [{
+        "location": "discard",
+        "number_of_cards" : 1
+      },{
+        "location" : "deck",
+        "number_of_cards" : 41
+      },{
+        "location" : "p1",
+        "number_of_cards" : 5
+      },{
+        "location" : "p2",
+        "number_of_cards" : 5
+      }],
+    "show": [{
+      "location": "deck",
+      "visible": false
+    }, {
+      "location": "discard",
+      "visible": true
+    }, {
+      "location": "p1",
+      "visible": false
+    }, {
+      "location": "p2",
+      "visible": true
+    }],
+    "ai" : [{
+      "player" : "p1",
+      "is_ai" : false 
+    },{
+      "player" : "p2",
+      "is_ai" : true
+    }],
+    "default_play_location": "discard",
+    "default_draw_location": "deck",
+    "default_take_location": "deck",
+    "p1_is_ai": false,
+    "p2_is_ai": true
+  }
