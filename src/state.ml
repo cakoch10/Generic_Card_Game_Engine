@@ -1396,3 +1396,5 @@ let is_ai_helper st = st.curr_player.is_ai
 let curr_player_score st = st.curr_player.score
 
 let last_player_score st = st.last_player.score
+
+let next_player_name st = st.next_player.name
