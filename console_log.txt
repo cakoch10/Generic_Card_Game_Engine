@@ -1,0 +1,12 @@
+C:\Users\Dell\Documents\Cornell\Senior\Generic_Card_Game_Engine>python eval_blackjack.py
+159655
+522513
+count low: 34816
+count middle: 71680
+count high: 0
+avg low: 0.037695
+avg middle: 0.039195
+avg high: 0.000000
+avg low': 1312.401077
+avg middle': 2809.510192
+avg high': 0.000000
