@@ -228,9 +228,9 @@ def versus(gen_dir1, gen_dir2, game):
     gen1_list = np.array(os.listdir(gen_dir1))
     gen2_list = np.array(os.listdir(gen_dir2))
     win_count = [0, 0]
-    index1 = np.random.choice(gen1_list.shape[0], 10, replace=False)
+    index1 = np.random.choice(gen1_list.shape[0], 20, replace=False)
     sample1_list = gen1_list[index1]
-    index2 = np.random.choice(gen2_list.shape[0], 10, replace=False)
+    index2 = np.random.choice(gen2_list.shape[0], 20, replace=False)
     sample2_list = gen2_list[index2]
     for (c1, c2) in itertools.product(sample1_list, sample2_list):
         if (".DS_Store" in c1) or (".DS_Store" in c2):
@@ -282,21 +282,7 @@ data_path = './Data'
 # save_children_json("./Data/Parents/", gen0_list)
 # train(data_path, "blackjack_ai.json", 300)
 
-versus("./Data/Archive/Blackjack_8_Archive/Gen5/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
-
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen10/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen50/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen100/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen150/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen200/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen250/", "blackjack_ai.json")
-
 # versus("./Data/Archive/Blackjack_8_Archive/Gen10/", "./Data/Archive/Blackjack_8_Archive/Gen50/", "blackjack_ai.json")
-
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_16_Archive/Gen300/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_32_Archive/Gen213/", "blackjack_ai.json")
-# versus("./Data/Archive/Blackjack_16_Archive/Gen300/", "./Data/Archive/Blackjack_32_Archive/Gen213/", "blackjack_ai.json")
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)
