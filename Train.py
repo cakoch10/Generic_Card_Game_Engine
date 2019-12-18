@@ -82,7 +82,7 @@ def reproduction(data_path="Data", gen=0):
         children_c = Agent.meiosis(p1, p2, Agent.merge_choose)
         child_list = child_list + children_e + children_c 
     save_children_json(data_path+"/Gen"+str(gen+1)+"/", child_list)
-    print(gen, len(child_list))
+    # print(gen, len(child_list))
     return len(child_list)
 
 """ Returns a move based on agent [agent_name] and the state [st]. 
@@ -115,7 +115,7 @@ def play_game(a1, a2, game, agent_directory):
     commands = "cd src && make play_ai" + "\n"
     a1_dir = agent_directory+str(a1)+".json"
     a2_dir = agent_directory+str(a2)+".json"
-    print(a1_dir, a2_dir)
+    # print(a1_dir, a2_dir)
     commands += os.path.join(game_directory, game) + ";" + a1_dir + ";" + a2_dir
     out, err = process.communicate(commands.encode('utf-8'))
     if err:
@@ -139,12 +139,18 @@ def play_game(a1, a2, game, agent_directory):
 def eval_generation(game, agent_directory, N, child_idx_list=None):
     i = 0
     winner_list = []
-    while i < N: 
-        print(i)
+    lim = N if child_idx_list is None else len(child_idx_list)
+    while i < lim: 
+        # print(i)
         if child_idx_list is None: 
             c1 = i; c2 = i+1
         else: 
-            c1 = child_idx_list[i]; c2 = child_idx_list[i+1]
+            try: 
+                c1 = child_idx_list[i]; c2 = child_idx_list[i+1]
+            except IndexError:
+                print(child_idx_list)
+                print(i, len(child_idx_list))
+                raise IndexError
         winner_bool, result = play_game(c1, c2, game, "."+agent_directory)
         # Handle metric by which to evaluate goodness. 
         winner = c1 if winner_bool else c2
@@ -162,21 +168,23 @@ def clear_dir(parent_directory):
             os.remove(os.path.join(parent_directory, file))
 
 """ trains the model """
-def train(data_dir, game, max_gen=10):
+def train(data_dir, game, max_gen=10, curr_gen=0):
     # loop over these two commands
-    gen = 0
+    gen = curr_gen
     while gen < max_gen:
         gen_size = reproduction(data_dir, gen)
         print("Size of Gen"+str(gen)+':', gen_size)
         child_gen_dir = data_dir+"/Gen"+str(gen+1)+"/"
         clear_dir(parent_directory)
-        print("cleared parents")
+        # print("cleared parents")
         winner_list = eval_generation(game, child_gen_dir, gen_size)
-        while len(winner_list) > 16: 
-            print("Completed eval")
+        while len(winner_list) > 8: 
+            # print("Completed eval")
+            clear_dir(parent_directory)
             winner_list = eval_generation(game, child_gen_dir, gen_size, winner_list)
         print("Winners of Gen"+str(gen)+":", winner_list)
-        # os.rename(parent_directory, data_dir+"/Gen"+str(gen+1)+"/")
+        if (gen % 5) != 0 and gen > 5: # Save space by deleting non-5 directories
+            clear_dir(os.path.join(data_dir, "Gen"+str(gen)))
         gen+=1
 
 def make_gen0(gen_size): 
@@ -193,12 +201,10 @@ def make_gen0(gen_size):
 NUM_OF_CHOICES = 106
 path = '../Data'
 data_path = './Data'
-# gen0_list = [{"0":Agent.perturb(np.zeros(NUM_OF_CHOICES))}, {"0":Agent.normalize(np.ones(NUM_OF_CHOICES))}]
 clear_dir(parent_directory)
 gen0_list = make_gen0(4)
-print((gen0_list))
 save_children_json("./Data/Parents/", gen0_list)
-train(data_path, "crazy8_ai.json", 3)
+train(data_path, "5carddraw_ai.json", 50, 0)
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)
