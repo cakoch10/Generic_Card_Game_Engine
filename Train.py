@@ -227,11 +227,14 @@ def versus(gen_dir1, gen_dir2, game):
     # gen1_list = load_generation_json(gen_dir1)
     gen1_list = os.listdir(gen_dir1)
     gen2_list = os.listdir(gen_dir2)
+    # print(gen1_list)
     win_count = [0, 0]
     for (c1, c2) in itertools.product(gen1_list, gen2_list):
         if (".DS_Store" in c1) or (".DS_Store" in c2):
             continue
-        winner_bool, result = play_game_versus(c1, c2, game)
+        d1 = os.path.join(gen_dir1, c1)
+        d2 = os.path.join(gen_dir2, c2)
+        winner_bool, result = play_game_versus(d1, d2, game)
         # winner = c1 if winner_bool else c2
         if winner_bool: 
             win_count[0]+=1
@@ -262,10 +265,10 @@ def bestof(gen_dir, game, N, child_idx_list=None):
 NUM_OF_CHOICES = 106
 path = '../Data'
 data_path = './Data'
-
+# "./Data/Archive/Blackjack_32_Archive/Gen213/"
 versus("./Data/Archive/Blackjack_32_Archive/Gen213/", 
     "./Data/Archive/Blackjack_16_Archive/Gen300/",
-    "./games/blackjack_ai.json")
+    "blackjack_ai.json")
 
 # clear_dir(parent_directory)
 # gen0_list = make_gen0(4)
