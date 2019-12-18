@@ -140,6 +140,7 @@ def play_game_versus(d1, d2, game):
     a1_dir = "."+d1
     a2_dir = "."+d2
     # print(a1_dir, a2_dir)
+    # print(game_directory, game)
     commands += os.path.join(game_directory, game) + ";" + a1_dir + ";" + a2_dir
     out, err = process.communicate(commands.encode('utf-8'))
     if err:
@@ -281,6 +282,17 @@ data_path = './Data'
 # print((gen0_list))
 # save_children_json("./Data/Parents/", gen0_list)
 # train(data_path, "blackjack_ai.json", 300)
+
+versus("./Data/Archive/Blackjack_best/16_Gen300/", "./Data/Archive/Blackjack_best/8_Gen300/", "blackjack_ai.json")
+versus("./Data/Archive/Blackjack_8_Archive/Gen5/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
+
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen10/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen50/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen100/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen150/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen200/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen250/", "blackjack_ai.json")
 
 # versus("./Data/Archive/Blackjack_8_Archive/Gen10/", "./Data/Archive/Blackjack_8_Archive/Gen50/", "blackjack_ai.json")
 # AGENT_DICT = train("Data")
