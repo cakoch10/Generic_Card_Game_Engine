@@ -239,6 +239,7 @@ def versus(gen_dir1, gen_dir2, game):
         d2 = os.path.join(gen_dir2, c2)
         winner_bool, result = play_game_versus(d1, d2, game)
         # winner = c1 if winner_bool else c2
+        os.remove(result)
         if winner_bool: 
             win_count[0]+=1
         else: 
@@ -281,8 +282,22 @@ data_path = './Data'
 # save_children_json("./Data/Parents/", gen0_list)
 # train(data_path, "blackjack_ai.json", 300)
 
-versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
+versus("./Data/Archive/Blackjack_8_Archive/Gen5/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
 
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen2/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen10/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen50/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen100/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen150/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen200/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_8_Archive/Gen250/", "blackjack_ai.json")
+
+# versus("./Data/Archive/Blackjack_8_Archive/Gen10/", "./Data/Archive/Blackjack_8_Archive/Gen50/", "blackjack_ai.json")
+
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_16_Archive/Gen300/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_8_Archive/Gen300/", "./Data/Archive/Blackjack_32_Archive/Gen213/", "blackjack_ai.json")
+# versus("./Data/Archive/Blackjack_16_Archive/Gen300/", "./Data/Archive/Blackjack_32_Archive/Gen213/", "blackjack_ai.json")
 # AGENT_DICT = train("Data")
 # move = run_state("1_0", "1", "0", 0)
 # print(move)
+gen_list = []
